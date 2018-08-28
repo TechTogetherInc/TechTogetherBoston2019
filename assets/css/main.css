@@ -365,6 +365,7 @@ nav{
 
     #mobile-video-button{
       display: block !important;
+      margin-bottom: 1em;
     }
 }
 
