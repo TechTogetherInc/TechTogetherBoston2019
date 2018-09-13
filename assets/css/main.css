@@ -76,6 +76,13 @@ body{
     flex-flow: column;
 }
 
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+
 .video-box{
     height: 300px;
     margin-top: 30px;
@@ -265,6 +272,11 @@ nav{
     height: 100%;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 @keyframes fadeInRight {
     0% {
         opacity: 0;
@@ -276,8 +288,31 @@ nav{
     }
 }
 
-/************** Mobile/Tablet Responsiveness ********************/
+/************************* Front Page ***************************/
 
+.logo2{
+    width: 410px;
+    height: 130px;
+    float: left;
+}
+
+.navigation{
+    float: right; 
+    width: 60%;
+    margin-top: 40px;
+    font-size: 1.4vw;
+}
+
+header{
+    margin-left: 2%;
+    width: 96%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+/************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
 
