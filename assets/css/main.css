@@ -310,7 +310,52 @@ header{
     overflow: hidden;
 }
 
-
+.table{
+    display: table;
+}
+.tablerow {
+    display: table-row;
+    width: 100%;
+}
+.cell1 {
+    display: table-cell;
+    width: 40%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.cell2 {
+    display: table-cell;
+    width: 60%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.cell4 {
+    display: table-cell;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.cell6 {
+    display: table-cell;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
 
 /************** Mobile/Tablet Responsiveness ********************/
 
