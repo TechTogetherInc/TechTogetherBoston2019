@@ -68,12 +68,22 @@ body{
     font-weight: bold;
 }
 
+.italic{
+    font-style: italic;
+}
+
 .flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     flex-flow: column;
+}
+
+.flex-center-2{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
 }
 
 .flex-space{
@@ -110,6 +120,10 @@ body{
 
 .fs-4{
     font-size: 1.7vw;
+}
+
+.orange{
+    background: #fd7361 !important;
 }
 
 /************************** Hamburger Nav ******************************/
@@ -288,17 +302,22 @@ a{
     }
 }
 
-/************************* Front Page ***************************/
+/************************* Front Page - Brandon ***************************/
+
+header{
+    margin-bottom: 70px;
+}
 
 .logo2{
     width: 410px;
     height: 130px;
     float: left;
+    margin-top: 10px;
 }
 
 .navigation{
     float: right; 
-    width: 60%;
+    width: 55%;
     margin-top: 40px;
     font-size: 1.4vw;
 }
@@ -310,7 +329,143 @@ header{
     overflow: hidden;
 }
 
+.fs-5{
+    font-size: .8vw;
+}
 
+.fs-6{
+    font-size: 6vw;
+}
+
+.fs-7{
+    font-size: 4.4vw;
+}
+
+.fs-8{
+    font-size: 1.25vw;
+}
+
+.orange-color{
+    background-color: #ed7a67;
+}
+
+.register{
+    width: 11vw;
+    height: 2.5vw;
+    font-size: 1.4vw;
+    margin-top: 60px;
+}
+
+.icon-2{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 20px;
+    margin-top: 85px;
+}
+
+.icon-3{
+    width: 2.3vw;
+    height: 2.3vw;
+    margin-right: 15px;
+}
+
+.float-right{
+    float: right;
+}
+
+.blue-box{
+    height: auto;
+    width: 70%;
+    background: #c0c5fd;
+    padding: 5% 8% 5% 8%;
+    margin-top: 200px;
+}
+
+.image-1{
+    height: 13vw;
+    width: 100%;
+}
+
+.image-2{
+    width: 100%;
+    height: 25vw;
+}
+
+.grid-container{
+    display: inline-grid;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-template-columns: repeat(5, 20%);
+    grid-auto-rows: auto;
+    grid-row-gap: 50px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.sponsor-logo{
+    width: 10vw; 
+    height: 10vw; 
+    justify-self: center;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;    
+}
+
+.white-text{
+    color: white;
+    text-decoration: none;
+}
+
+/************************* Front Page - Catherine ***************************/
+
+.table{
+    display: table;
+}
+.tablerow {
+    display: table-row;
+    width: 100%;
+}
+.cell1 {
+    display: table-cell;
+    width: 40%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.cell2 {
+    display: table-cell;
+    width: 60%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.cell4 {
+    display: table-cell;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.cell6 {
+    display: table-cell;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
 
 /************** Mobile/Tablet Responsiveness ********************/
 
@@ -388,19 +543,19 @@ header{
     }
 
     #my-canvas{
-      margin-bottom: -470px !important;
-      height:500px;
-      max-width: 100%;
+        margin-bottom: -470px !important;
+        height:500px;
+        max-width: 100%;
     }
 
     .logo{
-      max-width: 86%;
-      margin-left: 1%;
+        max-width: 86%;
+        margin-left: 1%;
     }
 
     #mobile-video-button{
-      display: block !important;
-      margin-bottom: 1em;
+        display: block !important;
+        margin-bottom: 1em;
     }
 }
 
@@ -454,21 +609,21 @@ header{
 /*------------------------------*/
 
 #SheHacks-Title{
-  font-weight:800;
-  color:#808cf4;
+    font-weight:800;
+    color:#808cf4;
 }
 
 
 #my-canvas{
-  margin-bottom: -85%;
+    margin-bottom: -85%;
 }
 
 #short-description{
-  font-size:1.3em;
+    font-size:1.3em;
 }
 
 #mobile-video-button{
-  display: none;
+    display: none;
 }
 
 /*
