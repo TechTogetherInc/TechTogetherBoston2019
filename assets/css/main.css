@@ -534,6 +534,20 @@ header{
     width: 60%;
     padding-bottom: 5%;
     padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cell3 {
+    background-image: url("assets/imgs/mentor.jpg");
+    background-color: rgba(16,14,82,0.5); /* tint */
+    background-blend-mode: multiply;
+    background-size: cover !important;
+    display: table-cell;
+    width: 80%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .cell4 {
     display: table-cell;
@@ -559,6 +573,9 @@ header{
     text-align: center;
     font-size: 14px;
     cursor: pointer;
+}
+.white-font{
+    color: white;
 }
 
 /************** Mobile/Tablet Responsiveness ********************/
