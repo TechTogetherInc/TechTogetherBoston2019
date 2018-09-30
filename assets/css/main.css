@@ -361,6 +361,30 @@ header{
     font-size: 1.25vw;
 }
 
+.fs-9{
+    font-size: 2.8vw;
+}
+
+.fs-10{
+    font-size: 1.4vw;
+}
+
+.fs-11{
+    font-size: 3vw;
+}
+
+.fs-12{
+    font-size: 1.5vw;
+}
+
+.fs-13{
+    font-size: 2.7vw;
+}
+
+.fs-14{
+    font-size: 1.1vw;
+}
+
 .orange-color{
     background-color: #ed7a67;
 }
@@ -376,6 +400,7 @@ header{
 .register{
     width: 11vw;
     height: 2.8vw;
+    line-height: 2.2em;
     font-size: 1.4vw;
     margin-top: 60px;
     background-color: #fd7361;
@@ -412,6 +437,7 @@ header{
     background: #c0c5fd;
     padding: 5% 8% 5% 8%;
     margin-top: 200px;
+    float: right;
 }
 
 .image-1{
@@ -464,6 +490,17 @@ header{
     justify-content: space-around;
 }
 
+.com-spotlight-img{
+    position: relative; 
+    height: 25vw; 
+    width: 25vw; 
+    top: -2vw;
+}
+
+.com-spotlight-container.dark-blue-color{
+    margin-bottom: 11vw;
+}
+
 .banner{
     height: 180px;
     width: 100%;
@@ -478,20 +515,29 @@ header{
     margin-bottom: 20px;
 }
 
+.side-list li{
+    font-size: 1.5em;
+}
+
+.side-list .bold{
+    font-size: 2em;
+}
+
+
 /************************* Scrollbar *************************************/
 /* Source: https://codepen.io/GhostRider/pen/GHaFw */ 
 
 .scrollbar{
-	margin-left: 30px;
-	height: 90%;
-	width: 60%;
-	background: #F5F5F5;
-	overflow-y: scroll;
-	margin-bottom: 25px;
+    margin-left: 40px;
+    height: 90%;
+    width: 60%;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
 }
 
 .force-overflow{
-	min-height: 101%; 
+    min-height: 101%; 
     padding-left: 4%;
 }
 
@@ -633,6 +679,14 @@ header{
         height: 100px;
     }
 
+    .register{
+        width: 30vw;
+        height: 7vw;
+        line-height: 1.95em;
+        font-size: 2.6vw;
+        margin-top: 30px;
+    }
+
     .row .col.offset-s2 {
         margin-left: 5%;
     }
@@ -653,6 +707,71 @@ header{
         font-size: 4vw;
     }
 
+    .fs-5{
+        font-size: 2.4vw;
+    }
+
+    .fs-6{
+        font-size: 10.5vw;
+    }
+
+    .fs-7{
+        font-size: 9vw;
+    }
+
+    .fs-8{
+        font-size: 3vw;
+    }
+
+    .fs-9{
+        font-size: 7vw;
+    }
+
+    .fs-10{
+        font-size: 2.8vw;
+    }
+
+    .fs-13{
+        font-size: 8vw;
+    }
+
+    .fs-14{
+        font-size: 4vw;
+    }
+
+    .blue-box{
+        height: auto;
+        width: 100%;
+        margin-top: 120px;
+        padding-bottom: 0;
+    }
+
+    .image-1{
+        height: 18vw;
+        width: 100%;
+    }
+
+    .image-2{
+        width: 120%;
+        height: 50vw;
+        margin-left: -9.5%;
+    }
+
+    .grid-container{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        grid-template-columns: repeat(3, 33.3%);
+        grid-row-gap: 30px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .sponsor-logo{
+        width: 22vw; 
+        height: 22vw; 
+    }
+
     #my-canvas{
         margin-bottom: -470px !important;
         height:500px;
@@ -662,6 +781,49 @@ header{
     .logo{
         max-width: 86%;
         margin-left: 1%;
+    }
+
+    .logo2{
+        width: 52vw;
+        height: 18vw;
+        float: left;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    .icon-2{
+        width: 7.5vw;
+        height: 7.5vw;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .com-spotlight-container{
+        height: 70vw; 
+        width: 100%; 
+        margin-top: 20vw; 
+        flex-flow: column;        
+        align-items: center;
+    }
+    
+    .com-spotlight-container.orange-color{
+        flex-flow: column-reverse;        
+    }
+
+    .com-spotlight-img{
+        position: relative; 
+        height: 45vw; 
+        width: 45vw; 
+        top: -10vw;
+    }
+    
+    .com-spotlight-container div{
+        position: relative;
+        top: -13vw;
     }
 
     #mobile-video-button{
@@ -680,6 +842,10 @@ header{
         z-index: 100;
     }
 
+    .overlay ul li a{
+        font-size: 32px;
+    }
+
     .button_container{
         z-index: 200;
     }
@@ -687,6 +853,25 @@ header{
     .logo{
         height: 110px;
         width: 290px;
+    }
+
+    .register{
+        width: 20vw;
+        height: 6vw;
+        line-height: 2em;
+        font-size: 2.2vw;
+        margin-top: 40px;
+    }
+
+    .blue-box{
+        height: auto;
+        width: 70%;
+        margin-top: 120px;
+        padding: 5% 6.5% 5% 6.5%;
+    }
+
+    .image-2{
+        height: 34vw;
     }
 
     .fs-1{
@@ -706,22 +891,88 @@ header{
     }
 
     .fs-5{
-        font-size: 1.5vw;
-    }
-
-    .fs-6{
-        font-size: 8vw;
-    }
-
-    .fs-7{
-        font-size: 8vw;
-    }
-
-    .fs-8{
         font-size: 2.2vw;
     }
 
+    .fs-6{
+        font-size: 11vw;
+    }
+
+    .fs-7{
+        font-size: 10vw;
+    }
+
+    .fs-8{
+        font-size: 3vw;
+    }
+
+    .fs-9{
+        font-size: 6vw;
+    }
+
+    .fs-10{
+        font-size: 2.6vw;
+    }
+
+    .fs-13{
+        font-size: 4.1vw;
+    }
+
+    .fs-14{
+        font-size: 2.1vw;
+    }
+
+    .icon-2{
+        width: 6vw;
+        height: 6vw;
+        margin-right: 30px;
+        margin-top: 45px;
+    }
+
+    .grid-container{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        grid-template-columns: repeat(3, 33.3%);
+        grid-row-gap: 30px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .sponsor-logo{
+        width: 17vw; 
+        height: 17vw; 
+    }
+
+    .logo2{
+        width: 38vw;
+        height: 12vw;
+        float: left;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .com-spotlight-container{
+        height: 28vw; 
+        width: 100%; 
+        margin-top: 5vw; 
+    }
+
+    .com-spotlight-img{
+        position: relative; 
+        height: 32vw; 
+        width: 32vw; 
+        top: -2vw;
+    }
+
 }
+
+/* Miscellaneous sizes */
+/*------------------------------*/
 
 @media screen and (max-height: 550px){
 
@@ -731,6 +982,17 @@ header{
     }
 }
 
+@media screen and (max-width: 1350px) and (min-width: 1025px){
+
+    .overlay ul li a{
+        font-size: 35px;
+    }
+
+    .overlay{
+        left: 60%;
+        width: 40%;
+    }
+}
 
 /*------------------------------*/
 
