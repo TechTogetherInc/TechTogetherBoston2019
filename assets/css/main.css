@@ -312,15 +312,79 @@ a{
     }
 }
 
+/************************** Hamburger Nav 2 ******************************/
+/* Source: Same As The First One */
+
+.button_container-2{
+    display: none;
+    position: relative;
+    height: 2.3em;
+    width: 3em;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity 0.25s ease;
+}
+
+.button_container-2 span {
+    background: #000;
+    border: none;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+
+.button_container-2 span:nth-of-type(3) {
+    width: 60%;
+}
+
+.button_container-2.active span:nth-of-type(3) {
+    width: 100%;
+}
+
+.button_container-2:hover {
+    opacity: 0.7;
+}
+
+.button_container-2.active .top {
+    transform: translateY(13px) translateX(0) rotate(45deg);
+    background: #000;
+}
+
+.button_container-2.active .middle {
+    opacity: 0;
+    background: #000;
+}
+
+.button_container-2.active .bottom {
+    transform: translateY(-13px) translateX(0) rotate(-45deg);
+    background: #000;
+}
+
+.button_container-2 span:nth-of-type(2) {
+    top: 12.5px;
+}
+
+.button_container-2 span:nth-of-type(3) {
+    top: 26.5px;
+}
+
 /************************* Front Page - Brandon ***************************/
 
 header{
-    margin-bottom: 70px;
+    margin-bottom: 90px;
+    margin-left: 2%;
+    width: 96%;
+    height: auto;
+    overflow: hidden;
 }
 
 .logo2{
-    width: 17vw;
-    height: 5.4vw;
+    width: 21vw;
+    height: 6.5vw;
     float: left;
     margin-top: 22px;
 }
@@ -336,13 +400,6 @@ header{
     width: 45%;
     margin-top: 40px;
     font-size: 1.4vw;
-}
-
-header{
-    margin-left: 2%;
-    width: 96%;
-    height: auto;
-    overflow: hidden;
 }
 
 .fs-5{
@@ -440,7 +497,7 @@ header{
     width: 70%;
     background: #c0c5fd;
     padding: 5% 8% 5% 8%;
-    margin-top: 200px;
+    margin-top: 350px;
     margin-bottom: 100px;
     float: right;
 }
@@ -692,15 +749,20 @@ header{
     }
 
     .register{
-        width: 30vw;
-        height: 7vw;
+        width: 38vw;
+        height: 9vw;
         line-height: 1.95em;
-        font-size: 2.6vw;
+        font-size: 3.5vw;
+        font-weight: 440;
         margin-top: 30px;
     }
 
     .row .col.offset-s2 {
         margin-left: 5%;
+    }
+
+    header{
+        margin-bottom: 40px;
     }
 
     .fs-1{
@@ -720,27 +782,27 @@ header{
     }
 
     .fs-5{
-        font-size: 2.4vw;
+        font-size: 3.4vw;
     }
 
     .fs-6{
-        font-size: 10.5vw;
+        font-size: 12vw;
     }
 
     .fs-7{
-        font-size: 9vw;
+        font-size: 12vw;
     }
 
     .fs-8{
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .fs-9{
-        font-size: 7vw;
+        font-size: 8vw;
     }
 
     .fs-10{
-        font-size: 2.8vw;
+        font-size: 3.2vw;
     }
 
     .fs-11{
@@ -766,7 +828,7 @@ header{
     .blue-box{
         height: auto;
         width: 100%;
-        margin-top: 120px;
+        margin: 120px 0 30px 0;
         padding-bottom: 0;
     }
 
@@ -814,7 +876,7 @@ header{
         margin-top: 20px;
         margin-left: 5px;
     }
-    
+
     .logo3{
         margin-bottom: 30px;
     }
@@ -824,6 +886,7 @@ header{
         height: 7.5vw;
         margin-right: 20px;
         margin-top: 40px;
+        margin-bottom: 10vh;
     }
 
     .icon-3{
@@ -831,7 +894,7 @@ header{
         height: 9vw;
     }
 
-    .navigation{
+    .navigation a{
         display: none;
     }
 
@@ -867,13 +930,34 @@ header{
         width: 65vw;
         height: 24vw;
     }
-    
+
     .flex-footer{
         flex-flow: column;
         justify-content: flex-start;
         padding-left: 8%;
     }
 
+    .button_container-2{
+        display: block;
+        z-index: 200;
+    }
+
+    .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
+        background: #FFF;
+    }
+
+    .overlay-2 ul li {
+        height: 40px;
+    }
+    
+    .button_container-2{
+        display: block;
+        position: relative;
+        z-index: 200;
+        left: 85%;
+        top: 30px;
+    }
+    
     #mobile-video-button{
         display: block !important;
         margin-bottom: 1em;
@@ -1017,7 +1101,7 @@ header{
         margin-left: 10px;
     }
 
-    .navigation{
+    .navigation a{
         display: none;
     }
 
@@ -1039,6 +1123,22 @@ header{
         height: 16vw;
     }
 
+    .button_container-2{
+        display: block;
+        position: relative;
+        z-index: 200;
+        left: 85%;
+        top: 30px;
+    }
+
+    .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
+        background: #FFF;
+    }
+
+    .overlay-2 ul li {
+        height: 100px;
+    }
+    
 }
 
 /* Miscellaneous sizes */
@@ -1049,6 +1149,10 @@ header{
     .overlay ul li {
         height: calc(100% / 4);
         min-height: 120px;
+    }
+
+    .overlay-2 ul li {
+        height: 40px;
     }
 }
 
@@ -1061,6 +1165,10 @@ header{
     .overlay{
         left: 60%;
         width: 40%;
+    }
+
+    .overlay-2 ul li {
+        height: 40px;
     }
 }
 
