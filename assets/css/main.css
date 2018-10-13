@@ -72,6 +72,10 @@ body{
     font-style: italic;
 }
 
+.flex{
+    display: flex;
+    padding: 5%;
+}
 .flex-center{
     display: flex;
     justify-content: center;
