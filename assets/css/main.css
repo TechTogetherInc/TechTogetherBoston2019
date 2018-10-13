@@ -390,8 +390,8 @@ header{
 }
 
 .logo3{
-    width: 18vw;
-    height: 6vw;
+    width: 25vw;
+    height: 8vw;
     margin-bottom: 60px;
 }
 
@@ -578,53 +578,63 @@ header{
     margin-bottom: 20px;
 }
 
-.side-list li{
-    font-size: 1.5em;
-}
-
-.side-list .bold{
-    font-size: 2em;
-}
-
 .flex-footer{
     display: flex;
     justify-content: space-around;
     padding: 55px 0 55px 0 ;
 }
 
-
-/************************* Scrollbar *************************************/
-/* Source: https://codepen.io/GhostRider/pen/GHaFw */ 
-
-.scrollbar{
-    margin-left: 40px;
-    height: 90%;
-    width: 60%;
-    background: #F5F5F5;
-    overflow-y: scroll;
-    margin-bottom: 25px;
+.main-box{
+    background-color: #FFF;
+    display: block;
+    float: right;
+    width: 70%;
+    padding: 1em 2em 5em 2em;
+    margin: 0 5% 30px 0;
 }
 
-.force-overflow{
-    min-height: 101%; 
-    padding-left: 4%;
+/************************* Scroll *************************************/
+
+.navigation-scroll {
+    position: fixed;
+    width: 20%;
+    margin-left: 2%;
+    color: #fff;
 }
 
-#style-1::-webkit-scrollbar-track{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    background-color: #F5F5F5;
+.navigation_link {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: 400;
 }
 
-#style-1::-webkit-scrollbar{
-    width: 12px;
-    background-color: #F5F5F5;
+.navigation_link.active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease;
 }
 
-#style-1::-webkit-scrollbar-thumb{
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #555;
+.navigation-scroll a:nth-child(1){
+    background-color: #76d7f2;
+}
+
+.navigation-scroll a:nth-child(2){
+    background-color: #ed7a67;
+}
+
+.navigation-scroll a:nth-child(3){
+    background-color: #808cf4;
+}
+
+.navigation-scroll a:nth-child(4){
+    background-color: #d64c3c;
+}
+
+.navigation_link:hover {
+    background-color: purple;
+    transition: all 0.1s ease;
 }
 
 /************************* Front Page - Catherine ***************************/
@@ -949,15 +959,15 @@ header{
     .overlay-2 ul li {
         height: 40px;
     }
-    
+
     .button_container-2{
         display: block;
         position: relative;
         z-index: 200;
         left: 85%;
-        top: 30px;
+        top: 35px;
     }
-    
+
     #mobile-video-button{
         display: block !important;
         margin-bottom: 1em;
@@ -1127,8 +1137,8 @@ header{
         display: block;
         position: relative;
         z-index: 200;
-        left: 85%;
-        top: 30px;
+        left: 92%;
+        top: 42px;
     }
 
     .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
@@ -1138,7 +1148,7 @@ header{
     .overlay-2 ul li {
         height: 100px;
     }
-    
+
 }
 
 /* Miscellaneous sizes */
