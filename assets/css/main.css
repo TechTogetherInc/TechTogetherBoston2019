@@ -72,6 +72,10 @@ body{
     font-style: italic;
 }
 
+.flex{
+    display: flex;
+    padding: 5%;
+}
 .flex-center{
     display: flex;
     justify-content: center;
@@ -544,6 +548,21 @@ header{
     text-decoration: none;
 }
 
+.dark-blue-text {
+    color: #808cf4;
+    text-decoration: none;
+}
+
+.orange-text {
+    color: #ed7a67;
+    text-decoration: none;
+}
+
+.red-text {
+    color: #d64c3c;
+    text-decoration: none;
+}
+
 .com-spotlight-container{
     height: 21vw; 
     width: 100%; 
@@ -567,7 +586,7 @@ header{
 .banner{
     height: 180px;
     width: 100%;
-    margin-bottom: 75px;
+    margin-bottom: 0px;
 }
 
 .banner h2{
