@@ -667,6 +667,10 @@ header{
     margin-bottom: 10em;
 }
 
+.space-top{
+    margin-top: 5em;
+}
+
 .pic-1{
     width: 100%; 
     height: 650px; 
@@ -1132,8 +1136,37 @@ header{
         padding: 5% 0 5% 0;
     }
 
+    .cell3{
+        display: block;
+        width: 100%;
+    }
+
     .space-bottom{
         margin-bottom: 4em;
+    }
+
+    .pic-1{
+        width: 100%; 
+        height: 350px; 
+        margin: 5px;
+    }
+
+    .pic-2{
+        width: 100%; 
+        height: 150px; 
+        margin: 5px;
+    }
+
+    .pic-3{
+        width: 100%; 
+        height: 150px; 
+        margin: 5px;
+    }
+
+    .pic-4{
+        width: 100%; 
+        height: 350px; 
+        margin: 5px;
     }
 
     #mobile-video-button{
@@ -1352,6 +1385,11 @@ header{
         display: block;
         width: 100%;
         padding: 5% 0 5% 0;
+    }
+
+    .cell3{
+        display: block;
+        width: 100%;
     }
 
     .space-bottom{
