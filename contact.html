@@ -11,8 +11,14 @@
     </head>
 
     <body>
-        <header class="margin-bottom">
+        <header>
             <img src="assets/imgs/Logo.png" class="logo2">
+
+            <div class="button_container-2" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
 
             <div class="flex-space navigation">
                 <a href="about.html" class="underline-hover"> About </a>
@@ -23,6 +29,50 @@
             </div>
         </header>
 
+        <!-- Hamburger Nav - Start -->
+        <div class="overlay overlay-2" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <section class="flex-center">
+                                <p class="bold">About</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <section class="flex-center">
+                                <p class="bold">FAQ</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <section class="flex-center">
+                                <p class="bold">Resources</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="#">
+                            <section class="flex-center">
+                                <p class="bold">Attend</p>
+                            </section>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="mailto:info@techtogether.io">
+                            <section class="flex-center">
+                                <p class="bold">Contact</p>
+                            </section>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Ham Nav - End-->
+
         <div class="banner light-blue-color flex-center-3">
             <h2 class="bold white-text no-margin"> Contact </h2>
         </div>
@@ -32,10 +82,10 @@
                 <h3 class="bold"> Hackers </h3>
                 <h5> General Questions: <a href="mailto:info@techtogether.io" class="red-text"><u>info@techtogether.io</u></a> </h5>
                 <h5> Travel Reimbursements: <a href="mailto:logistics@techtogether.io" class="orange-text"><u>logistics@techtogether.io</u></a>  </h5>
-                
+
                 <br>
 
-                <h3 class="bold"> Sponsors & Partners </h3>
+                <h3 class="bold"> Sponsors &#38; Partners </h3>
                 <h5> Sponsorship Inquiries: <a href="mailto:sponsor@techtogether.io" class="dark-blue-text"><u>sponsor@techtogether.io</u></a> </h5>
                 <h5> Logistical Questions: <a href="mailto:logistics@techtogether.io" class="orange-text"><u>logistics@techtogether.io</u></a>  </h5>
                 <h5> Programming Questions: <a href="mailto:programming@techtogether.io" class="red-text"><u>programming@techtogether.io</u></a>  </h5>
@@ -44,7 +94,7 @@
             </div>
         </div>
 
-         <footer class="flex-footer orange">
+        <footer class="flex-footer orange">
             <img src="assets/imgs/Logo_white.JPG" class="logo3">
 
             <div class="no-margin">
@@ -61,6 +111,8 @@
             </div>
         </footer>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="assets/js/ham_menu.js"> </script>
 
     </body>
 </html>
