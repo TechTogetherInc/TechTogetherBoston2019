@@ -415,7 +415,7 @@ header{
 .navigation{
     float: right;
     width: 45%;
-    margin-top: 40px;
+    margin-top: 2em;
     font-size: 1.4vw;
 }
 
@@ -520,6 +520,11 @@ header{
 .icon-4{
     width: 7.5vw;
     height: 7.5vw;
+}
+
+.icon-5{
+    width: 7em;
+    height: 7em;
 }
 
 .float-right{
@@ -774,7 +779,7 @@ header{
 }
 
 /************************* Scroll *************************************/
-
+/*
 .navigation-scroll {
     position: fixed;
     width: 20%;
@@ -797,7 +802,7 @@ header{
     transition: all 0.1s ease;
 }
 
-/*
+
 .navigation_link:hover {
 background-color: #76d7f2;
 transition: all 0.1s ease;
@@ -1035,10 +1040,10 @@ transition: all 0.1s ease;
 
     .blue-box{
         width: 100%;
-        height: 60%;
+        height:45em;
         margin: 0;
         padding: 5% 4% 5% 4%;
-        margin-top: 30em;
+        margin-top: 5em;
     }
 
     .image-1{
@@ -1161,7 +1166,7 @@ transition: all 0.1s ease;
         position: relative;
         z-index: 200;
         left: 85%;
-        top: 35px;
+        top: 3.7em;
     }
 
     .about-box-1{
@@ -1244,7 +1249,14 @@ transition: all 0.1s ease;
     }
 
     #myVideo{
-        height: 30em;
+        display: none;
+    }
+
+    .logo2_alt{
+        width: 75vw;
+        height: 30vw;
+        float: left;
+        margin: 2em 0 2em 0;
     }
 
 }
@@ -1495,6 +1507,14 @@ transition: all 0.1s ease;
         width: 100%; 
         height: 450px; 
         margin: 5px;
+    }
+
+
+    .logo2_alt{
+        width: 40vw;
+        height: 12vw;
+        float: left;
+        margin: 2em 0 4em 0;
     }
 
 }
