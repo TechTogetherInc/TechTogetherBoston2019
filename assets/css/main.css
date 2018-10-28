@@ -3,6 +3,40 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
+/*********** font stuff ***********/
+
+/* fluid typography using calc in the html class is too glitchy*/
+
+h1{
+    font-size: calc(8em + .5vw);
+}
+
+h2{
+    font-size: calc(5em + .5vw);
+}
+
+h3{
+    font-size: calc(4em + .5vw);
+}
+
+h4{
+    font-size: calc(3em + .5vw);
+}
+
+h5{
+    font-size: calc(2em + .5vw);
+}
+
+h6{
+    font-size: calc(1.5em + .5vw);
+}
+
+p{
+    font-size: calc(.7em + .5vw);
+}
+
+/*********************************/
+
 .no-margin{
     margin: 0;
 }
@@ -387,6 +421,7 @@ a{
 
 header{
     margin-left: 2%;
+    margin-right: 0em;
     width: 96%;
     height: auto;
     overflow: hidden;
@@ -403,7 +438,7 @@ header{
     width: 21vw;
     height: 7vw;
     float: left;
-    margin: 2em 0 4em 0;
+    margin: 1em 0 2em 0;
 }
 
 .logo3{
@@ -417,62 +452,6 @@ header{
     width: 45%;
     margin-top: 2em;
     font-size: 1.4vw;
-}
-
-.fs-5{
-    font-size: 1vw;
-}
-
-.fs-6{
-    font-size: 6vw;
-}
-
-.fs-7{
-    font-size: 4.4vw;
-}
-
-.fs-8{
-    font-size: 1.25vw;
-}
-
-.fs-9{
-    font-size: 2.8vw;
-}
-
-.fs-10{
-    font-size: 1.4vw;
-}
-
-.fs-11{
-    font-size: 3vw;
-}
-
-.fs-12{
-    font-size: 1.5vw;
-}
-
-.fs-13{
-    font-size: 2.7vw;
-}
-
-.fs-14{
-    font-size: 1.1vw;
-}
-
-.fs-15{
-    font-size: 1.3vw;
-}
-
-.fs-16{
-    font-size: 3.7vw;
-}
-
-.fs-17{
-    font-size: 3.5vw;
-}
-
-.fs-18{
-    font-size: .8vw;
 }
 
 .orange-color{
@@ -524,7 +503,7 @@ header{
 
 .icon-5{
     width: 7em;
-    height: 7em;
+    height: 8em;
 }
 
 .float-right{
@@ -535,7 +514,7 @@ header{
     height: 100%;
     width: 42%;
     background: #c0c5fd;
-    padding: 3% 5% 3% 5% !important;
+    padding: 3% 5% 3% 5%;
     margin-bottom: -1.5em !important;
     float: right;
 }
@@ -557,7 +536,7 @@ header{
 
 .image-4{
     width: 100%; 
-    margin: 5px;
+    margin: .5em;
 }
 
 .grid-container{
@@ -622,13 +601,13 @@ header{
 }
 
 .banner{
-    height: 12em;
+    height: 9em;
     width: 100%;
     margin-bottom: 0px;
     margin-top: 2em;
 }
 
-.banner h2{
+.banner h3{
     margin-left: 5%;
 }
 
@@ -645,10 +624,9 @@ header{
 .main-box{
     background-color: #FFF;
     display: block;
-    float: right;
-    width: 70%;
-    padding: 1em 2em 5em 2em;
-    margin: 0 5% 30px 0;
+    width: 80%;
+    padding: 2em 5em 2em 0;
+    margin: 0 0 0 5%;
 }
 
 .about-box-1{
@@ -781,25 +759,25 @@ header{
 /************************* Scroll *************************************/
 /*
 .navigation-scroll {
-    position: fixed;
-    width: 20%;
-    margin-left: 2%;
-    color: #fff;
-    background-color: #ed7a67;
+position: fixed;
+width: 20%;
+margin-left: 2%;
+color: #fff;
+background-color: #ed7a67;
 }
 
 .navigation_link {
-    display: block;
-    color: #ddd;
-    text-decoration: none;
-    padding: 1em;
-    font-weight: 400;
+display: block;
+color: #ddd;
+text-decoration: none;
+padding: 1em;
+font-weight: 400;
 }
 
 .navigation_link.active {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: all 0.1s ease;
+color: white;
+background-color: rgba(0, 0, 0, 0.2);
+transition: all 0.1s ease;
 }
 
 
@@ -823,11 +801,8 @@ transition: all 0.1s ease;
 }
 .cell1 {
     display: table-cell;
-    width: 40%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 5%;
-    padding-top: 5%;
+    width: 35%;
+    padding: 5% 10% 10% 5%;
 }
 .cell2 {
     display: table-cell;
@@ -859,8 +834,8 @@ transition: all 0.1s ease;
 }
 .cell6 {
     display: table-cell;
-    width: 50%;
-    padding-bottom: 5%;
+    width: 33%;
+    padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -905,6 +880,38 @@ transition: all 0.1s ease;
 /************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
+
+    /*********** font stuff ***********/
+
+    h1{
+        font-size: calc(3.5em + .5vw);
+    }
+
+    h2{
+        font-size: calc(2em + .5vw);
+    }
+
+    h3{
+        font-size: calc(2.5em + .5vw);
+    }
+
+    h4{
+        font-size: calc(2em + .5vw);
+    }
+
+    h5{
+        font-size: calc(1.3em + .5vw);
+    }
+
+    h6{
+        font-size: calc(1.1em + .5vw);
+    }
+
+    p{
+        font-size: calc(1em + .5vw);
+    }
+
+    /*********************************/
 
     .right_side{
         display: none;
@@ -990,54 +997,6 @@ transition: all 0.1s ease;
         font-size: 4vw;
     }
 
-    .fs-5{
-        font-size: 3.4vw;
-    }
-
-    .fs-6{
-        font-size: 12vw;
-    }
-
-    .fs-7{
-        font-size: 12vw;
-    }
-
-    .fs-8{
-        font-size: 3.8vw;
-    }
-
-    .fs-9{
-        font-size: 8vw;
-    }
-
-    .fs-10{
-        font-size: 3.2vw;
-    }
-
-    .fs-11{
-        font-size: 11.2vw;
-    }
-
-    .fs-12{
-        font-size: 4vw;
-    }
-
-    .fs-13{
-        font-size: 8vw;
-    }
-
-    .fs-14{
-        font-size: 4vw;
-    }
-
-    .fs-15{
-        font-size: 5vw;
-    }
-
-    .fs-16{
-        font-size: 16vw;
-    }
-
     .blue-box{
         width: 100%;
         height:45em;
@@ -1092,8 +1051,8 @@ transition: all 0.1s ease;
     }
 
     .icon-2{
-        width: 7.5vw;
-        height: 7.5vw;
+        width: 10vw;
+        height: 10vw;
         margin-right: 20px;
         margin-top: 40px;
         margin-bottom: 10vh;
@@ -1253,15 +1212,52 @@ transition: all 0.1s ease;
     }
 
     .logo2_alt{
-        width: 75vw;
-        height: 30vw;
+        width: 70vw;
+        height: 25vw;
         float: left;
         margin: 2em 0 2em 0;
+    }
+
+    .icon-5{
+        width: 2em;
+        height: 2em;
     }
 
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
+
+    /*********** font stuff ***********/
+
+    h1{
+        font-size: calc(7em + .5vw);
+    }
+
+    h2{
+        font-size: calc(4em + .5vw);
+    }
+
+    h3{
+        font-size: calc(3em + .5vw);
+    }
+
+    h4{
+        font-size: calc(2em + .5vw);
+    }
+
+    h5{
+        font-size: calc(.7em + .5vw);
+    }
+
+    h6{
+        font-size: calc(1.4em + .5vw);
+    }
+
+    p{
+        font-size: calc(1em + .5vw);
+    }
+
+    /*********************************/
 
     .overlay {
         top: 0;
@@ -1294,8 +1290,9 @@ transition: all 0.1s ease;
 
     .blue-box{
         height: auto;
-        width: 42%;
-        padding: 5% 6.5% 5% 6.5%;
+        width: 100%;
+        height: 50em;
+        padding: 5% 7% 5% 7%; 
     }
 
     .image-2{
@@ -1316,54 +1313,6 @@ transition: all 0.1s ease;
 
     .fs-4{
         font-size: 2vw;
-    }
-
-    .fs-5{
-        font-size: 2.2vw;
-    }
-
-    .fs-6{
-        font-size: 11vw;
-    }
-
-    .fs-7{
-        font-size: 10vw;
-    }
-
-    .fs-8{
-        font-size: 3vw;
-    }
-
-    .fs-9{
-        font-size: 6vw;
-    }
-
-    .fs-10{
-        font-size: 2.6vw;
-    }
-
-    .fs-11{
-        font-size: 6vw;
-    }
-
-    .fs-12{
-        font-size: 2vw;
-    }
-
-    .fs-13{
-        font-size: 4.1vw;
-    }
-
-    .fs-14{
-        font-size: 2.1vw;
-    }
-
-    .fs-15{
-        font-size: 2.5vw;
-    }
-
-    .fs-16{
-        font-size: 12vw;
     }
 
     .icon-2{
@@ -1485,6 +1434,7 @@ transition: all 0.1s ease;
         margin-bottom: 4em;
     }
 
+
     .pic-1{
         width: 100%; 
         height: 450px; 
@@ -1509,12 +1459,20 @@ transition: all 0.1s ease;
         margin: 5px;
     }
 
+    #myVideo{
+        display: none;
+    }
 
     .logo2_alt{
         width: 40vw;
         height: 12vw;
         float: left;
         margin: 2em 0 4em 0;
+    }
+
+    .icon-5{
+        width: 8em;
+        height: 9em;
     }
 
 }
