@@ -3,6 +3,12 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
+/* This is to remove horizontal scroll, which fixes the issue of the video overflowing */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*********** font stuff ***********/
 
 /* fluid typography using calc in the html class is too glitchy*/
@@ -36,6 +42,15 @@ p{
 }
 
 /*********************************/
+
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/bebas.ttf);
+}
+
+.bebas{
+    font-family: bebas;
+}
 
 .no-margin{
     margin: 0;
@@ -743,7 +758,7 @@ header{
 
 #myVideo {
     float: left;
-    left:0;
+    left: 0;
     position: absolute;
     height: 100%;
     margin-left: -20%;
