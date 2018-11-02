@@ -14,7 +14,7 @@
     <body>
 
         <header>
-            <a href="2019.html"><img src="assets/imgs/Logo.png" class="logo2_alt"></a>
+            <!-- <a href="2019.html"><img src="assets/imgs/Logo.png" class="logo2_alt"></a> -->
 
             <div class="button_container-2" id="toggle">
                 <span class="top"></span>
@@ -32,13 +32,14 @@
         </header>
 
         <div class="row no-margin">
+          <canvas id="my-canvas-2"></canvas>
             <div class="col s8 offset-s1 bold italic">
                 <p class="no-margin"> Previously Known as SheHacks...</p>
             </div>
         </div>
 
         <div class="row no-margin">
-            <div class="col s8 offset-s1">
+            <!-- <div class="col s8 offset-s1">
                 <h1 class="no-margin bold"> TechTogether </h1>
             </div>
         </div>
@@ -46,18 +47,21 @@
         <div class="row no-margin">
             <div class="col s5 offset-s1">
                 <h1 class="no-margin"> Boston </h1>
-            </div>
+            </div> -->
+          <img src="assets/imgs/Logo.png" class="logo-2">
         </div>
 
         <div class="row">
             <div class="col s10 offset-s1">
+                <h4>Boston's Largest All-Female &amp; Femme Non-binary Hackathon!</h4>
+                <h4 class="word-cloud">#MAKINGTHENEWNORMAL</h4>
                 <h5 class="no-margin bold"> March 22-24, 2019 @ Agganis Arena </h5>
             </div>
         </div>
 
         <div class="row">
             <div class="col s3 offset-s1">
-                <button class="btn btn-large register">Sign Up</button>
+                <button class="btn btn-large register">Register</button>
             </div>
         </div>
 
@@ -114,11 +118,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s7">
                 <video autoplay muted loop id="myVideo">
                     <source src="assets/imgs/promo-video.mov">
                 </video>
-            </div>
             <div class="blue-box" style="z-index:10">
                 <h3 class="bold"> Explore with Us</h3>
                 <p class="">TechTogether Boston is one the world’s largest all-female and femme non-binary hackathons. For 36 hours, we
@@ -375,5 +377,13 @@ the most supportive experiences ever”</p>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="assets/js/ham_menu.js"> </script>
+
+        <!-- confetti thanks to: https://github.com/Agezao/confetti-js -->
+        <script type="text/javascript" src="confetti-js-master/dist/index.min.js"></script>
+        <script type="text/javascript">
+            var confettiSettings ={target:"my-canvas-2",max:55,size:2.5,animate:true,props:["circle","square","triangle","line"],colors:[[165,104,246],[230,61,135],[0,199,228],[253,214,126]],clock:40, rotate:true};
+            var confetti = new ConfettiGenerator(confettiSettings);
+            confetti.render();
+        </script>
     </body>
 </html>
