@@ -14,35 +14,43 @@ html, body {
 /* fluid typography using calc in the html class is too glitchy*/
 
 /*h1{
-    font-size: calc(5em + .5vw);
+font-size: calc(5em + .5vw);
 }
 
 h2{
-    font-size: calc(4em + .5vw);
+font-size: calc(4em + .5vw);
 }
 
 h3{
-    font-size: calc(3em + .5vw);
+font-size: calc(3em + .5vw);
 }*/
 
 h1{
-  font-size: 5em;
+    font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 3.5em;
 }
 
 h4{
-    font-size: calc(2em + .5vw);
+    font-size: 3em;
 }
 
 h5{
-    font-size: calc(1em + .5vw);
+    font-size: 2.5em;
 }
 
 h6{
-    font-size: calc(.8em + .5vw);
+    font-size: 2em;
 }
 
 p{
-    font-size: calc(.7em + .5vw);
+    font-size: 1.6em;
 }
 
 /*********************************/
@@ -521,8 +529,8 @@ header{
 }
 
 /*.icon-5{
-    width: 7em;
-    height: 8em;
+width: 7em;
+height: 8em;
 }*/
 
 .float-right{
@@ -867,6 +875,10 @@ transition: all 0.1s ease;
     /*opacity: .8;*/
 }
 
+.track-display-1{
+    display: none;
+}
+
 #SheHacks-Title{
     font-weight:800;
     color:#808cf4;
@@ -891,31 +903,31 @@ transition: all 0.1s ease;
     /*********** font stuff ***********/
 
     h1{
-        font-size: calc(3.5em + .5vw);
+        font-size: 5em;
     }
 
     h2{
-        font-size: calc(2em + .5vw);
+        font-size: 1.8em;
     }
 
     h3{
-        font-size: calc(2.5em + .5vw);
+        font-size: 2.5em;
     }
 
     h4{
-        font-size: calc(2em + .5vw);
+        font-size: 3em;
     }
 
     h5{
-        font-size: calc(1.3em + .5vw);
+        font-size: 1em;
     }
 
     h6{
-        font-size: calc(1.1em + .5vw);
+        font-size: 2em;
     }
 
     p{
-        font-size: calc(1em + .5vw);
+        font-size: 1.2em;
     }
 
     /*********************************/
@@ -1229,7 +1241,15 @@ transition: all 0.1s ease;
         width: 2em;
         height: 2em;
     }
-
+    
+    .track-display-1{
+        display: table-row;
+    }
+    
+    .track-display-2{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
@@ -1237,31 +1257,31 @@ transition: all 0.1s ease;
     /*********** font stuff ***********/
 
     h1{
-        font-size: calc(7em + .5vw);
+        font-size: 4em;
     }
 
     h2{
-        font-size: calc(4em + .5vw);
+        font-size: 4em;
     }
 
     h3{
-        font-size: calc(3em + .5vw);
+        font-size: 3em;
     }
 
     h4{
-        font-size: calc(2em + .5vw);
+        font-size: 2.8em;
     }
 
     h5{
-        font-size: calc(.7em + .5vw);
+        font-size: 2em;
     }
 
     h6{
-        font-size: calc(1.4em + .5vw);
+        font-size: 1.7em;
     }
 
     p{
-        font-size: calc(1em + .5vw);
+        font-size: 1.4em;
     }
 
     /*********************************/
@@ -1517,9 +1537,9 @@ transition: all 0.1s ease;
 /* Helen CSS */
 
 .logo-2{
-  margin-top:3%;
-  margin-left: 8%;
-  width:60%;
+    margin-top:3%;
+    margin-left: 8%;
+    width:60%;
 }
 
 #my-canvas-2{
@@ -1541,27 +1561,27 @@ transition: all 0.1s ease;
     -o-filter: grayscale(20%);
     -ms-filter: grayscale(20%);
     filter: grayscale(20%);
-  }
+}
 
 .word-cloud{
-  animation:textanimation 2s ease-in-out 0s infinite;
-  letter-spacing: 2px;
-  font-weight: bold;
+    animation:textanimation 2s ease-in-out 0s infinite;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 @keyframes textanimation {
-  0% {
-    color: #6bd9d0;
-  }
-  20% {
-    color: #82dcfe;
-  }
-  60% {
-    color: #fa8dd5;
-  }
-  100% {
-    color: #6bd9d0;
-  }
+    0% {
+        color: #6bd9d0;
+    }
+    20% {
+        color: #82dcfe;
+    }
+    60% {
+        color: #fa8dd5;
+    }
+    100% {
+        color: #6bd9d0;
+    }
 }
 /*------------------------------*/
 
