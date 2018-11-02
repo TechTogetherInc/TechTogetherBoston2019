@@ -1525,6 +1525,7 @@ transition: all 0.1s ease;
 #my-canvas-2{
     margin-bottom: -80%;
     top:0 !important;
+    z-index:2;
 }
 
 #myVideo {
