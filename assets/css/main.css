@@ -33,6 +33,26 @@ h2{
     font-size: 4em;
 }
 
+h3{
+    font-size: 3.5em;
+}
+
+h4{
+    font-size: 3em;
+}
+
+h5{
+    font-size: 2.5em;
+}
+
+h6{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.6em;
+}
+
 /*********************************/
 
 @font-face {
@@ -518,7 +538,7 @@ height: 8em;
 }
 
 .blue-box{
-    height: 100%;
+    height: auto;
     width: 43%;
     background: #c0c5fd;
     padding: 3% 5% 3% 5%;
@@ -941,6 +961,26 @@ transition: all 0.1s ease;
         font-size: 1.8em;
     }
 
+    h3{
+        font-size: 2.5em;
+    }
+
+    h4{
+        font-size: 3em;
+    }
+
+    h5{
+        font-size: 1em;
+    }
+
+    h6{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+
     /*********************************/
 
     .right_side{
@@ -1272,6 +1312,26 @@ transition: all 0.1s ease;
 
     h2{
         font-size: 4em;
+    }
+
+    h3{
+        font-size: 3em;
+    }
+
+    h4{
+        font-size: 2.8em;
+    }
+
+    h5{
+        font-size: 2em;
+    }
+
+    h6{
+        font-size: 1.7em;
+    }
+
+    p{
+        font-size: 1.4em;
     }
 
     /*********************************/
