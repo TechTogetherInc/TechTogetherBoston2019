@@ -919,7 +919,7 @@ transition: all 0.1s ease;
     }
 
     h5{
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     h6{
@@ -997,7 +997,7 @@ transition: all 0.1s ease;
     }
 
     header{
-        margin-bottom: 40px;
+        margin-bottom: -10%;
     }
 
     .fs-1{
@@ -1018,10 +1018,10 @@ transition: all 0.1s ease;
 
     .blue-box{
         width: 100%;
-        height:45em;
+        /*height:45em;*/
         margin: 0;
         padding: 5% 4% 5% 4%;
-        margin-top: 5em;
+        margin-top: 1em;
     }
 
     .image-1{
@@ -1056,6 +1056,17 @@ transition: all 0.1s ease;
         max-width: 100%;
     }
 
+    #my-canvas-2{
+        margin-bottom: -650px !important;
+        height:700px;
+        max-width: 800px;
+    }
+
+    .word-cloud{
+      font-size:1.6em;
+
+    }
+
     .logo{
         max-width: 86%;
         margin-left: 1%;
@@ -1073,8 +1084,7 @@ transition: all 0.1s ease;
         width: 10vw;
         height: 10vw;
         margin-right: 20px;
-        margin-top: 40px;
-        margin-bottom: 10vh;
+        margin-top: 0px;
     }
 
     .icon-3{
@@ -1241,15 +1251,15 @@ transition: all 0.1s ease;
         width: 2em;
         height: 2em;
     }
-    
+
     .track-display-1{
         display: table-row;
     }
-    
+
     .track-display-2{
         display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
