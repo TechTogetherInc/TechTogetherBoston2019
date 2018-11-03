@@ -33,26 +33,6 @@ h2{
     font-size: 4em;
 }
 
-h3{
-    font-size: 3.5em;
-}
-
-h4{
-    font-size: 3em;
-}
-
-h5{
-    font-size: 2.5em;
-}
-
-h6{
-    font-size: 2em;
-}
-
-p{
-    font-size: 1.6em;
-}
-
 /*********************************/
 
 @font-face {
@@ -759,12 +739,12 @@ height: 8em;
 }
 
 .hacker-quote{
-    font-size:1.2em;
-    margin-top: 0;
+    font-size: 1.2em;
+    margin: 0 0 .5em .6em;
 }
 
 #quote-highlight{
-    font-size:1.4em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -896,6 +876,57 @@ transition: all 0.1s ease;
     display: none;
 }
 
+/* Helen CSS */
+
+.logo-2{
+    margin-top:3%;
+    margin-left: 8%;
+    width:60%;
+}
+
+#my-canvas-2{
+    margin-bottom: -80%;
+    top: 0 !important;
+    z-index: 2;
+}
+
+#myVideo {
+    float: left;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    margin-left: -20%;
+    /*margin-bottom: -30%;*/
+    z-index: -10!important;
+    -webkit-filter: grayscale(20%);
+    -moz-filter: grayscale(20%);
+    -o-filter: grayscale(20%);
+    -ms-filter: grayscale(20%);
+    filter: grayscale(20%);
+}
+
+.word-cloud{
+    animation:textanimation 2s ease-in-out 0s infinite;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+@keyframes textanimation {
+    0% {
+        color: #6bd9d0;
+    }
+    20% {
+        color: #82dcfe;
+    }
+    60% {
+        color: #fa8dd5;
+    }
+    100% {
+        color: #6bd9d0;
+    }
+}
+/*------------------------------*/
+
 /************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
@@ -1022,6 +1053,9 @@ transition: all 0.1s ease;
         margin: 0;
         padding: 5% 4% 5% 4%;
         margin-top: 1em;
+/*         margin: 0;
+        padding: 5% 4% 7% 4%;
+        margin-top: 5em; */
     }
 
     .image-1{
@@ -1274,26 +1308,6 @@ transition: all 0.1s ease;
         font-size: 4em;
     }
 
-    h3{
-        font-size: 3em;
-    }
-
-    h4{
-        font-size: 2.8em;
-    }
-
-    h5{
-        font-size: 2em;
-    }
-
-    h6{
-        font-size: 1.7em;
-    }
-
-    p{
-        font-size: 1.4em;
-    }
-
     /*********************************/
 
     .overlay {
@@ -1326,10 +1340,10 @@ transition: all 0.1s ease;
     }
 
     .blue-box{
-        height: auto;
+        margin-top: 4em;
         width: 100%;
         height: 50em;
-        padding: 5% 7% 5% 7%;
+        padding: 5% 7% 6% 7%;
     }
 
     .image-2{
@@ -1512,6 +1526,12 @@ transition: all 0.1s ease;
         height: 9em;
     }
 
+    #my-canvas-2{
+        margin-bottom: -80%;
+        top: 0 !important;
+        z-index: 2;
+    }
+
 }
 
 /* Miscellaneous sizes */
@@ -1544,56 +1564,7 @@ transition: all 0.1s ease;
     }
 }
 
-/* Helen CSS */
 
-.logo-2{
-    margin-top:3%;
-    margin-left: 8%;
-    width:60%;
-}
-
-#my-canvas-2{
-    margin-bottom: -80%;
-    top:0 !important;
-    z-index:2;
-}
-
-#myVideo {
-    float: left;
-    left: 0;
-    position: absolute;
-    height: 100%;
-    margin-left: -20%;
-    /*margin-bottom: -30%;*/
-    z-index: -10!important;
-    -webkit-filter: grayscale(20%);
-    -moz-filter: grayscale(20%);
-    -o-filter: grayscale(20%);
-    -ms-filter: grayscale(20%);
-    filter: grayscale(20%);
-}
-
-.word-cloud{
-    animation:textanimation 2s ease-in-out 0s infinite;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-@keyframes textanimation {
-    0% {
-        color: #6bd9d0;
-    }
-    20% {
-        color: #82dcfe;
-    }
-    60% {
-        color: #fa8dd5;
-    }
-    100% {
-        color: #6bd9d0;
-    }
-}
-/*------------------------------*/
 
 
 /*
