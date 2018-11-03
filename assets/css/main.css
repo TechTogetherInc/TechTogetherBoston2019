@@ -853,6 +853,10 @@ transition: all 0.1s ease;
     /*opacity: .8;*/
 }
 
+.blue-color{
+    background-color: #76d7f2;
+}
+
 .track-display-1{
     display: none;
 }
@@ -1311,7 +1315,7 @@ transition: all 0.1s ease;
     header{
         height: 7em;
     }
-    
+
     .overlay {
         top: 0;
         left: 50%;
