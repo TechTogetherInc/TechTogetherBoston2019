@@ -912,6 +912,7 @@ transition: all 0.1s ease;
     animation:textanimation 2s ease-in-out 0s infinite;
     letter-spacing: 2px;
     font-weight: bold;
+    font-size:2.5vw;
 }
 
 @keyframes textanimation {
@@ -928,6 +929,19 @@ transition: all 0.1s ease;
         color: #6bd9d0;
     }
 }
+
+p {
+  font-size:1.2vw;
+}
+
+h4{
+  font-size: 2.5vw;
+}
+
+h5{
+  font-size:1.5vw;
+}
+
 /*------------------------------*/
 
 /************** Mobile/Tablet Responsiveness ********************/
