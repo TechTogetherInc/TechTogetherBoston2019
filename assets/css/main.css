@@ -560,9 +560,11 @@ height: 8em;
 }
 
 .sponsor-logo{
-    width: 10vw;
+    width: 100%;
     height: 10vw;
     justify-self: center;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .underline-hover:hover {
@@ -1082,8 +1084,10 @@ transition: all 0.1s ease;
     }
 
     .sponsor-logo{
-        width: 22vw;
+        width: 100%;
         height: 22vw;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     #my-canvas{
@@ -1395,8 +1399,10 @@ transition: all 0.1s ease;
     }
 
     .sponsor-logo{
-        width: 17vw;
+        width: 100%;
         height: 17vw;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .logo2{
