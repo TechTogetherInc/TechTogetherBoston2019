@@ -561,9 +561,10 @@ height: 8em;
 }
 
 .sponsor-logo{
-    width: 10vw;
-    height: 10vw;
+    width: 100%;
     justify-self: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .underline-hover:hover {
@@ -854,6 +855,10 @@ transition: all 0.1s ease;
     /*opacity: .8;*/
 }
 
+.blue-color{
+    background-color: #76d7f2;
+}
+
 .track-display-1{
     display: none;
 }
@@ -908,6 +913,7 @@ transition: all 0.1s ease;
     animation:textanimation 2s ease-in-out 0s infinite;
     letter-spacing: 2px;
     font-weight: bold;
+    font-size:2.5vw;
 }
 
 @keyframes textanimation {
@@ -924,6 +930,19 @@ transition: all 0.1s ease;
         color: #6bd9d0;
     }
 }
+
+p {
+  font-size:1.2vw;
+}
+
+h4{
+  font-size: 2.5vw;
+}
+
+h5{
+  font-size:1.5vw;
+}
+
 /*------------------------------*/
 
 /************** Mobile/Tablet Responsiveness ********************/
@@ -938,26 +957,6 @@ transition: all 0.1s ease;
 
     h2{
         font-size: 1.8em;
-    }
-
-    h3{
-        font-size: 2.5em;
-    }
-
-    h4{
-        font-size: 3em;
-    }
-
-    h5{
-        font-size: 1.5em;
-    }
-
-    h6{
-        font-size: 2em;
-    }
-
-    p{
-        font-size: 1.2em;
     }
 
     /*********************************/
@@ -1075,13 +1074,15 @@ transition: all 0.1s ease;
         padding-right: 5%;
         grid-template-columns: repeat(3, 33.3%);
         grid-row-gap: 1.875em;
-        margin-top: 2.5em;
-        margin-bottom: 3.75em;
+        margin-top: 2em;
+        margin-bottom: 3em;
     }
 
     .sponsor-logo{
-        width: 22vw;
+        width: 100%;
         height: 22vw;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     #my-canvas{
@@ -1389,8 +1390,10 @@ transition: all 0.1s ease;
     }
 
     .sponsor-logo{
-        width: 17vw;
+        width: 100%;
         height: 17vw;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .logo2{
