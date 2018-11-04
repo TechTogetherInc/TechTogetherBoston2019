@@ -432,7 +432,7 @@ header{
     margin-left: 2%;
     margin-right: 0em;
     width: 96%;
-    height: 7em;
+    min-height: 8em;
     overflow: hidden;
 }
 
@@ -520,7 +520,8 @@ height: 8em;
 }
 
 .blue-box{
-    height: 100%;
+    height: auto;
+    min-height: 50e;
     width: 43%;
     background: #c0c5fd;
     padding: 3% 5% 3% 5%;
@@ -892,7 +893,7 @@ transition: all 0.1s ease;
     float: left;
     left: 0;
     position: absolute;
-    height: 100%;
+    height: auto;
     margin-left: -20%;
     /*margin-bottom: -30%;*/
     z-index: -10!important;
@@ -1047,6 +1048,7 @@ transition: all 0.1s ease;
 
     .blue-box{
         width: 100%;
+        height: auto;
         /*height:45em;*/
         margin: 0;
         padding: 5% 4% 5% 4%;
@@ -1308,10 +1310,6 @@ transition: all 0.1s ease;
 
     /*********************************/
 
-    header{
-        height: 7em;
-    }
-    
     .overlay {
         top: 0;
         left: 50%;
@@ -1342,9 +1340,9 @@ transition: all 0.1s ease;
     }
 
     .blue-box{
-        margin-top: 4em;
         width: 100%;
-        height: 50em;
+        height: auto;
+        margin-top: 4em;
         padding: 5% 7% 6% 7%;
     }
 
