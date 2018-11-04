@@ -829,7 +829,7 @@ transition: all 0.1s ease;
 }
 .cell6 {
     display: table-cell;
-    width: 33%;
+    width: 32%;
     padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
@@ -932,15 +932,15 @@ transition: all 0.1s ease;
 }
 
 p {
-  font-size:1.2vw;
+    font-size:1.2vw;
 }
 
 h4{
-  font-size: 2.5vw;
+    font-size: 2.5vw;
 }
 
 h5{
-  font-size:1.5vw;
+    font-size:1.5vw;
 }
 
 /*------------------------------*/
@@ -957,6 +957,26 @@ h5{
 
     h2{
         font-size: 1.8em;
+    }
+
+    h3{
+        font-size: 2.5em;
+    }
+
+    h4{
+        font-size: 3em;
+    }
+
+    h5{
+        font-size: 1.5em;
+    }
+
+    h6{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.2em;
     }
 
     /*********************************/
@@ -1072,8 +1092,7 @@ h5{
         width: 100%;
         padding-left: 5%;
         padding-right: 5%;
-        grid-template-columns: repeat(3, 33.3%);
-        grid-row-gap: 1.875em;
+        grid-template-columns: repeat(1, 96%);
         margin-top: 2em;
         margin-bottom: 3em;
     }
@@ -1220,7 +1239,7 @@ h5{
     .cell1{
         display: block;
         width: 100%;
-        padding: 5% 10% 10% 10%;
+        padding: 5% 22% 10% 10%;
     }
 
     .cell2{
@@ -1293,6 +1312,15 @@ h5{
 
     .track-display-2{
         display: none;
+    }
+
+    .button {
+        background-color: white;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 14px;
+        width: 5em;
+        cursor: pointer;
     }
 
 }
@@ -1383,7 +1411,8 @@ h5{
         width: 100%;
         padding-left: 5%;
         padding-right: 5%;
-        grid-template-columns: repeat(3, 33.3%);
+        grid-template-columns: repeat(2, 45%);
+        grid-column-gap: 10%;
         grid-row-gap: 1.875em;
         margin-top: 2.5em;
         margin-bottom: 3.75em;
