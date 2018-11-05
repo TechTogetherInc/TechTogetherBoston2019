@@ -450,11 +450,11 @@ header{
     margin: 1em 0 2em 0;
 }
 
-.logo3{
+/*.logo3{
     width: 25%;
     height: 8vw;
     margin-bottom: 3em;
-}
+}*/
 
 .navigation{
     float: right;
@@ -629,7 +629,9 @@ height: 8em;
 .flex-footer{
     display: flex;
     justify-content: space-around;
-    padding: 55px 0 55px 0 ;
+    /*padding: 55px 0 55px 0 ;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .main-box{
@@ -878,6 +880,20 @@ transition: all 0.1s ease;
 }
 
 #mobile-video-button{
+    display: none;
+}
+.footer-col {
+    width: 50%;
+}
+.logo3{
+    /*display: flex;*/
+    width: 50%;
+    height: auto;
+}   
+.footer-col-social {
+    align-content: center;
+}
+.signup-mobile {
     display: none;
 }
 
@@ -1185,12 +1201,6 @@ h5{
         text-align: center;
     }
 
-    .logo3{
-        width: 90%;
-        height: 24vw;
-        margin-bottom: 30px;
-    }
-
     .flex-footer{
         flex-flow: column;
         justify-content: flex-start;
@@ -1311,6 +1321,17 @@ h5{
     .icon-5{
         width: 2em;
         height: 2em;
+    }
+
+    .footer-col{
+        width: 100%;
+    }
+
+    .signup {
+        display: none;
+    }
+    .signup-mobile {
+        display: inline;
     }
 
     .track-display-1{
