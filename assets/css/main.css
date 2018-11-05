@@ -753,7 +753,7 @@ height: 8em;
 }
 
 .z-index-1{
-    position: relative; 
+    position: relative;
     z-index: 3;
 }
 
@@ -799,18 +799,14 @@ transition: all 0.1s ease;
 }
 .cell1 {
     display: table-cell;
-    width: 35%;
-    padding: 5% 10% 10% 5%;
+    width: 40%;
+    padding: 0% 5% 5% 5%;
 }
 .cell2 {
     display: table-cell;
     width: 60%;
-    /*padding: 0% 10% 10% 0%;*/
     padding-top:5%;
-    /*padding-bottom: 5%;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;*/
+    padding-bottom:5%;
 }
 .cell3 {
     background-image: url("assets/imgs/mentor.jpg");
@@ -946,6 +942,12 @@ h4{
 
 h5{
     font-size:1.5vw;
+}
+
+#transform-section-text{
+
+  margin-bottom: -60%;
+  float: right;
 }
 
 /*------------------------------*/
@@ -1327,7 +1329,11 @@ h5{
         width: 5em;
         cursor: pointer;
     }
+    #transform-section-text{
 
+      margin-bottom:0;
+      float: none;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
