@@ -28,7 +28,7 @@ h1{
 }
 
 h2{
-    font-size: 4em;
+    font-size: 4vw;
 }
 
 /*********************************/
@@ -432,7 +432,7 @@ header{
     margin-left: 2%;
     margin-right: 0em;
     width: 96%;
-    height: 7em;
+    min-height: 8em;
     overflow: hidden;
 }
 
@@ -450,11 +450,11 @@ header{
     margin: 1em 0 2em 0;
 }
 
-.logo3{
+/*.logo3{
     width: 25%;
     height: 8vw;
     margin-bottom: 3em;
-}
+}*/
 
 .navigation{
     float: right;
@@ -520,7 +520,8 @@ height: 8em;
 }
 
 .blue-box{
-    height: 100%;
+    height: auto;
+    min-height: 50e;
     width: 43%;
     background: #c0c5fd;
     padding: 3% 5% 3% 5%;
@@ -561,10 +562,9 @@ height: 8em;
 
 .sponsor-logo{
     width: 100%;
-    height: 10vw;
     justify-self: center;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .underline-hover:hover {
@@ -629,7 +629,9 @@ height: 8em;
 .flex-footer{
     display: flex;
     justify-content: space-around;
-    padding: 55px 0 55px 0 ;
+    /*padding: 55px 0 55px 0 ;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .main-box{
@@ -650,7 +652,7 @@ height: 8em;
 }
 
 .about-box-3{
-    margin-top: 12em;
+    /*margin-top: 12em;*/
 }
 
 .about-box-4{
@@ -752,6 +754,11 @@ height: 8em;
     font-weight: bold;
 }
 
+.z-index-1{
+    position: relative;
+    z-index: 3;
+}
+
 
 /************************* Scroll *************************************/
 /*
@@ -794,18 +801,14 @@ transition: all 0.1s ease;
 }
 .cell1 {
     display: table-cell;
-    width: 35%;
-    padding: 5% 10% 10% 5%;
+    width: 40%;
+    padding: 0% 5% 5% 5%;
 }
 .cell2 {
     display: table-cell;
     width: 60%;
-    /*padding: 0% 10% 10% 0%;*/
     padding-top:5%;
-    /*padding-bottom: 5%;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;*/
+    padding-bottom:5%;
 }
 .cell3 {
     background-image: url("assets/imgs/mentor.jpg");
@@ -829,7 +832,7 @@ transition: all 0.1s ease;
 }
 .cell6 {
     display: table-cell;
-    width: 33%;
+    width: 32%;
     padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
@@ -879,6 +882,20 @@ transition: all 0.1s ease;
 #mobile-video-button{
     display: none;
 }
+.footer-col {
+    width: 50%;
+}
+.logo3{
+    /*display: flex;*/
+    width: 50%;
+    height: auto;
+}
+.footer-col-social {
+    align-content: center;
+}
+.signup-mobile {
+    display: none;
+}
 
 /* Helen CSS */
 
@@ -898,7 +915,7 @@ transition: all 0.1s ease;
     float: left;
     left: 0;
     position: absolute;
-    height: 100%;
+    height: auto;
     margin-left: -20%;
     /*margin-bottom: -30%;*/
     z-index: -10!important;
@@ -913,6 +930,7 @@ transition: all 0.1s ease;
     animation:textanimation 2s ease-in-out 0s infinite;
     letter-spacing: 2px;
     font-weight: bold;
+    font-size:2.5vw;
 }
 
 @keyframes textanimation {
@@ -929,6 +947,53 @@ transition: all 0.1s ease;
         color: #6bd9d0;
     }
 }
+
+p {
+    font-size:1.2vw;
+}
+
+h4{
+    font-size: 2.5vw;
+}
+
+h5{
+    font-size:1.5vw;
+}
+
+#transform-section-text{
+
+  margin-bottom: -60%;
+  float: right;
+}
+
+.hacker-highlight-section{
+  margin-left: 5%;
+}
+
+#hacker-highlight-hr{
+  width: 50%;
+  margin-left: 45%;
+  margin-top: -3.2%;
+  height: 3px;
+  color:black;
+  background-color: black;
+  margin-bottom: 2em;
+}
+
+#hacker-hightlight-title{
+  font-weight: bolder;
+}
+
+#hacker-project-row{
+  width: 90%;
+}
+
+.hacker-highlight-img{
+  max-width: 90%;
+  border-radius: 15px;
+}
+
+
 /*------------------------------*/
 
 /************** Mobile/Tablet Responsiveness ********************/
@@ -1053,6 +1118,7 @@ transition: all 0.1s ease;
 
     .blue-box{
         width: 100%;
+        height: auto;
         /*height:45em;*/
         margin: 0;
         padding: 5% 4% 5% 4%;
@@ -1077,10 +1143,9 @@ transition: all 0.1s ease;
         width: 100%;
         padding-left: 5%;
         padding-right: 5%;
-        grid-template-columns: repeat(3, 33.3%);
-        grid-row-gap: 1.875em;
-        margin-top: 2.5em;
-        margin-bottom: 3.75em;
+        grid-template-columns: repeat(1, 96%);
+        margin-top: 2em;
+        margin-bottom: 3em;
     }
 
     .sponsor-logo{
@@ -1164,12 +1229,6 @@ transition: all 0.1s ease;
         text-align: center;
     }
 
-    .logo3{
-        width: 90%;
-        height: 24vw;
-        margin-bottom: 30px;
-    }
-
     .flex-footer{
         flex-flow: column;
         justify-content: flex-start;
@@ -1225,7 +1284,7 @@ transition: all 0.1s ease;
     .cell1{
         display: block;
         width: 100%;
-        padding: 5% 10% 10% 10%;
+        padding: 5% 22% 10% 10%;
     }
 
     .cell2{
@@ -1292,6 +1351,17 @@ transition: all 0.1s ease;
         height: 2em;
     }
 
+    .footer-col{
+        width: 100%;
+    }
+
+    .signup {
+        display: none;
+    }
+    .signup-mobile {
+        display: inline;
+    }
+
     .track-display-1{
         display: table-row;
     }
@@ -1300,6 +1370,19 @@ transition: all 0.1s ease;
         display: none;
     }
 
+    .button {
+        background-color: white;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 14px;
+        width: 5em;
+        cursor: pointer;
+    }
+    #transform-section-text{
+
+      margin-bottom:0;
+      float: none;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
@@ -1315,10 +1398,6 @@ transition: all 0.1s ease;
     }
 
     /*********************************/
-
-    header{
-        height: 7em;
-    }
 
     .overlay {
         top: 0;
@@ -1350,9 +1429,9 @@ transition: all 0.1s ease;
     }
 
     .blue-box{
-        margin-top: 4em;
         width: 100%;
-        height: 50em;
+        height: auto;
+        margin-top: 4em;
         padding: 5% 7% 6% 7%;
     }
 
@@ -1392,7 +1471,8 @@ transition: all 0.1s ease;
         width: 100%;
         padding-left: 5%;
         padding-right: 5%;
-        grid-template-columns: repeat(3, 33.3%);
+        grid-template-columns: repeat(2, 45%);
+        grid-column-gap: 10%;
         grid-row-gap: 1.875em;
         margin-top: 2.5em;
         margin-bottom: 3.75em;
