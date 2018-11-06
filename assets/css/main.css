@@ -895,7 +895,7 @@ transition: all 0.1s ease;
    /*display: flex;*/
    width: 50%;
    height: auto;
-}   
+}
 .footer-col-social {
    align-content: center;
 }
@@ -1025,6 +1025,46 @@ h5{
 .hacker-highlight-img{
   max-width: 90%;
   border-radius: 15px;
+}
+
+#star{
+  display: inline;
+}
+
+.award-title{
+  display: inline;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tt-blue{
+  color:#76d7f2;
+}
+
+.tt-purple{
+  color:#808cf4
+}
+
+.tt-pink{
+  color:#ed7a67
+}
+
+.tt-red{
+  color:#d64c3c;
+}
+
+.hr-light{
+  height:.3px;
+  color:#E8E8E8;
+  background: #E8E8E8;
+  width:95%;
+}
+
+#winner-box{
+  width:100%;
+  background:#76d7f2;
+  padding: 8%;
 }
 
 /*------------------------------*/
@@ -1430,7 +1470,7 @@ h5{
    h2{
       font-size: 4em;
    }
-   
+
    p{
       font-size: 1.2em;
    }
@@ -1670,7 +1710,7 @@ h5{
    footer .footer-col:nth-child(2){
       width: 35%;
    }
-   
+
    .min-height-1{
       min-height: 30em;
    }
