@@ -28,7 +28,7 @@ h1{
 }
 
 h2{
-    font-size: 4vw;
+   font-size: 4vw;
 }
 
 /*********************************/
@@ -429,38 +429,31 @@ a{
 /************************* Front Page - Brandon ***************************/
 
 header{
-    margin-left: 2%;
-    margin-right: 0em;
-    width: 96%;
-    min-height: 8em;
-    overflow: hidden;
+   margin-left: 2%;
+   margin-right: 0em;
+   width: 96%;
+   min-height: 6em;
+   overflow: hidden;
 }
 
 .logo2{
    width: 21vw;
    height: 7vw;
    float: left;
-   margin-top: 2em;
+   margin-top: 1.2em;
 }
 
 .logo2_alt{
-    width: 21vw;
-    height: 7vw;
-    float: left;
-    margin: 1em 0 2em 0;
+   width: 21vw;
+   height: 7vw;
+   float: left;
+   margin: 1em 0 2em 0;
 }
-
-/*.logo3{
-    width: 25%;
-    height: 8vw;
-    margin-bottom: 3em;
-}*/
-
 
 .navigation{
    float: right;
    width: 45%;
-   margin-top: 2em;
+   margin-top: 1.2em;
    font-size: 1.4vw;
 }
 
@@ -496,8 +489,8 @@ header{
 .icon-2{
    width: 3vw;
    height: 3vw;
-   margin-right: 20px;
-   margin-top: 85px;
+   margin-right: 2em;
+   margin-top: 4em;
 }
 
 .icon-3{
@@ -521,13 +514,13 @@ height: 8em;
 }
 
 .blue-box{
-    height: auto;
-    min-height: 50e;
-    width: 43%;
-    background: #c0c5fd;
-    padding: 3% 5% 3% 5%;
-    margin-bottom: -1.5em !important;
-    float: right;
+   height: auto;
+   min-height: 50em;
+   width: 43%;
+   background: #c0c5fd;
+   padding: 3% 5% 3% 5%;
+   margin-bottom: -1.5em !important;
+   float: right;
 }
 
 .image-1{
@@ -628,11 +621,11 @@ height: 8em;
 }
 
 .flex-footer{
-    display: flex;
-    justify-content: space-around;
-    /*padding: 55px 0 55px 0 ;*/
-    padding-top: 2%;
-    padding-bottom: 2%;
+   display: flex;
+   justify-content: space-around;
+   /*padding: 55px 0 55px 0 ;*/
+   padding-top: 2%;
+   padding-bottom: 2%;
 }
 
 .main-box{
@@ -761,8 +754,8 @@ height: 8em;
 }
 
 .z-index-1{
-    position: relative;
-    z-index: 3;
+   position: relative;
+   z-index: 3;
 }
 
 
@@ -806,15 +799,15 @@ transition: all 0.1s ease;
    width: 100%;
 }
 .cell1 {
-    display: table-cell;
-    width: 40%;
-    padding: 0% 5% 5% 5%;
+   display: table-cell;
+   width: 40%;
+   padding: 0% 5% 5% 5%;
 }
 .cell2 {
-    display: table-cell;
-    width: 60%;
-    padding-top:5%;
-    padding-bottom:5%;
+   display: table-cell;
+   width: 60%;
+   padding-top:5%;
+   padding-bottom:5%;
 }
 .cell3 {
    background-image: url("assets/imgs/mentor.jpg");
@@ -837,12 +830,12 @@ transition: all 0.1s ease;
    padding-top: 2%;
 }
 .cell6 {
-    display: table-cell;
-    width: 32%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
+   display: table-cell;
+   width: 32%;
+   padding-bottom: 2%;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 2%;
 }
 .button {
    background-color: white;
@@ -903,24 +896,19 @@ transition: all 0.1s ease;
    display: none;
 }
 .footer-col {
-    width: 50%;
-}
-.logo3{
-    /*display: flex;*/
-    width: 50%;
-    height: auto;
+   width: 50%;
 }
 .footer-col-social {
-    align-content: center;
+   align-content: center;
 }
 .signup-mobile {
-    display: none;
+   display: none;
 }
 
 /* Helen CSS */
 
 .logo-2{
-   margin-top:3%;
+   margin-top: -.5%;
    margin-left: 8%;
    width:60%;
 }
@@ -932,25 +920,25 @@ transition: all 0.1s ease;
 }
 
 #myVideo {
-    float: left;
-    left: 0;
-    position: absolute;
-    height: auto;
-    margin-left: -20%;
-    /*margin-bottom: -30%;*/
-    z-index: -10!important;
-    -webkit-filter: grayscale(20%);
-    -moz-filter: grayscale(20%);
-    -o-filter: grayscale(20%);
-    -ms-filter: grayscale(20%);
-    filter: grayscale(20%);
+   float: left;
+   left: 0;
+   position: absolute;
+   height: auto;
+   margin-left: -20%;
+   /*margin-bottom: -30%;*/
+   z-index: -10!important;
+   -webkit-filter: grayscale(20%);
+   -moz-filter: grayscale(20%);
+   -o-filter: grayscale(20%);
+   -ms-filter: grayscale(20%);
+   filter: grayscale(20%);
 }
 
 .word-cloud{
-    animation:textanimation 2s ease-in-out 0s infinite;
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-size:2.5vw;
+   animation:textanimation 2s ease-in-out 0s infinite;
+   letter-spacing: 2px;
+   font-weight: bold;
+   font-size:2.5vw;
 }
 
 
@@ -983,88 +971,88 @@ h5{
 
 
 p {
-    font-size:1.2vw;
+   font-size:1.2vw;
 }
 
 h4{
-    font-size: 2.5vw;
+   font-size: 2.5vw;
 }
 
 h5{
-    font-size:1.5vw;
+   font-size:1.5vw;
 }
 
 #transform-section-text{
 
-  margin-bottom: -60%;
-  float: right;
+   margin-bottom: -60%;
+   float: right;
 }
 
 .hacker-highlight-section{
-  margin-left: 5%;
+   margin-left: 5%;
 }
 
 #hacker-highlight-hr{
-  width: 50%;
-  margin-left: 45%;
-  margin-top: -3.2%;
-  height: 3px;
-  color:black;
-  background-color: black;
-  margin-bottom: 2em;
+   width: 50%;
+   margin-left: 45%;
+   margin-top: -3.2%;
+   height: 3px;
+   color:black;
+   background-color: black;
+   margin-bottom: 2em;
 }
 
 #hacker-hightlight-title{
-  font-weight: bolder;
+   font-weight: bolder;
 }
 
 #hacker-project-row{
-  width: 90%;
+   width: 90%;
 }
 
 .hacker-highlight-img{
-  max-width: 90%;
-  border-radius: 15px;
+   max-width: 90%;
+   border-radius: 15px;
 }
 
 #star{
-  display: inline;
+   display: inline;
 }
 
 .award-title{
-  display: inline;
-  font-size: 1.5vw;
-  font-weight: bold;
-  text-transform: uppercase;
+   display: inline;
+   font-size: 1.5vw;
+   font-weight: bold;
+   text-transform: uppercase;
 }
 
 .tt-blue{
-  color:#76d7f2;
+   color:#76d7f2;
 }
 
 .tt-purple{
-  color:#808cf4
+   color:#808cf4
 }
 
 .tt-pink{
-  color:#ed7a67
+   color:#ed7a67
 }
 
 .tt-red{
-  color:#d64c3c;
+   color:#d64c3c;
 }
 
 .hr-light{
-  height:.3px;
-  color:#E8E8E8;
-  background: #E8E8E8;
-  width:95%;
+   height:.3px;
+   color:#E8E8E8;
+   background: #E8E8E8;
+   width:95%;
 }
 
 #winner-box{
-  width:100%;
-  background:#76d7f2;
-  padding: 8%;
+   width:100%;
+   background:#76d7f2;
+   padding: 8%;
 }
 
 /*------------------------------*/
@@ -1072,392 +1060,398 @@ h5{
 /************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
-    /*********** font stuff ***********/
-
-    h1{
-        font-size: 5em;
-    }
-
-    h2{
-        font-size: 1.8em;
-    }
-
-    h3{
-        font-size: 2.5em;
-    }
-
-    h4{
-        font-size: 3em;
-    }
-
-    h5{
-        font-size: 1.5em;
-    }
-
-    h6{
-        font-size: 2em;
-    }
-
-    p{
-        font-size: 1.2em;
-    }
-
-    /*********************************/
-
-    .right_side{
-        display: none;
-    }
-
-    .left_side{
-        width: 100%;
-    }
-
-    .wrapper-footer{
-        margin: none;
-    }
-
-    .video-box{
-        display: block;
-    }
-
-    .button_container span{
-        background: #000;
-    }
-
-    .icon{
-        margin-right: 0px;
-    }
-
-    .wrapper-footer > div{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-
-    .overlay {
-        top: 0;
-        left: 0%;
-        width: 100%;
-        height: 0%;
-        z-index: 100;
-    }
-
-    .overlay.open {
-        opacity: .95;
-    }
-
-    .button_container{
-        z-index: 200;
-    }
-
-    .logo{
-        width: 280px;
-        height: 100px;
-    }
-
-    .register{
-        width: 38vw;
-        height: 9vw;
-        line-height: 1.95em;
-        font-size: 3.5vw;
-        font-weight: 440;
-        margin-top: 30px;
-    }
-
-    .row .col.offset-s2 {
-        margin-left: 5%;
-    }
-
-    header{
-        margin-bottom: -10%;
-    }
-
-    .fs-1{
-        font-size: 1.2em;
-    }
-
-    .fs-2{
-        font-size: 12vw;
-    }
-
-    .fs-3{
-        font-size: 9vw;
-    }
-
-    .fs-4{
-        font-size: 4vw;
-    }
-
-    .blue-box{
-        width: 100%;
-        height: auto;
-        /*height:45em;*/
-        margin: 0;
-        padding: 5% 4% 5% 4%;
-        margin-top: 1em;
-        /*         margin: 0;
-        padding: 5% 4% 7% 4%;
-        margin-top: 5em; */
-    }
-
-    .image-1{
-        height: 22vw;
-        width: 100%;
-    }
-
-    .image-2{
-        width: 120%;
-        height: 50vw;
-        margin-left: -9.5%;
-    }
-
-    .grid-container{
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-        grid-template-columns: repeat(1, 96%);
-        margin-top: 2em;
-        margin-bottom: 3em;
-    }
-
-    .sponsor-logo{
-        width: 100%;
-        height: 22vw;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    #my-canvas{
-        margin-bottom: -470px !important;
-        height:500px;
-        max-width: 100%;
-    }
-
-    #my-canvas-2{
-        margin-bottom: -650px !important;
-        height:700px;
-        max-width: 800px;
-    }
-
-    .word-cloud{
-        font-size:1.6em;
-
-    }
-
-    .logo{
-        max-width: 86%;
-        margin-left: 1%;
-    }
-
-    .logo2{
-        width: 57vw;
-        height: 22vw;
-        float: left;
-        margin-top: 20px;
-        margin-left: 5px;
-    }
-
-    .icon-2{
-        width: 10vw;
-        height: 10vw;
-        margin-right: 20px;
-        margin-top: 0px;
-    }
-
-    .icon-3{
-        width: 9vw;
-        height: 9vw;
-    }
-
-    .navigation a{
-        display: none;
-    }
-
-    .com-spotlight-container{
-        height: 100vw;
-        width: 100%;
-        margin-top: 20vw;
-        flex-flow: column;
-        align-items: center;
-    }
-
-    .com-spotlight-container.orange-color{
-        flex-flow: column-reverse;
-    }
-
-    .com-spotlight-img{
-        position: relative;
-        height: 50vw;
-        width: 50vw;
-        top: -10vw;
-    }
-
-    .com-spotlight-container div{
-        position: relative;
-        top: -13vw;
-    }
-
-    .com-spotlight-container div h2, .com-spotlight-container div p{
-        text-align: center;
-    }
-
-    .flex-footer{
-        flex-flow: column;
-        justify-content: flex-start;
-        padding-left: 8%;
-    }
-
-    .button_container-2{
-        display: block;
-        z-index: 200;
-    }
-
-    .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
-        background: #FFF;
-    }
-
-    .overlay-2 ul li {
-        height: 40px;
-    }
-
-    .button_container-2{
-        display: block;
-        position: relative;
-        z-index: 200;
-        left: 85%;
-        top: 3.7em;
-    }
-
-    .about-box-1{
-        display: block;
-    }
-
-    .about-box-2{
-        width: 80%;
-        margin: 5em 10% 5em 10%;
-    }
-
-    .about-box-3{
-        margin-top: 5em;
-    }
-
-    .about-box-4{
-        float: left;
-        width: 47%;
-        margin: 0 2% 0 2%;
-    }
-
-    .about-box-5{
-        float: left;
-        width: 47%;
-        margin: 0 2% 0 0;
-    }
-
-    .cell1{
-        display: block;
-        width: 100%;
-        padding: 5% 22% 10% 10%;
-    }
-
-    .cell2{
-        display: block;
-        width: 100%;
-        padding: 5% 0 5% 0;
-    }
-
-    .cell3{
-        display: block;
-        width: 100%;
-    }
-
-    .space-bottom{
-        margin-bottom: 4em;
-    }
-
-    .pic-1{
-        width: 100%;
-        height: 350px;
-        margin: 5px;
-    }
-
-    .pic-2{
-        width: 100%;
-        height: 150px;
-        margin: 5px;
-    }
-
-    .pic-3{
-        width: 100%;
-        height: 150px;
-        margin: 5px;
-    }
-
-    .pic-4{
-        width: 100%;
-        height: 350px;
-        margin: 5px;
-    }
-
-    .hacker-quote{
-        font-size: .9em;
-    }
-
-    #mobile-video-button{
-        display: block !important;
-        margin-bottom: 1em;
-    }
-
-    #myVideo{
-        display: none;
-    }
-
-    .logo2_alt{
-        width: 70vw;
-        height: 25vw;
-        float: left;
-        margin: 2em 0 2em 0;
-    }
-
-    .icon-5{
-        width: 2em;
-        height: 2em;
-    }
-
-    .footer-col{
-        width: 100%;
-    }
-
-    .signup {
-        display: none;
-    }
-    .signup-mobile {
-        display: inline;
-    }
-
-    .track-display-1{
-        display: table-row;
-    }
-
-    .track-display-2{
-        display: none;
-    }
-
-    .button {
-        background-color: white;
-        padding: 15px 25px;
-        text-align: center;
-        font-size: 14px;
-        width: 5em;
-        cursor: pointer;
-    }
-    #transform-section-text{
+   /*********** font stuff ***********/
+
+   h1{
+      font-size: 5em;
+   }
+
+   h2{
+      font-size: 1.8em;
+   }
+
+   h3{
+      font-size: 2.5em;
+   }
+
+   h4{
+      font-size: 3em;
+   }
+
+   h5{
+      font-size: 1.5em;
+   }
+
+   h6{
+      font-size: 2em;
+   }
+
+   p{
+      font-size: 1.2em;
+   }
+
+   /*********************************/
+
+   .right_side{
+      display: none;
+   }
+
+   .left_side{
+      width: 100%;
+   }
+
+   .wrapper-footer{
+      margin: none;
+   }
+
+   .video-box{
+      display: block;
+   }
+
+   .button_container span{
+      background: #000;
+   }
+
+   .icon{
+      margin-right: 0px;
+   }
+
+   .wrapper-footer > div{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+   }
+
+   .overlay {
+      top: 0;
+      left: 0%;
+      width: 100%;
+      height: 0%;
+      z-index: 100;
+   }
+
+   .overlay.open {
+      opacity: .95;
+   }
+
+   .button_container{
+      z-index: 200;
+   }
+
+   .logo{
+      width: 280px;
+      height: 100px;
+   }
+
+   .register{
+      width: 38vw;
+      height: 9vw;
+      line-height: 1.95em;
+      font-size: 3.5vw;
+      font-weight: 440;
+      margin-top: 30px;
+   }
+
+   .row .col.offset-s2 {
+      margin-left: 5%;
+   }
+
+   header{
+      margin-bottom: -10%;
+   }
+
+   .fs-1{
+      font-size: 1.2em;
+   }
+
+   .fs-2{
+      font-size: 12vw;
+   }
+
+   .fs-3{
+      font-size: 9vw;
+   }
+
+   .fs-4{
+      font-size: 4vw;
+   }
+
+   .blue-box{
+      width: 100%;
+      height: auto;
+      /*height:45em;*/
+      margin: 0;
+      padding: 5% 4% 5% 4%;
+      margin-top: 1em;
+      /*         margin: 0;
+      padding: 5% 4% 7% 4%;
+      margin-top: 5em; */
+   }
+
+   .image-1{
+      height: 22vw;
+      width: 100%;
+   }
+
+   .image-2{
+      width: 120%;
+      height: 50vw;
+      margin-left: -9.5%;
+   }
+
+   .grid-container{
+      width: 100%;
+      padding-left: 5%;
+      padding-right: 5%;
+      grid-template-columns: repeat(1, 96%);
+      margin-top: 2em;
+      margin-bottom: 3em;
+   }
+
+   .sponsor-logo{
+      width: 100%;
+      height: 22vw;
+      padding-left: 25px;
+      padding-right: 25px;
+   }
+
+   #my-canvas{
+      margin-bottom: -470px !important;
+      height:500px;
+      max-width: 100%;
+   }
+
+   #my-canvas-2{
+      margin-bottom: -650px !important;
+      height:700px;
+      max-width: 800px;
+   }
+
+   .word-cloud{
+      font-size:1.6em;
+
+   }
+
+   .logo{
+      max-width: 86%;
+      margin-left: 1%;
+   }
+
+   .logo2{
+      width: 57vw;
+      height: 22vw;
+      float: left;
+      margin-top: 20px;
+      margin-left: 5px;
+   }
+
+   .icon-2{
+      width: 10vw;
+      height: 10vw;
+      margin-right: 20px;
+      margin-top: 0px;
+   }
+
+   .icon-3{
+      width: 9vw;
+      height: 9vw;
+   }
+
+   .navigation a{
+      display: none;
+   }
+
+   .com-spotlight-container{
+      height: 100vw;
+      width: 100%;
+      margin-top: 20vw;
+      flex-flow: column;
+      align-items: center;
+   }
+
+   .com-spotlight-container.orange-color{
+      flex-flow: column-reverse;
+   }
+
+   .com-spotlight-img{
+      position: relative;
+      height: 50vw;
+      width: 50vw;
+      top: -10vw;
+   }
+
+   .com-spotlight-container div{
+      position: relative;
+      top: -13vw;
+   }
+
+   .com-spotlight-container div h2, .com-spotlight-container div p{
+      text-align: center;
+   }
+
+   .flex-footer{
+      flex-flow: column;
+      justify-content: flex-start;
+      padding-left: 8%;
+   }
+
+   .button_container-2{
+      display: block;
+      z-index: 200;
+   }
+
+   .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
+      background: #FFF;
+   }
+
+   .overlay-2 ul li {
+      height: 40px;
+   }
+
+   .button_container-2{
+      display: block;
+      position: relative;
+      z-index: 200;
+      left: 85%;
+      top: 3.7em;
+   }
+
+   .about-box-1{
+      display: block;
+   }
+
+   .about-box-2{
+      width: 80%;
+      margin: 5em 10% 5em 10%;
+   }
+
+   .about-box-3{
+      margin-top: 5em;
+   }
+
+   .about-box-4{
+      float: left;
+      width: 47%;
+      margin: 0 2% 0 2%;
+   }
+
+   .about-box-5{
+      float: left;
+      width: 47%;
+      margin: 0 2% 0 0;
+   }
+
+   .cell1{
+      display: block;
+      width: 100%;
+      padding: 5% 22% 10% 10%;
+   }
+
+   .cell2{
+      display: block;
+      width: 100%;
+      padding: 5% 0 5% 0;
+   }
+
+   .cell3{
+      display: block;
+      width: 100%;
+   }
+
+   .space-bottom{
+      margin-bottom: 4em;
+   }
+
+   .pic-1{
+      width: 100%;
+      height: 350px;
+      margin: 5px;
+   }
+
+   .pic-2{
+      width: 100%;
+      height: 150px;
+      margin: 5px;
+   }
+
+   .pic-3{
+      width: 100%;
+      height: 150px;
+      margin: 5px;
+   }
+
+   .pic-4{
+      width: 100%;
+      height: 350px;
+      margin: 5px;
+   }
+
+   .hacker-quote{
+      font-size: .9em;
+   }
+
+   #mobile-video-button{
+      display: block !important;
+      margin-bottom: 1em;
+   }
+
+   #myVideo{
+      display: none;
+   }
+
+   .logo2_alt{
+      width: 70vw;
+      height: 25vw;
+      float: left;
+      margin: 2em 0 2em 0;
+   }
+
+   .icon-5{
+      width: 2em;
+      height: 2em;
+   }
+
+   .footer-col{
+      width: 100%;
+   }
+
+   .signup {
+      display: none;
+   }
+   .signup-mobile {
+      display: inline;
+   }
+
+   .track-display-1{
+      display: table-row;
+   }
+
+   .track-display-2{
+      display: none;
+   }
+
+   .button {
+      background-color: white;
+      padding: 15px 25px;
+      text-align: center;
+      font-size: 14px;
+      width: 5em;
+      cursor: pointer;
+   }
+   #transform-section-text{
 
       margin-bottom:0;
       float: none;
-    }
-.sign-up-button{
+   }
+   .sign-up-button{
       padding: .5em;
    }
+
+   .about-box-4{
+      margin-left: .1em;
+      margin-right: .5em;
+   }
+
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
@@ -1589,8 +1583,8 @@ h5{
    }
 
    .logo3{
-      width: 28em;
-      height: 11em;
+      width: 80%;
+      height: 12em;
    }
 
    .button_container-2{
@@ -1704,11 +1698,11 @@ h5{
    }
 
    footer .footer-col:nth-child(1){
-      width: 65%
+      width: 60%
    }
 
    footer .footer-col:nth-child(2){
-      width: 35%;
+      width: 40%;
    }
 
    .min-height-1{
