@@ -432,7 +432,7 @@ header{
     margin-left: 2%;
     margin-right: 0em;
     width: 96%;
-    min-height: 8em;
+    min-height: 6vw;
     overflow: hidden;
 }
 
@@ -497,7 +497,7 @@ header{
    width: 3vw;
    height: 3vw;
    margin-right: 20px;
-   margin-top: 85px;
+   margin-top: 2vw;
 }
 
 .icon-3{
@@ -916,9 +916,10 @@ transition: all 0.1s ease;
 /* Helen CSS */
 
 .logo-2{
-   margin-top:3%;
-   margin-left: 8%;
-   width:60%;
+  margin-top: 2vw;
+  margin-bottom:-2vw;
+  margin-left: 7vw;
+   width:60vw;
 }
 
 #my-canvas-2{
@@ -1060,6 +1061,12 @@ h5{
 #mission-tagline{
   font-weight: lighter;
 letter-spacing: 1px;
+}
+
+#shehacks-tagline{
+  font-size: 1.5vw;
+
+margin-bottom: -5vw;
 }
 
 /*------------------------------*/
