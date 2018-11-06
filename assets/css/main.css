@@ -905,6 +905,10 @@ transition: all 0.1s ease;
    display: none;
 }
 
+.our-mission{
+   height: 50em;
+}
+
 /* Helen CSS */
 
 .logo-2{
@@ -921,9 +925,11 @@ transition: all 0.1s ease;
 
 #myVideo {
     position: absolute;
+    left: 2em;
     float: right;
     min-width: 100%;
-    min-height: 80%;
+    min-height: 100%;
+    max-height: 110%;
     width: auto;
     height: auto;
     /*margin-bottom: -30%;*/
@@ -985,8 +991,7 @@ h5{
 }
 
 #transform-section-text{
-
-   margin-bottom: -60%;
+   margin-bottom: -50%;
    float: right;
 }
 
