@@ -523,11 +523,11 @@ height: 8em;
 .blue-box{
     height: auto;
     min-height: 50e;
-    width: 43%;
+    width: 40%;
     background: #c0c5fd;
     padding: 3% 5% 3% 5%;
     margin-bottom: -1.5em !important;
-    float: right;
+    float: left;
 }
 
 .image-1{
@@ -644,12 +644,12 @@ height: 8em;
 }
 
 .about-box-1{
-   margin: 5em 0 10em 0;
+   margin: 5em 0 5% 0;
 }
 
 .about-box-2{
    width: 30%;
-   margin: 9em 3% 0 0;
+   margin: 2% 5% 0 0;
 }
 
 .about-box-3{
@@ -932,11 +932,11 @@ transition: all 0.1s ease;
 }
 
 #myVideo {
-    float: left;
+    float: right;
     left: 0;
     position: absolute;
     height: auto;
-    margin-left: -20%;
+    margin-right: -25%;
     /*margin-bottom: -30%;*/
     z-index: -10!important;
     -webkit-filter: grayscale(20%);
