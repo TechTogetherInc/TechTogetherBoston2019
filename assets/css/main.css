@@ -515,7 +515,7 @@ height: 8em;
 
 .blue-box{
     height: auto;
-    min-height: 50e;
+    min-height: 50em;
     width: 40%;
     background: #c0c5fd;
     padding: 3% 5% 3% 5%;
@@ -920,11 +920,12 @@ transition: all 0.1s ease;
 }
 
 #myVideo {
-    float: right;
-    left: 0;
     position: absolute;
+    float: right;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
     height: auto;
-    margin-right: -25%;
     /*margin-bottom: -30%;*/
     z-index: -10!important;
     -webkit-filter: grayscale(20%);
@@ -932,6 +933,7 @@ transition: all 0.1s ease;
     -o-filter: grayscale(20%);
     -ms-filter: grayscale(20%);
     filter: grayscale(20%);
+    overflow: hidden;
 }
 
 .word-cloud{
