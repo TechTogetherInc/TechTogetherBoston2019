@@ -923,7 +923,7 @@ transition: all 0.1s ease;
     position: absolute;
     float: right;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 80%;
     width: auto;
     height: auto;
     /*margin-bottom: -30%;*/
@@ -1056,6 +1056,14 @@ h5{
    background:#76d7f2;
    padding: 8%;
 }
+
+.about-box-4 img:nth-child(1), .about-box-5 img:nth-child(2){
+      height: 30vw;
+   }
+   
+   .about-box-4 img:nth-child(2), .about-box-5 img:nth-child(1){
+      height: 20vw;
+   }
 
 /*------------------------------*/
 
@@ -1399,6 +1407,7 @@ h5{
 
    #myVideo{
       display: none;
+      position: static;
    }
 
    .logo2_alt{
@@ -1452,6 +1461,14 @@ h5{
    .about-box-4{
       margin-left: .1em;
       margin-right: .5em;
+   }
+   
+   .about-box-4 img:nth-child(1), .about-box-5 img:nth-child(2){
+      height: 57vw;
+   }
+   
+   .about-box-4 img:nth-child(2), .about-box-5 img:nth-child(1){
+      height: 32vw;
    }
 
 }
@@ -1585,8 +1602,8 @@ h5{
    }
 
    .logo3{
-      width: 80%;
-      height: 12em;
+      width: 85%;
+      height: 8em;
    }
 
    .button_container-2{
@@ -1628,6 +1645,14 @@ h5{
       float: left;
       width: 47%;
       margin: 0 2% 0 0;
+   }
+   
+   .about-box-4 img:nth-child(1), .about-box-5 img:nth-child(2){
+      height: 57vw;
+   }
+   
+   .about-box-4 img:nth-child(2), .about-box-5 img:nth-child(1){
+      height: 32vw;
    }
 
    .cell1{
@@ -1678,6 +1703,7 @@ h5{
 
    #myVideo{
       display: none;
+      position: static;
    }
 
    .logo2_alt{
