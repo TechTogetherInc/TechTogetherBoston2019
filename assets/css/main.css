@@ -498,6 +498,7 @@ header{
    height: 3vw;
    margin-right: 20px;
    margin-top: 2vw;
+   margin-bottom:4vw;
 }
 
 .icon-3{
@@ -993,7 +994,7 @@ h5{
 
 #transform-section-text{
 
-  margin-bottom: -60%;
+  margin-bottom: -20vw;
   float: right;
 }
 
