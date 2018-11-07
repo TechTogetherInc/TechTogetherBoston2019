@@ -444,7 +444,7 @@ header{
    margin-left: 2%;
    margin-right: 0em;
    width: 96%;
-   min-height: 6vw;
+   min-height: 6em;
    overflow: hidden;
 }
 
@@ -560,7 +560,7 @@ height: 8em;
 
 .image-4{
    width: 100%;
-   margin: .5em;
+   margin: .2em;
 }
 
 .grid-container{
@@ -773,7 +773,6 @@ height: 8em;
    position: relative;
    z-index: 3;
 }
-
 
 /************************* Scroll *************************************/
 /*
@@ -1005,7 +1004,6 @@ h5{
 }
 
 #transform-section-text{
-
    margin-bottom: -20vw;
    float: right;
 }
@@ -1024,8 +1022,9 @@ h5{
    margin-bottom: 2em;
 }
 
-#hacker-hightlight-title{
+#hacker-highlight-title{
    font-weight: bolder;
+   text-decoration: underline;
 }
 
 #hacker-project-row{
@@ -1084,9 +1083,12 @@ h5{
 }
 
 #shehacks-tagline{
-   font-size: 1.5vw;
-
+   font-size: 1em;
    margin-bottom: -5vw;
+}
+
+.button-width{
+   min-width: 12em;
 }
 
 /*------------------------------*/
@@ -1392,8 +1394,9 @@ h5{
       width: 100%;
    }
 
-   .space-bottom{
+   .space{
       margin-bottom: 4em;
+      margin-top: 4em;
    }
 
    .pic-1{
@@ -1488,6 +1491,14 @@ h5{
    .hacker-col{
       width: 96%;
       margin: 0 0 0 2%;
+   }
+
+   .button-width{
+      width: 18em;
+   }
+
+   .hacker-highlight-section{
+      margin-top: 120%;
    }
 
 }
@@ -1745,6 +1756,14 @@ h5{
 
    .min-height-1{
       min-height: 30em;
+   }
+
+   .email-width{
+      width: 90%;
+   }
+
+   .hacker-highlight-section{
+      margin-top: 105%;
    }
 
 }
