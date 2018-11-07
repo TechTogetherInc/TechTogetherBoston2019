@@ -489,7 +489,6 @@ margin-bottom: 3em;
 }
 
 .register{
-   /*width: 11vw;*/
    font-size: 1.4vw;
    margin-top: 5%;
    letter-spacing: 2px;
@@ -1024,7 +1023,6 @@ h5{
 
 #hacker-highlight-title{
    font-weight: bolder;
-   text-decoration: underline;
 }
 
 #hacker-project-row{
@@ -1089,6 +1087,21 @@ h5{
 
 .button-width{
    min-width: 12em;
+}
+
+.emphasis-text{
+  line-height: 1.3em;
+}
+
+.get-involved-title{
+  font-size: 2vw;
+}
+
+.sign-up-button{
+  font-size: 1.4vw;
+  letter-spacing: 2px;
+  background-color:#d64c3c;
+  border-radius:10px;
 }
 
 /*------------------------------*/
@@ -1276,6 +1289,7 @@ h5{
   .highlight-name{
     margin: auto;
     margin-top: 1em;
+    text-align: center;
   }
 
   .hacker-highlight-hacks{
@@ -1522,10 +1536,10 @@ h5{
    .button-width{
       width: 18em;
    }
-
+/*
    .hacker-highlight-section{
       margin-top: 120%;
-   }
+   }*/
 
 }
 
