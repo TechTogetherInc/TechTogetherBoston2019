@@ -161,6 +161,11 @@ h2{
    flex-flow: row;
 }
 
+.flex-end{
+   display: flex;
+   justify-content: flex-end;
+}
+
 .video-box{
    height: 300px;
    margin-top: 30px;
@@ -471,9 +476,13 @@ margin-bottom: 3em;
 
 .navigation{
    float: right;
-   width: 45%;
+   width: 60%;
    margin-top: 2em;
    font-size: 1.4vw;
+}
+
+.navigation a{
+   margin-left: 9%;
 }
 
 .orange-color{
@@ -1043,6 +1052,10 @@ h5{
    display: inline;
 }
 
+#mobile-track-icons{
+   display:none;
+}
+
 .award-title{
    display: inline;
    font-size: 1.5vw;
@@ -1081,8 +1094,7 @@ h5{
 }
 
 #shehacks-tagline{
-   font-size: 1em;
-   margin-bottom: -5vw;
+   font-size: 1.3em;
 }
 
 .button-width{
@@ -1102,6 +1114,10 @@ h5{
    letter-spacing: 2px;
    background-color:#d64c3c;
    border-radius:10px;
+}
+
+.track-name{
+   font-size: 1em;
 }
 
 /*------------------------------*/
@@ -1225,6 +1241,10 @@ h5{
       font-size: 4vw;
    }
 
+   #mobile-track-icons{
+      display: block;
+   }
+
    .blue-box{
       width: 100%;
       height: auto;
@@ -1279,6 +1299,10 @@ h5{
    #hacker-hightlight-title{
       font-size:2.2em;
       font-weight: bold;
+   }
+
+   #track-icons{
+      display: none;
    }
 
    .cloud-mobile{
@@ -1476,6 +1500,10 @@ h5{
       display: none;
    }
 
+   .logo-2{
+      width:90%;
+   }
+
    .logo2_alt{
       width: 70vw;
       height: 25vw;
@@ -1536,6 +1564,7 @@ h5{
    .button-width{
       width: 18em;
    }
+
 
 }
 
@@ -1797,7 +1826,11 @@ h5{
    .email-width{
       width: 90%;
    }
-   
+
+   .hacker-highlight-section{
+      margin-top: 105%;
+   }
+
 }
 
 /* Miscellaneous sizes */
