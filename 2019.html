@@ -31,6 +31,7 @@
          </div>
       </header>
 
+  <div id="first-section">
       <div class="row no-margin" style="display: block; z-index: 2;">
          <canvas id="my-canvas-2"></canvas>
          <div class="col s8 offset-s1 bold italic">
@@ -52,7 +53,7 @@
 
       <div class="row">
          <div class="col s3 offset-s1">
-            <button class="btn btn-large register button-width">Apply Now</button>
+            <a href="" target="_blank"><button class="btn btn-large register button-width">Apply Now</button></a>
          </div>
       </div>
 
@@ -108,6 +109,8 @@
             <a href="https://www.instagram.com/techtogetherboston/" target="_blank"><img src="assets/imgs/instagram.png" class="icon-2"></a>
          </div>
       </div>
+
+    </div>
       <div class="row no-margin our-mission">
          <video autoplay muted loop id="myVideo">
             <source src="assets/imgs/promo-video.mov">
@@ -140,11 +143,70 @@
 
                   <p>See one or more track that you like? </p>
                   <p>No problem, we welcome women who want to do it all and drink some soylent too. </p>
-                  <button class="btn btn-large register button-width">Apply Now</button>
+                  <div class="table" style="width:100%;" id="mobile-track-icons">
+                     <div class="tablerow">
+                        <div class="cell6">
+                           <center>
+                              <img src="assets/imgs/design.png" class="icon-5" />
+                              <h5 class="track-name">Product Management</h5>
+                           </center>
+                        </div>
+                        <div class="cell6">
+                           <center>
+                              <img src="assets/imgs/webdev.png" class="icon-5" />
+                              <h5 class="track-name"> Web<br>Development </h5>
+                           </center>
+                        </div>
+                        <div class="cell6 track-display-2">
+                           <div class="flex-center">
+                              <img src="assets/imgs/hardware.png" class="icon-5" />
+                              <h5 class="track-name">Hardware</h5>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tablerow">
+                        <div class="cell6">
+                           <center>
+                              <img src="assets/imgs/social_impact.png" class="icon-5" />
+                              <h5 class="track-name"> Career<br>Development</h5>
+                           </center>
+                        </div>
+                        <div class="cell6">
+                           <center>
+                              <img src="assets/imgs/machinelearning.png" class="icon-5" />
+                              <h5 class="track-name"> Data<br>Science</h5>
+                           </center>
+
+                        </div>
+                        <div class="cell6 track-display-2">
+                           <center>
+                              <img src="assets/imgs/datascience.png" class="icon-5" />
+                              <h5 class="track-name"> Mobile<br>Development</h5>
+                           </center>
+                        </div>
+                     </div>
+
+                     <div class="tablerow track-display-1">
+                        <div class="cell6">
+                           <center>
+                              <img src="assets/imgs/hardware.png" class="icon-5" />
+                              <h5 class="track-name"> Hardware</h5>
+                           </center>
+                        </div>
+                        <div class="cell6">
+                           <center>
+                              <img src="assets/imgs/datascience.png" class="icon-5" />
+                              <h5 class="track-name"> Career<br>Development</h5>
+                           </center>
+                        </div>
+                     </div>
+                  </div>
+                  <a><button class="btn btn-large register button-width">Apply Now</button></a>
                </div>
             </div>
 
-            <div class="cell2 purple-color">
+            <div class="cell2 purple-color" id="track-icons">
                <div class="table">
                   <div class="tablerow">
                      <div class="cell6">
@@ -248,115 +310,6 @@
          </div>
       </div>
       <div class="row"></div>
-      <div class="row">
-         <div class="hacker-highlight-section">
-            <h2 id="hacker-highlight-title"> 2018 Hacker Highlights </h2>
-            <!--<hr id="hacker-highlight-hr">-->
-            <p class="fs-10">Looking back on some of our favorite projects from SheHacks 2018</p>
-         </div>
-      </div>
-
-      <div class="flex-space hacker-highlight-hacks">
-         <div class="flex-col hacker-col">
-            <section class="flex-start cloud-mobile">
-               <i class="material-icons word-cloud" id="star">
-                  stars
-               </i>
-               <p class="award-title word-cloud" style="letter-spacing:0px;">&nbsp;SOCIAL IMPACT WINNER</p>
-            </section>
-            <img src="assets/imgs/hacker-highlight/lit-image.png" alt="" class="hacker-highlight-img">
-            <h4 class="highlight-name">Ladies in Technology (LIT)</h4>
-            <p>Women empowering app to help grow your network, share ideas, and make new friends!</p>
-            <p>Built with: Java, Android Studio, Firebase, HTML/CSS, Kotlin </p>
-         </div>
-
-         <div class="flex-col hacker-col">
-            <section class="flex-start cloud-mobile">
-               <i class="material-icons word-cloud" id="star">
-                  stars
-               </i>
-               <p class="award-title word-cloud" style="letter-spacing:0px;">&nbsp;BEST BEGINNER HACK</p>
-            </section>
-            <img src="assets/imgs/hacker-highlight/puppytime-image.png" alt="" class="hacker-highlight-img pink-overlay" id="pink-overlay">
-            <h4 class="highlight-name">PuppyTime</h4>
-            <p>Platform to help shelters with donations and adoption by connecting people with a live stream of adorable shelter pups! In addition to a live stream, viewers are also able to remotely give them treats.</p>
-            <p>Built with: HTML/ CSS, jQuery, Bootstrap, AWS, C, Arduino board</p>
-         </div>
-
-         <div class="flex-col hacker-col">
-            <section class="flex-start cloud-mobile">
-               <i class="material-icons word-cloud" id="star">
-                  stars
-               </i>
-               <p class="award-title word-cloud" style="letter-spacing:0px;">&nbsp;Funniest Hack Winner</p>
-            </section>
-            <img src="assets/imgs/hacker-highlight/extensions-extensions-image.png" alt="" class="hacker-highlight-img">
-            <h4 class="highlight-name">Extensions Extension</h4>
-            <p> Chrome extension that gives you extensions! Limited to facial hair and wigs. Instantly grow a fabulous mustache at the click of button.</p>
-            <p>Built with: JavaScript, HTML/CSS, jQuery, JSON, Azure, C</p>
-         </div>
-
-         <div class="flex-col hacker-col">
-            <section class="flex-start cloud-mobile">
-               <i class="material-icons word-cloud" id="star">
-                  stars
-               </i>
-               <p class="award-title word-cloud" style="letter-spacing:0px;">&nbsp;Best VR Hack Winner</p>
-            </section>
-            <img src="assets/imgs/hacker-highlight/final-meltdown-image.png" alt="" class="hacker-highlight-img">
-            <h4 class="highlight-name">Final Meltdown</h4>
-            <p> This VR browser experience simulates icebergs melting all around you as a way to see the negative effects of climate change. Includes polar bears that are also looking for solid ice to stand on. </p>
-            <p>Built with: A-frame, Glitch, JavaScript, Three.js</p>
-         </div>
-
-      </div>
-
-      <!--
-<div class="row" id="hacker-project-row">
-<div class="col s3">
-<i class="material-icons word-cloud" id="star">
-stars
-</i>
-<p class="award-title word-cloud" style="letter-spacing:0px;">SOCIAL IMPACT HACK</p>
-<img src="assets/imgs/hacker-highlight/lit-image.png" alt="" class="hacker-highlight-img">
-<h4>Ladies in Technology (LIT)</h4>
-<p>Women empowering app to help grow your network, share ideas, and make new friends!</p>
-<p>Built with: Java, Android Studio, Firebase, HTML/CSS, Kotlin </p>
-</div>
-<div class="col s3">
-<i class="material-icons word-cloud" id="star">
-stars
-</i>
-<p class="award-title word-cloud" style="letter-spacing:0px;">BEST BEGINNER HACK</p>
-<img src="assets/imgs/hacker-highlight/puppytime-image.png" alt="" class="hacker-highlight-img pink-overlay" id="pink-overlay">
-<h4>PuppyTime</h4>
-<p>Platform to help shelters with donations and adoption by connecting people with a live stream of adorable shelter pups! In addition to a live stream, viewers are also able to remotely give them treats.</p>
-<p>Built with: HTML/ CSS, jQuery, Bootstrap, AWS, C, Arduino board</p>
-</div>
-<div class="col s3">
-<i class="material-icons word-cloud" id="star">
-stars
-</i>
-<p class="award-title word-cloud" style="letter-spacing:0px;">Funniest Hack Winner</p>
-<img src="assets/imgs/hacker-highlight/extensions-extensions-image.png" alt="" class="hacker-highlight-img">
-<h4>Extensions Extension</h4>
-<p> Chrome extension that gives you extensions! Limited to facial hair and wigs. Instantly grow a fabulous mustache at the click of button.</p>
-<p>Built with: JavaScript, HTML/CSS, jQuery, JSON, Azure, C</p>
-<!-- <p><span id="winner-box">FUNNIEST HACK WINNER</span></p> -->
-      <!--
-</div>
-<div class="col s3">
-<i class="material-icons word-cloud" id="star">
-stars
-</i>
-<p class="award-title word-cloud" style="letter-spacing:0px;">Best VR Hack Winner</p>
-<img src="assets/imgs/hacker-highlight/final-meltdown-image.png" alt="" class="hacker-highlight-img">
-<h4>Final Meltdown</h4>
-<p> This VR browser experience simulates icebergs melting all around you as a way to see the negative effects of climate change. Includes polar bears that are also looking for solid ice to stand on. </p>
-<p>Built with: A-frame, Glitch, JavaScript, Three.js</p>
-</div>
-</div>
--->
 
       <div class="table white-font space">
          <div class="tablerow">
@@ -368,7 +321,8 @@ stars
                <p>
                   Do you or someone you know want to become part of this movement? If so, please sign-up on the interest forms located to the right! </p>
 
-               <h5 class="emphasis-text">For any further questions regarding involvement, email us at info@techtogether.io!</h5>
+               <!-- <h5 class="emphasis-text">For any further questions regarding involvement, email us at info@techtogether.io!</h5> -->
+               <p>For any further questions regarding involvement, email us at info@techtogether.io!</p>
 
             </div>
 
@@ -514,7 +468,8 @@ stars
                [253, 214, 126]
             ],
             clock: 40,
-            rotate: true
+            rotate: true,
+            height: document.getElementById('first-section').clientHeight
          };
          var confetti = new ConfettiGenerator(confettiSettings);
          confetti.render();
