@@ -944,6 +944,30 @@ transition: all 0.1s ease;
    padding-right: 3%;
    color: white;
 }
+.workshop-btn {
+   background-color: white; 
+}
+.orange-btn {
+   color: #ed7a67;
+}
+.orange-btn:hover {
+   background-color: #ed7a67;
+   color: white;
+}
+.blue-btn {
+   color: #808cf4;
+}
+.blue-btn:hover {
+   background-color: #808cf4;
+   color: white;
+}
+.green-btn {
+   color: #006b7f;
+}
+.green-btn:hover {
+   background-color: #006b7f;
+   color: white;
+}
 
 /* Helen CSS */
 
