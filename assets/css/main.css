@@ -934,6 +934,17 @@ transition: all 0.1s ease;
    display: none;
 }
 
+/* Resources - Catherine */
+
+.workshop {
+   width: 30%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-left: 3%;
+   padding-right: 3%;
+   color: white;
+}
+
 /* Helen CSS */
 
 .mobile-only{
@@ -1168,6 +1179,7 @@ h5{
    p{
       font-size: 1.2em;
    }
+
 
    /*********************************/
 
