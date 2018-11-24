@@ -524,11 +524,6 @@ margin-bottom: 3em;
    height: 7.5vw;
 }
 
-/*.icon-5{
-width: 7em;
-height: 8em;
-}*/
-
 .float-right{
    float: right;
 }
@@ -591,8 +586,8 @@ height: 8em;
 }
 
 .grid-container-2 div{
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -975,7 +970,7 @@ transition: all 0.1s ease;
    color: white;
 }
 .workshop-btn {
-   background-color: white; 
+   background-color: white;
 }
 .orange-btn {
    color: #ed7a67;
@@ -1079,56 +1074,64 @@ p {
 }
 
 h4{
-   font-size: 2.5vw;
+   font-size: 2vw;
 }
 
 h5{
-   font-size:1.5vw;
+   font-size:1.8vw;
 }
 
-
-p {
-   font-size:1.2vw;
-}
-
-h4{
-   font-size: 2.5vw;
-}
-
-h5{
-   font-size:1.5vw;
-}
 
 #transform-section-text{
    margin-bottom: -20vw;
    float: right;
 }
-
-.hacker-highlight-section{
-   margin-left: 5%;
-}
-
 #hacker-highlight-hr{
-   width: 50%;
-   margin-left: 45%;
-   margin-top: -3.2%;
-   height: 3px;
-   color:black;
-   background-color: black;
-   margin-bottom: 2em;
+  width: 55vw;
+  margin-left: 33vw;
+  margin-top: -3.2%;
+  height: 3px;
+  color: black;
+  background-color: black;
+  margin-bottom: 2em;
 }
 
-#hacker-highlight-title{
-   font-weight: bolder;
+#project-highlight-row{
+  margin-top: 3vw;
 }
 
-#hacker-project-row{
-   width: 90%;
+.highlight-text{
+  display: inline;
+  float: left;
+  color: white;
+  margin-top: -17vw;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.thin{
+  font-weight:lighter;
+}
+
+#background-box{
+  height: 35vw;
+  margin-top: -17vw;
+  z-index: 1
+}
+#community-highlight-section{
+  width: 95%;
+  margin-bottom: 7vw;
 }
 
 .hacker-highlight-img{
-   max-width: 90%;
-   border-radius: 15px;
+   max-width: 70%;
+   z-index: 10;
+   margin-left: 15%;
 }
 
 .hacker-col{
@@ -1146,19 +1149,22 @@ h5{
 
 .award-title{
    display: inline;
-   font-size: 1.5vw;
+   font-size: 1vw;
    font-weight: bold;
    text-transform: uppercase;
    margin-bottom: 0;
+   letter-spacing: 2px;
    margin-top: -.3em;
 }
 
 .tt-blue{
    color:#76d7f2;
+   background: #76d7f2;
 }
 
 .tt-purple{
-   color:#808cf4
+   color:#808cf4;
+   background:#808cf4;
 }
 
 .tt-pink{
@@ -1167,6 +1173,10 @@ h5{
 
 .tt-red{
    color:#d64c3c;
+}
+
+.tt-green{
+  background: #2e6e87;
 }
 
 .hr-light{
@@ -1216,6 +1226,10 @@ h5{
   position: absolute;
   z-index: 100;
   margin-left: 7vw;
+}
+
+.desktop-left-padding{
+  padding-left: 5%;
 }
 
 /*------------------------------*/
