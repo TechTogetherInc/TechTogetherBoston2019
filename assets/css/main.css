@@ -1123,6 +1123,10 @@ h5{
   margin-top: -17vw;
   z-index: 1
 }
+
+.highlight-box:hover #background-box{
+  background:#48839A
+}
 #community-highlight-section{
   width: 95%;
   margin-bottom: 7vw;
@@ -1661,6 +1665,34 @@ h5{
       width: 5em;
       cursor: pointer;
    }
+
+   .highlight-box{
+     display: block;
+     width: 100% !important;
+     margin-bottom: 3em;
+   }
+
+   .highlight-box .hacker-highlight-img{
+     margin-left: 15%;
+   }
+
+   #mobile-style-highlight-section{
+     padding-top:90vw;
+   }
+
+   #hacker-highlight-hr{
+     display: none;
+   }
+
+   .highlight-box #background-box{
+     height:35em;
+     margin-top: -10em;
+   }
+
+   .highlight-box .highlight-text{
+     margin-top: -24em;
+   }
+
    #transform-section-text{
 
       margin-bottom:0;
