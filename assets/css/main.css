@@ -590,9 +590,6 @@ margin-bottom: 3em;
     align-items: center;
     flex-direction: column;
 }
-
-
-
 .partner-logo{
    width: 100%;
    justify-self: center;
@@ -665,14 +662,7 @@ margin-bottom: 3em;
    /*padding: 55px 0 55px 0 ;*/
    padding-top: 2%;
    padding-bottom: 2%;
-}
-
-.main-box{
-   background-color: #FFF;
-   display: block;
-   width: 80%;
-   padding: 2em 5em 2em 0;
-   margin: 0 0 0 5%;
+    margin-top: 3em;
 }
 
 .about-box-1{
@@ -715,12 +705,6 @@ margin-bottom: 3em;
    margin-left: 30px;
    margin-top: 20px;
    height:auto;
-}
-
-.about-img-5{
-    margin: 3em 0 3em 0;
-    height: 20em;
-    width: 60em;
 }
 
 .space-bottom{
@@ -1248,7 +1232,7 @@ h5{
    }
 
    h2{
-      font-size: 1.8em;
+      font-size: 2.3em;
    }
 
    h3{
@@ -1715,6 +1699,13 @@ h5{
       width: 18em;
    }
 
+    .flex-flow-col{
+        flex-flow: column;
+    }
+    
+    .banner{
+        margin-top: 3.5em;
+    }
 
 }
 
