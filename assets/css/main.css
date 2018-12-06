@@ -566,6 +566,8 @@ margin-bottom: 3em;
    grid-template-columns: repeat(5, 20%);
    grid-auto-rows: auto;
    grid-row-gap: 3.125em;
+   align-items: center;
+   justify-items: center;
    margin: 3.750em 0 5vw 0;
 }
 
@@ -577,24 +579,21 @@ margin-bottom: 3em;
     margin: 0 5% 10em 5%;
 }
 
-.grid-container-2{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(25em, 2fr));
-    grid-template-rows: repeat(auto);
-    grid-row-gap: 1.5em;
-}
-
-.grid-container-2 div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 .partner-logo{
    width: 100%;
    justify-self: center;
    padding-left: 1.5em;
    padding-right: 1.5em;
+}
+
+.umass-img {
+    width: 12em;
+    height: 13em;
+}
+
+.roughdraft-img{
+    width: 12em;
+    height: 9em;
 }
 
 .underline-hover:hover {
@@ -672,10 +671,6 @@ margin-bottom: 3em;
 .about-box-2{
    width: 30%;
    margin: 2% 5% 0 0;
-}
-
-.about-box-3{
-   /*margin-top: 12em;*/
 }
 
 .about-box-4{
@@ -1706,6 +1701,16 @@ h5{
     .banner{
         margin-top: 3.5em;
     }
+    
+    .umass-img {
+        width: 14em;
+        height: 18em;
+    }
+
+    .roughdraft-img{
+        width: 13em;
+        height: 13em;
+    }
 
 }
 
@@ -1967,6 +1972,16 @@ h5{
    .hacker-highlight-section{
       margin-top: 105%;
    }
+    
+    .umass-img {
+        width: 17em;
+        height: 18em;
+    }
+
+    .roughdraft-img{
+        width: 15em;
+        height: 12em;
+    }
 
 }
 
