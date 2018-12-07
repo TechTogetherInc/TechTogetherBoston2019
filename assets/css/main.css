@@ -571,6 +571,35 @@ margin-bottom: 3em;
    margin: 3.750em 0 5vw 0;
 }
 
+.grid-container a img{
+    object-fit: fill;
+}
+
+.grid-container-3{
+    display: grid;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-rows: auto;
+    grid-row-gap: 3.125em;
+    align-items: center;
+    justify-items: center;
+    margin: 3.750em 0 1em 0;
+}
+
+.grid-container-3 a{
+    width: 90%;
+}
+
+.grid-container-3 a img{
+    object-fit: fill;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .main-box{
     background-color: #FFF;
     display: block;
@@ -592,8 +621,8 @@ margin-bottom: 3em;
 }
 
 .roughdraft-img{
-    width: 12em;
-    height: 9em;
+    width: 11em;
+    height: 8em;
 }
 
 .underline-hover:hover {
@@ -1365,7 +1394,17 @@ h5{
       margin-top: 2em;
       margin-bottom: 3em;
    }
+    
+    .grid-container-3{
+        grid-template-columns: repeat(1, 96%);
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
 
+    .grid-container-3 a{
+        width: 100%;
+    }
+    
    .partner-logo{
       width: 100%;
       height: auto;
@@ -1809,6 +1848,18 @@ h5{
       margin-top: 2.5em;
       margin-bottom: 3.75em;
    }
+    
+    .grid-container-3{
+      grid-column-gap: 3%;
+      padding-left: 2%;
+      padding-right: 2%;
+      grid-row-gap: 4em;
+      grid-template-columns: repeat(2, 50%);
+    }
+
+    .grid-container-3 a{
+        width: 100%;
+    }
 
    .partner-logo{
       width: 100%;
