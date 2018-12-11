@@ -33,7 +33,8 @@
 
 .grid-container-2 div img{
     width: 13em;
-    height: 16em;
+    height: 13em;
+    object-fit: cover;
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
