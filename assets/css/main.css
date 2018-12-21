@@ -564,20 +564,20 @@ header{
 }
 
 .grid-pita-plus{
-    grid-template-columns: repeat(1, 30%);
+    grid-template-columns: repeat(1, 35%);
     justify-content: space-evenly;
     margin: 5em 0 2em 0;
     text-align: center;
 }
 
 .grid-pita{
-    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
-    margin: 5em 0 2em 0;
+    margin: 2em 0 2em 0;
 }
 
 .grid-tera{
-    grid-template-columns: repeat(1, 25%);
+    grid-template-columns: repeat(1, 30%);
     justify-content: space-evenly;
     margin: 2em 0 2em 0;
 }
@@ -1867,33 +1867,28 @@ h5{
     .grid-pita-plus{
         grid-template-columns: repeat(1, 30%);
         justify-content: space-evenly;
-        margin: 5em 0 2em 0;
         text-align: center;
     }
     
     .grid-pita{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
-        margin: 5em 0 2em 0;
     }
 
     .grid-tera{
         grid-template-columns: repeat(1, 30%);
         justify-content: space-evenly;
-        margin: 2em 0 2em 0;
     }
 
     .grid-giga{
         grid-template-columns: repeat(2, 30%);
         justify-content: space-evenly;
-        margin: 2em 0 0em 0;
         grid-row-gap: 0;
     }
 
     .grid-giga-2{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
-        margin: 0 0 2em 0;
     }
     
     .grid-partners{
