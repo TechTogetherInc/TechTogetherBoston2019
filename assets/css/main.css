@@ -595,7 +595,7 @@ header{
 }
 
 .grid-partners{
-    grid-template-columns: repeat(2, 30%);
+    grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
 }
 
@@ -1888,7 +1888,7 @@ h5{
     }
     
     .grid-partners{
-        grid-template-columns: repeat(2, 30%);
+        grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
     
