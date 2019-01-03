@@ -3,17 +3,8 @@ body{
     min-height: 100%;
 }
 
-.main-box{
-    background-color: #FFF;
-    display: block;
-    width: 93%;
-    padding: 1em 2em 2em 0;
-    margin: 0 0 0 5%;
-}
-
 .about-img-5{
     margin: 3em 0 3em 0;
-    height: 20vw;
     width: 60%;
 }
 

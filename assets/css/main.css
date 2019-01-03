@@ -448,12 +448,22 @@ header{
    overflow: hidden;
 }
 
+.MLH{
+    position:fixed;
+    display:inline-block;
+    max-width:100px;
+    min-width:60px;
+    width:10%;
+    z-index:50; 
+    right: 20px;
+    top: 0;
+}
+
 .logo2{
    width: 21vw;
    height: 7vw;
    float: left;
    margin-top: 2em;
-    margin-left: 9.5%;
 }
 
 .logo2_alt{
@@ -468,7 +478,7 @@ header{
    width: 60%;
    margin-top: 2em;
    font-size: 1.4vw;
-   margin-right: 2.2vw;
+   margin-right: 11vw;
 }
 
 .orange-color{
@@ -611,9 +621,9 @@ header{
 .main-box{
     background-color: #FFF;
     display: block;
-    width: 90%;
+    width: 83%;
     padding: 2em 0 2em 0;
-    margin: 0 5% 10em 5%;
+    margin: 0 10% 10em 7%;
 }
 
 .partner-logo{
@@ -823,6 +833,9 @@ header{
    justify-content: flex-end;
 }
 
+.hyperlink{
+    color: blue;
+}
 
 /************************* Scroll *************************************/
 /*
@@ -1286,6 +1299,12 @@ h5{
 
    /*********************************/
 
+    
+    .MLH{
+        position: absolute;
+        right: 20%;
+    }
+    
    .right_side{
       display: none;
    }
@@ -1496,7 +1515,6 @@ h5{
       width: 57vw;
       height: auto;
       float: left;
-     margin-left: 20%;
    }
 
    .icon-2{
@@ -1552,6 +1570,9 @@ h5{
    .button_container-2{
       display: block;
       z-index: 200;
+      position: fixed;
+      left: 85%;
+      top: 3.7em;
    }
 
    .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
@@ -1560,14 +1581,6 @@ h5{
 
    .overlay-2 ul li {
       height: 40px;
-   }
-
-   .button_container-2{
-      display: block;
-      position: relative;
-      z-index: 200;
-      left: 85%;
-      top: 3.7em;
    }
 
    .about-box-1{
@@ -1783,6 +1796,11 @@ h5{
 
    /*********************************/
 
+    .MLH{
+        position: absolute;
+        right: 14%;
+    }
+    
    .overlay {
       top: 0;
       left: 50%;
@@ -1932,7 +1950,7 @@ h5{
 
    .button_container-2{
       display: block;
-      position: relative;
+      position: fixed;
       z-index: 200;
       left: 92%;
       top: 42px;
