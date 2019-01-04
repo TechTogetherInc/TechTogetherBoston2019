@@ -11,18 +11,6 @@ html, body {
 
 /*********** font stuff ***********/
 
-/* fluid typography using calc in the html class is too glitchy*/
-
-/*h1{
-font-size: calc(5em + .5vw);
-}
-h2{
-font-size: calc(4em + .5vw);
-}
-h3{
-font-size: calc(3em + .5vw);
-}*/
-
 h1{
    font-size: 5em;
 }
@@ -454,7 +442,7 @@ header{
     max-width:100px;
     min-width:60px;
     width:10%;
-    z-index:50; 
+    z-index:50;
     right: 20px;
     top: 0;
 }
@@ -1197,11 +1185,13 @@ h5{
 }
 
 .tt-pink{
-   color:#ed7a67
+   color:#ed7a67;
+   background:#ed7a67;
 }
 
 .tt-red{
    color:#d64c3c;
+   background:#d64c3c;
 }
 
 .tt-green{
@@ -1299,12 +1289,12 @@ h5{
 
    /*********************************/
 
-    
+
     .MLH{
         position: absolute;
         right: 20%;
     }
-    
+
    .right_side{
       display: none;
    }
@@ -1415,12 +1405,12 @@ h5{
       padding-right: 5%;
        grid-row-gap: 3em;
       grid-template-columns: repeat(1, 96%);
-   }    
-    
+   }
+
     .grid-pita-plus{
         margin: 3em 0 2em 0;
     }
-    
+
     .grid-pita{
         margin: 0;
     }
@@ -1436,7 +1426,7 @@ h5{
     .grid-giga-2{
         margin: 0;
     }
-    
+
    .partner-logo{
       width: 100%;
       height: auto;
@@ -1570,7 +1560,7 @@ h5{
    .button_container-2{
       display: block;
       z-index: 200;
-      position: fixed;
+      /*position: fixed;*/
       left: 85%;
       top: 3.7em;
    }
@@ -1762,11 +1752,11 @@ h5{
     .flex-flow-col{
         flex-flow: column;
     }
-    
+
     .banner{
         margin-top: 3.5em;
     }
-    
+
     .umass-img {
         width: 10em;
         height: 13em;
@@ -1800,7 +1790,7 @@ h5{
         position: absolute;
         right: 14%;
     }
-    
+
    .overlay {
       top: 0;
       left: 50%;
@@ -1879,13 +1869,13 @@ h5{
       grid-row-gap: 1em;
       margin: 2em 0 2em 0;
    }
-    
+
     .grid-pita-plus{
         grid-template-columns: repeat(1, 30%);
         justify-content: space-evenly;
         text-align: center;
     }
-    
+
     .grid-pita{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
@@ -1906,12 +1896,12 @@ h5{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
-    
+
     .grid-partners{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
-    
+
    .partner-logo{
       width: 100%;
       height: auto;
@@ -2073,11 +2063,11 @@ h5{
    .hacker-highlight-section{
       margin-top: 105%;
    }
-    
+
     .desktop-only{
      display: none;
    }
-    
+
     .umass-img {
         width: 9em;
         height: 8em;
