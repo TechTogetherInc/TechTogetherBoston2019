@@ -555,11 +555,11 @@ header{
    width: 100%;
    padding-left: 10%;
    padding-right: 10%;
-   grid-template-columns: repeat(5, 20%);
+   grid-template-columns: repeat(5, 20%); /* Default Size */
    grid-auto-rows: auto;
    align-items: center;
    justify-items: center;
-   margin: 3em 0 3em 0;
+   margin: 2em 0 3em 0;
 }
 
 .grid-pita-plus{
@@ -582,15 +582,15 @@ header{
 }
 
 .grid-giga{
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
-    margin: 2em 0 0em 0;
+    margin: 2em 0 2em 0;
 }
 
-.grid-giga-2{
-    grid-template-columns: repeat(3, 25%);
+.grid-mega{
+    grid-template-columns: repeat(1, 30%);
     justify-content: space-evenly;
-    margin: 0 0 2em 0;
+    margin: 2em 0 2em 0;
 }
 
 .grid-partners{
@@ -1405,26 +1405,15 @@ h5{
       padding-right: 5%;
        grid-row-gap: 3em;
       grid-template-columns: repeat(1, 96%);
+       margin: 1em 0 3em 0; /*Custom Tier Margins*/
    }
 
     .grid-pita-plus{
-        margin: 3em 0 2em 0;
+        margin: 3em 0 1em 0;
     }
 
-    .grid-pita{
-        margin: 0;
-    }
-
-    .grid-tera{
-        margin: 0;
-    }
-
-    .grid-giga{
-        margin: 0;
-    }
-
-    .grid-giga-2{
-        margin: 0;
+    .grid-pita, .grid-tera, .grid-giga, .grid-mega{
+        margin: 1em 0 1em 0;
     }
 
    .partner-logo{
@@ -1860,14 +1849,10 @@ h5{
    }
 
    .grid-container{
-      width: 100%;
-      padding-left: 10%;
-      padding-right: 10%;
-      grid-template-columns: repeat(2, 30%);
+      grid-template-columns: repeat(3, 30%);
       justify-content: space-evenly;
       grid-column-gap: 3%;
       grid-row-gap: 1em;
-      margin: 2em 0 2em 0;
    }
 
     .grid-pita-plus{
@@ -1887,13 +1872,12 @@ h5{
     }
 
     .grid-giga{
-        grid-template-columns: repeat(2, 30%);
-        justify-content: space-evenly;
-        grid-row-gap: 0;
-    }
-
-    .grid-giga-2{
         grid-template-columns: repeat(3, 30%);
+        justify-content: space-evenly;
+    }
+    
+    .grid-mega{
+        grid-template-columns: repeat(1, 30%);
         justify-content: space-evenly;
     }
 
@@ -2109,8 +2093,6 @@ h5{
       height: 40px;
    }
 }
-
-
 
 /*
 Logo Hex Colors (through photoshop):
