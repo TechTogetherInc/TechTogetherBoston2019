@@ -62,6 +62,18 @@ body{
   line-height: 1.4em;
 }
 
+#blob-computer{
+  height:auto;
+  width:100%;
+}
+
+ul li {
+  list-style-type: initial !important;
+}
+
+#about-banner{
+  margin-top: 0;
+}
 /************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
