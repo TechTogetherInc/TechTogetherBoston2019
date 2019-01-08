@@ -7,7 +7,6 @@ body{
     background-color: #FFF;
     display: block;
     width: 90%;
-    /* padding: 1em 2em 2em 0; */
     margin: 0 5% 0 5%;
 }
 
@@ -78,18 +77,20 @@ margin-right: auto;
 }
 
 h5.sm-jobs-banner{
-  font-family: 'Helvetica Neue'
-  padding: 1%;
-  padding-bottom: 0;
+  padding: 0;
   color: #000;
   font-weight: bold;
   font-size: 2rem;
   background-color: #ffffff;
   border-top-style: hidden;
   border-right-style: hidden;
-  border-bottom-style: dashed;
+  border-bottom-style: solid;
   border-left-style: hidden;
   border-color: #7AD7F0;
+}
+
+h4.job-name{
+  text-align: center;
 }
 
 
