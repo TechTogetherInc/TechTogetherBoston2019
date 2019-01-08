@@ -555,7 +555,8 @@ header{
    width: 100%;
    padding-left: 10%;
    padding-right: 10%;
-   grid-template-columns: repeat(5, 20%); /* Default Size */
+   grid-template-columns: repeat(3, 30%); /* Default Size */
+   justify-content: space-evenly;
    grid-auto-rows: auto;
    align-items: center;
    justify-items: center;
@@ -588,7 +589,7 @@ header{
 }
 
 .grid-mega{
-    grid-template-columns: repeat(1, 30%);
+    grid-template-columns: repeat(2, 30%);
     justify-content: space-evenly;
     margin: 2em 0 2em 0;
 }
@@ -1877,7 +1878,7 @@ h5{
     }
     
     .grid-mega{
-        grid-template-columns: repeat(1, 30%);
+        grid-template-columns: repeat(2, 30%);
         justify-content: space-evenly;
     }
 
