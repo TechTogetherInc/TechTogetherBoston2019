@@ -566,32 +566,20 @@ header{
 .grid-pita-plus{
     grid-template-columns: repeat(1, 35%);
     justify-content: space-evenly;
-    margin: 5em 0 2em 0;
+    margin: 5em 0 2.5em 0;
     text-align: center;
 }
 
-.grid-pita{
+.grid-pita, .grid-giga, .grid-mega{
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
-    margin: 2em 0 2em 0;
+    margin: 2.5em 0 2.5em 0;
 }
 
 .grid-tera{
-    grid-template-columns: repeat(1, 30%);
-    justify-content: space-evenly;
-    margin: 2em 0 2em 0;
-}
-
-.grid-giga{
-    grid-template-columns: repeat(3, 30%);
-    justify-content: space-evenly;
-    margin: 2em 0 2em 0;
-}
-
-.grid-mega{
     grid-template-columns: repeat(2, 30%);
     justify-content: space-evenly;
-    margin: 2em 0 2em 0;
+    margin: 2.5em 0 2.5em 0;
 }
 
 .grid-partners{
@@ -1404,7 +1392,7 @@ h5{
       width: 100%;
       padding-left: 5%;
       padding-right: 5%;
-       grid-row-gap: 3em;
+       grid-row-gap: 2em;
       grid-template-columns: repeat(1, 96%);
        margin: 1em 0 3em 0; /*Custom Tier Margins*/
    }
@@ -1853,7 +1841,6 @@ h5{
       grid-template-columns: repeat(3, 30%);
       justify-content: space-evenly;
       grid-column-gap: 3%;
-      grid-row-gap: 1em;
    }
 
     .grid-pita-plus{
@@ -1862,22 +1849,12 @@ h5{
         text-align: center;
     }
 
-    .grid-pita{
+    .grid-pita, .grid-giga, .grid-mega{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
 
     .grid-tera{
-        grid-template-columns: repeat(1, 30%);
-        justify-content: space-evenly;
-    }
-
-    .grid-giga{
-        grid-template-columns: repeat(3, 30%);
-        justify-content: space-evenly;
-    }
-    
-    .grid-mega{
         grid-template-columns: repeat(2, 30%);
         justify-content: space-evenly;
     }
