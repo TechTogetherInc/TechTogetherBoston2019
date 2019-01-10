@@ -825,6 +825,15 @@ header{
     color: blue;
 }
 
+.flex_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_2 div:nth-child(2), .flex_2 div:nth-child(3){ 
+    flex: 1; /* Used to make both divs the same height on the travel page */
+}
+
 /************************* Scroll *************************************/
 /*
 .navigation-scroll {
@@ -1249,6 +1258,14 @@ h5{
 
 .desktop-left-padding{
   padding-left: 5%;
+}
+
+.black-text{
+    color: #000; /*For tt-color classes*/
+}
+
+table{
+    margin-bottom: 2em;
 }
 
 /*------------------------------*/
@@ -1919,7 +1936,6 @@ h5{
 
    .logo3{
       width: 28em;
-      height: 11em;
    }
 
    .button_container-2{
