@@ -99,6 +99,10 @@ h2{
    font-style: italic;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .flex{
    display: flex;
    padding: 5%;
@@ -1264,11 +1268,21 @@ h5{
     color: #000; /*For tt-color classes*/
 }
 
+/*-------------Travel----------------*/
+
 table{
     margin-bottom: 2em;
+    padding: 0 10% 0 10%;
 }
 
-/*------------------------------*/
+.travel_list{
+    margin-left: 5%;
+}
+
+.travel_list li, .travel_list li p{
+    list-style: disc !important;
+    margin: 0;
+}
 
 /************** Mobile/Tablet Responsiveness ********************/
 
