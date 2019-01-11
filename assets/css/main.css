@@ -1288,6 +1288,10 @@ table{
    background-color: rgba(253, 115, 97, .7);
 }
 
+thead tr th{
+    width: 50%;
+}
+
 /************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
