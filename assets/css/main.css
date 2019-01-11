@@ -1,6 +1,11 @@
+@font-face {
+   font-family: HelveticaNeue-Roman;
+   src: url(../fonts/HelveticaNeue-Roman.otf);
+}
+
 body{
    background-color: #FFF;
-   font-family: 'Barlow', sans-serif;
+   font-family: 'HelveticaNeue-Roman', sans-serif;
 }
 
 /* This is to remove horizontal scroll, which fixes the issue of the video overflowing */
@@ -20,15 +25,6 @@ h2{
 }
 
 /*********************************/
-
-@font-face {
-   font-family: bebas;
-   src: url(../fonts/bebas.ttf);
-}
-
-.bebas{
-   font-family: bebas;
-}
 
 .no-margin{
    margin: 0;
@@ -1164,23 +1160,23 @@ h5{
 }
 
 .tt-blue{
-   color:#76d7f2;
-   background: #76d7f2;
+   color:#52D9F6;
+   background: #52D9F6;
 }
 
 .tt-purple{
-   color:#808cf4;
-   background:#808cf4;
+   color:#808cFB;
+   background:#808cFB;
 }
 
 .tt-pink{
-   color:#ed7a67;
-   background:#ed7a67;
+   color:#FD7361;
+   background:#FD7361;
 }
 
 .tt-red{
-   color:#d64c3c;
-   background:#d64c3c;
+   color:#E73F33;
+   background:#E73F33;
 }
 
 .tt-green{
@@ -1532,7 +1528,6 @@ h5{
    .flex-footer{
       flex-flow: column;
       justify-content: flex-start;
-      padding-left: 8%;
    }
 
    .button_container-2{
