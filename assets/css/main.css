@@ -825,19 +825,6 @@ header{
    justify-content: flex-end;
 }
 
-.hyperlink{
-    color: blue;
-}
-
-.flex_2{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex_2 div:nth-child(2), .flex_2 div:nth-child(3){ 
-    flex: 1; /* Used to make both divs the same height on the travel page */
-}
-
 /************************* Scroll *************************************/
 /*
 .navigation-scroll {
@@ -1188,23 +1175,23 @@ h5{
 }
 
 .tt-blue{
-   color:#76d7f2;
-   background: #76d7f2;
+   color:#52D9F6;
+   background: #52D9F6;
 }
 
 .tt-purple{
-   color:#808cf4;
-   background:#808cf4;
+   color:#808cFB;
+   background:#808cFB;
 }
 
 .tt-pink{
-   color:#ed7a67;
-   background:#ed7a67;
+   color:#FD7361;
+   background:#FD7361;
 }
 
 .tt-red{
-   color:#d64c3c;
-   background:#d64c3c;
+   color:#E73F33;
+   background:#E73F33;
 }
 
 .tt-green{
@@ -1264,10 +1251,6 @@ h5{
   padding-left: 5%;
 }
 
-.black-text{
-    color: #000; /*For tt-color classes*/
-}
-
 /*-------------Travel----------------*/
 
 table{
@@ -1282,6 +1265,27 @@ table{
 .travel_list li, .travel_list li p{
     list-style: disc !important;
     margin: 0;
+}
+
+.flex_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_2 div:nth-child(2), .flex_2 div:nth-child(3){ 
+    flex: 1; /* Used to make both divs the same height on the travel page */
+}
+
+.tt-blue_alt{  /* alts are being used b/c opacity can't be changed without using rgba or changing the text opacity as well*/
+   background-color: rgba(82, 217, 246, .7);
+}
+
+.tt-purple_alt{
+   background-color: rgba(128, 140, 251, .7);
+}
+
+.tt-pink_alt{
+   background-color: rgba(253, 115, 97, .7);
 }
 
 /************** Mobile/Tablet Responsiveness ********************/
