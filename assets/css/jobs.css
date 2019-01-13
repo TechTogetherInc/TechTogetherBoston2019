@@ -1,5 +1,5 @@
 body{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'HelveticaNeue-Roman', sans-serif;
     min-height: 100%;
 }
 
@@ -62,18 +62,14 @@ body{
 
 .company-logo{
   max-width: 100%;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .job-apply-button{
   background-color: #ed7a67;
   margin-left: 15%;
-
 }
 
 h5.sm-jobs-banner{
