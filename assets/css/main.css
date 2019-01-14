@@ -390,7 +390,7 @@ header{
    margin-right: 0em;
    width: 96%;
    min-height: 11em;
-   overflow: hidden;
+   overflow-x: visible;
 }
 
 .MLH{
@@ -422,7 +422,7 @@ header{
    float: right;
    width: 60%;
    margin-top: 2em;
-   font-size: 1.4vw;
+   font-size: 1.4em;
    margin-right: 11vw;
 }
 
@@ -651,7 +651,7 @@ header{
    z-index: 3;
 }
 
-.navigation a{
+.navigation a, .navigation div{
    margin-left: 9%;
 }
 .flex-end{
@@ -663,32 +663,6 @@ header{
     color: blue;
 }
 
-/************************* Scroll *************************************/
-/*
-.navigation-scroll {
-position: fixed;
-width: 20%;
-margin-left: 2%;
-color: #fff;
-background-color: #ed7a67;
-}
-.navigation_link {
-display: block;
-color: #ddd;
-text-decoration: none;
-padding: 1em;
-font-weight: 400;
-}
-.navigation_link.active {
-color: white;
-background-color: rgba(0, 0, 0, 0.2);
-transition: all 0.1s ease;
-}
-.navigation_link:hover {
-background-color: #76d7f2;
-transition: all 0.1s ease;
-}
-*/
 /************************* Front Page - Catherine ***************************/
 
 .table{
@@ -1065,6 +1039,30 @@ h5{
 
 .desktop-left-padding{
   padding-left: 5%;
+}
+
+.dropdownNav {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownNav p{
+    font-size: 1.4rem;
+}
+
+.dropdownNav-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    left: -10px;
+    z-index: 1000;
+}
+
+.dropdownNav:hover .dropdownNav-content {
+    display: block;
 }
 
 /*------------------------------*/
