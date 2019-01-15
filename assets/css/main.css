@@ -399,7 +399,7 @@ a{
    0% {
        opacity: 0;
        top: -10%;
-       
+
    }
    100% {
        opacity: 1;
@@ -485,7 +485,7 @@ header{
   letter-spacing: 1px;
   background-color:#76d7f2;
   border-radius:10px;
-}  
+}
 .involved:hover{
   background-color: #fd7361;
 }
@@ -626,7 +626,6 @@ header{
    height: 9em;
    width: 100%;
    margin-bottom: 0px;
-   margin-top: 1em;
 }
 
 .banner h3{
