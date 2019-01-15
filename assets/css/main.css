@@ -201,7 +201,7 @@ ul li{
 
 .overlay {
    position: fixed;
-   background: #FF958A;
+   background: #FD7361;
    top: 0;
    left: 77%;
    width: 23%;
@@ -259,7 +259,7 @@ ul li{
    display: block;
    height: 25%;
    height: calc(100% / 4);
-   min-height: 60px;
+   min-height: 45px;
    position: relative;
    opacity: 0;
    float: none;
@@ -271,7 +271,7 @@ ul li{
    color: #FFF;
    text-decoration: none;
    overflow: hidden;
-   font-size: 40px;
+   font-size: 30px;
    text-align: center;
 }
 
@@ -292,7 +292,7 @@ ul li{
 }
 
 .overlay-menu{
-   background-color: #FF958A;
+   background-color: #FD7361;
 }
 
 nav{
@@ -382,6 +382,31 @@ a{
 .button_container-2 span:nth-of-type(3) {
    top: 26.5px;
 }
+
+/*************************************************************************/
+
+.dropdown_mobile{
+/*    animation: fadeInTop 0.5s ease forwards;*/
+    display: none !important;
+}
+
+.dropdown_mobile.open{
+    display: block !important;
+}
+
+/*
+@keyframes fadeInTop {
+   0% {
+       opacity: 0;
+       top: -10%;
+       
+   }
+   100% {
+       opacity: 1;
+       top: 0;
+    }
+}
+*/
 
 /************************* Front Page - Brandon ***************************/
 
@@ -474,7 +499,6 @@ header{
 
 .blue-box{
    height: auto;
-   min-height: 50e;
    width: 40%;
    background: #c0c5fd;
    padding: 3% 5% 3% 5%;
@@ -652,7 +676,7 @@ header{
 }
 
 .navigation a, .navigation div{
-   margin-left: 9%;
+   margin-left: 6%;
 }
 .flex-end{
    display: flex;
@@ -1686,7 +1710,7 @@ h5{
 
 
    .overlay-2 ul li {
-      height: 100px;
+      height: 60px;
    }
 
    .about-box-1{
