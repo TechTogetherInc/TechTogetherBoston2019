@@ -454,6 +454,17 @@ header{
    background-color: #fd7361;
 }
 
+.involved{
+  font-size: 1.4vw;
+  margin-top: 5%;
+  letter-spacing: 1px;
+  background-color:#76d7f2;
+  border-radius:10px;
+}  
+.involved:hover{
+  background-color: #fd7361;
+}
+
 .icon-2{
    width: 3vw;
    height: 3vw;
@@ -918,6 +929,10 @@ h5{
 #community-highlight-section{
   width: 95%;
   margin-bottom: 7vw;
+}
+
+.involved-box:hover #background-box{
+  background:#fd7361
 }
 
 .hacker-highlight-img{
