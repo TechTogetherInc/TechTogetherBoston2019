@@ -72,11 +72,10 @@ body{
   margin-left: 15%;
 }
 
-h5.sm-jobs-banner{
-  padding: 0;
+h4.sm-jobs-banner{
+  padding-bottom: 1em;
   color: #000;
-  font-weight: bold;
-  font-size: 2rem;
+  font-weight: bolder;
   background-color: #ffffff;
   border-top-style: hidden;
   border-right-style: hidden;
@@ -85,8 +84,10 @@ h5.sm-jobs-banner{
   border-color: #7AD7F0;
 }
 
-h4.job-name{
+.job-name{
   text-align: center;
+  font-size: 1.7em;
+  font-weight: bolder;
 }
 
 
