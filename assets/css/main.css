@@ -239,7 +239,7 @@ ul li{
 .overlay nav {
    position: relative;
    height: 70%;
-   top: 50%;
+   top: 45%;
    transform: translateY(-50%);
    font-size: 50px;
    font-weight: 400;
@@ -392,6 +392,10 @@ a{
 
 .dropdown_mobile.open{
     display: block !important;
+}
+
+.dropdownNav-content:hover{
+    background: rgb(82,217,246, .5);
 }
 
 /*
@@ -1086,6 +1090,7 @@ h5{
 
 .dropdownNav p{
     font-size: 1.4rem;
+    margin: 0;
 }
 
 .dropdownNav-content {
@@ -1094,7 +1099,7 @@ h5{
     background-color: #FFF;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    padding: 10px;
     left: -10px;
     z-index: 1000;
 }
