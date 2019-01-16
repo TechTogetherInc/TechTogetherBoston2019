@@ -541,13 +541,13 @@ header{
    grid-auto-rows: auto;
    align-items: center;
    justify-items: center;
-   margin: 2em 0 3em 0;
+   margin: 2em 0 2.5em 0;
 }
 
 .grid-pita-plus{
     grid-template-columns: repeat(1, 35%);
     justify-content: space-evenly;
-    margin: 5em 0 2.5em 0;
+    margin: 2.5em 0 2.5em 0;
     text-align: center;
 }
 
@@ -566,6 +566,7 @@ header{
 .grid-partners{
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
+    margin: 2.5em 0 2.5em 0;
 }
 
 .grid-container a img{
