@@ -6,6 +6,7 @@
         <link href="assets/css/about.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
         <link rel="icon" href="assets/imgs/favicon.png">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
@@ -24,6 +25,12 @@
                 <a href="index.html" class="underline-hover"> Home </a>
                 <a href="about.html" class="underline-hover"> About </a>
                 <a href="faq.html" class="underline-hover"> FAQ </a>
+                <div class="dropdownNav desktop-only">
+                     <p class="no-margin">Attend <span class="fas fa-angle-down"></span></p>
+                     <a class="dropdownNav-content" href="travel.html">
+                        <p>Travel</p>
+                     </a>
+                </div>
                 <a href="contact.html" class="underline-hover"> Contact </a>
                 <a href="shehacks/index.html" class="underline-hover"> Past SheHacks </a>
             </div>
@@ -55,7 +62,21 @@
                             </section>
                         </a>
                     </li>
-                    <li >
+                    <li>
+                      <a href="#" id="attend">
+                        <section class="flex-center">
+                          <p class="bold">&nbsp;&nbsp;Attend <span class="fas fa-angle-down"></span></p>
+                        </section>
+                      </a>
+                    </li>
+                    <li class="dropdown_mobile" id="extend">
+                      <a href="travel.html">
+                        <section class="flex-center">
+                          <p class="bold">Travel</p>
+                        </section>
+                      </a>
+                    </li>
+                    <li>
                         <a href="contact.html">
                             <section class="flex-center">
                                 <p class="bold">Contact</p>
