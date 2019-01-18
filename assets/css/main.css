@@ -828,7 +828,9 @@ header{
 ul li {
   list-style-type: initial !important;
 }
-
+#second-apply-button{
+  margin-left: 6vw;
+}
 
 .url{
   text-decoration: underline !important;
@@ -1299,6 +1301,10 @@ h5{
    #hacker-hightlight-title{
      font-size:2.2em;
      font-weight: bold;
+   }
+
+   #view-expo-button{
+     height: auto !important;
    }
 
    .cloud-mobile{
