@@ -637,6 +637,10 @@ header{
    margin-left: 5%;
 }
 
+.banner h4{
+  margin-left: 5%;
+}
+
 
 .flex-footer{
    display: flex;
@@ -821,6 +825,10 @@ header{
 }
 
 /* Helen CSS */
+ul li {
+  list-style-type: initial !important;
+}
+
 
 .url{
   text-decoration: underline !important;
@@ -1103,6 +1111,11 @@ h5{
 
 .dropdownNav:hover .dropdownNav-content {
     display: block;
+}
+
+.border_box{
+    border: solid 2px #808cFB;
+    padding: 1.5em;
 }
 
 /*------------------------------*/
