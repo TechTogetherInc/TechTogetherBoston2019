@@ -33,6 +33,23 @@ body{
   line-height:1.5em;
 }
 
+
 .center-align{
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  #volunteer-card{
+    margin-top: 30vw !important;
+
+  }
+
+  #get-involved-banner{
+    padding-bottom: 45vw !important;
+    padding-top: 25vw !important;
+  }
+
+  .apply-button{
+    margin-left: auto !important;
+  }
 }
