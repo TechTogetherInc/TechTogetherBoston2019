@@ -65,10 +65,6 @@ body{
   width:100%;
 }
 
-ul li {
-  list-style-type: initial !important;
-}
-
 #about-banner{
   margin-top: 0;
 }
