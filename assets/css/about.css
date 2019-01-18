@@ -35,6 +35,14 @@ body{
     clip-path: circle(50% at 50% 50%);
 }
 
+.grid-container-2 div a img{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    -webkit-clip-path: none;
+    clip-path: none;
+}
+
 .margin-top-zero{
     margin-top: 0;
 }
@@ -63,10 +71,6 @@ body{
 #blob-computer{
   height:auto;
   width:100%;
-}
-
-ul li {
-  list-style-type: initial !important;
 }
 
 #about-banner{
