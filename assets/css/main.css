@@ -434,7 +434,7 @@ header{
 }
 
 .logo2{
-   width: 21vw;
+   width: auto;
    height: 7vw;
    float: left;
    margin-top: 2em;
