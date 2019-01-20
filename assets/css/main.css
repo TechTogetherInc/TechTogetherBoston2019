@@ -1278,8 +1278,7 @@ h5{
 
    #my-canvas{
       margin-bottom: -470px !important;
-      height:500px;
-      max-width: 100%;
+      width: 100%;
    }
 
    .mobile-button-margin{
