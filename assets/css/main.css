@@ -1631,7 +1631,7 @@ h5{
       height: 6vw;
       line-height: 2em;
       font-size: 2.2vw;
-      margin-top: 40px;
+      margin-top: 20px;
    }
 
    .blue-box{
@@ -1811,8 +1811,8 @@ h5{
    #my-canvas-2{
       margin-bottom: -120%;
       top: 0 !important;
-      height: 80em;
-      z-index: 2;
+       width: 100%;
+       z-index: 2;
    }
 
    footer .footer-col:nth-child(1){
@@ -1824,7 +1824,7 @@ h5{
    }
 
    .min-height-1{
-      min-height: 30em;
+      min-height: 33em;
    }
 
    .email-width{
@@ -1848,7 +1848,12 @@ h5{
         width: 10em;
         height: 7em;
     }
-
+    
+    #view-expo-button{
+        min-width: 20em;
+        height: auto;
+        margin-top: 0;
+    }
 }
 
 /* Miscellaneous sizes */
