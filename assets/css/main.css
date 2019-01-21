@@ -1,6 +1,11 @@
+@font-face {
+   font-family: HelveticaNeue-Roman;
+   src: url(../fonts/HelveticaNeue-Roman.otf);
+}
+
 body{
    background-color: #FFF;
-   font-family: 'Barlow', sans-serif;
+   font-family: 'HelveticaNeue-Roman', sans-serif;
 }
 
 /* This is to remove horizontal scroll, which fixes the issue of the video overflowing */
@@ -11,18 +16,6 @@ html, body {
 
 /*********** font stuff ***********/
 
-/* fluid typography using calc in the html class is too glitchy*/
-
-/*h1{
-font-size: calc(5em + .5vw);
-}
-h2{
-font-size: calc(4em + .5vw);
-}
-h3{
-font-size: calc(3em + .5vw);
-}*/
-
 h1{
    font-size: 5em;
 }
@@ -32,15 +25,6 @@ h2{
 }
 
 /*********************************/
-
-@font-face {
-   font-family: bebas;
-   src: url(../fonts/bebas.ttf);
-}
-
-.bebas{
-   font-family: bebas;
-}
 
 .no-margin{
    margin: 0;
@@ -111,6 +95,10 @@ h2{
    font-style: italic;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .flex{
    display: flex;
    padding: 5%;
@@ -135,13 +123,6 @@ h2{
    flex-flow: column;
 }
 
-.flex-space{
-   display: flex;
-   justify-content: space-between;
-   flex-flow: row;
-   flex-wrap: nowrap;
-}
-
 .flex-space-2{
    display: flex;
    justify-content: space-around;
@@ -149,45 +130,9 @@ h2{
    flex-wrap: nowrap;
 }
 
-.flex-col{
-   display: flex;
-   justify-content: flex-start;
-   flex-flow: column;
-}
-
-.flex-start{
-   display: flex;
-   justify-content: flex-start;
-   flex-flow: row;
-}
-
-.video-box{
-   height: 300px;
-   margin-top: 30px;
-   display: none;
-}
-
 .vod{
    height: 100%;
    width: 100%;
-}
-
-.fs-1{
-   font-size: 1.6vw;
-   margin-left: 10%;
-   padding-top:20%;
-}
-
-.fs-2{
-   font-size: 5.5vw;
-}
-
-.fs-3{
-   font-size: 3.5vw;
-}
-
-.fs-4{
-   font-size: 1.7vw;
 }
 
 .orange{
@@ -256,7 +201,7 @@ ul li{
 
 .overlay {
    position: fixed;
-   background: #FF958A;
+   background: #FD7361;
    top: 0;
    left: 77%;
    width: 23%;
@@ -294,7 +239,7 @@ ul li{
 .overlay nav {
    position: relative;
    height: 70%;
-   top: 50%;
+   top: 45%;
    transform: translateY(-50%);
    font-size: 50px;
    font-weight: 400;
@@ -314,7 +259,7 @@ ul li{
    display: block;
    height: 25%;
    height: calc(100% / 4);
-   min-height: 60px;
+   min-height: 45px;
    position: relative;
    opacity: 0;
    float: none;
@@ -326,7 +271,7 @@ ul li{
    color: #FFF;
    text-decoration: none;
    overflow: hidden;
-   font-size: 40px;
+   font-size: 30px;
    text-align: center;
 }
 
@@ -347,7 +292,7 @@ ul li{
 }
 
 .overlay-menu{
-   background-color: #FF958A;
+   background-color: #FD7361;
 }
 
 nav{
@@ -438,18 +383,58 @@ a{
    top: 26.5px;
 }
 
+/*************************************************************************/
+
+.dropdown_mobile{
+/*    animation: fadeInTop 0.5s ease forwards;*/
+    display: none !important;
+}
+
+.dropdown_mobile.open{
+    display: block !important;
+}
+
+.dropdownNav-content:hover{
+    background: rgb(82,217,246, .5);
+}
+
+/*
+@keyframes fadeInTop {
+   0% {
+       opacity: 0;
+       top: -10%;
+
+   }
+   100% {
+       opacity: 1;
+       top: 0;
+    }
+}
+*/
+
 /************************* Front Page - Brandon ***************************/
 
 header{
    margin-left: 2%;
    margin-right: 0em;
    width: 96%;
-   min-height: 6em;
-   overflow: hidden;
+   min-height: 11em;
+   overflow-x: visible;
+}
+
+.MLH{
+    position:fixed;
+    display:inline-block;
+    max-width:100px;
+    min-width:60px;
+    width:10%;
+    z-index:50;
+    right: 20px;
+    top: 0;
 }
 
 .logo2{
-   width: 21vw;
+   width: auto;
    height: 7vw;
    float: left;
    margin-top: 2em;
@@ -462,19 +447,12 @@ header{
    margin: 1em 0 2em 0;
 }
 
-/*.logo3{
-width: 25%;
-height: 8vw;
-margin-bottom: 3em;
-}*/
-
-
 .navigation{
    float: right;
    width: 60%;
    margin-top: 2em;
-   font-size: 1.4vw;
-   margin-right: 2.2vw;
+   font-size: 1.4em;
+   margin-right: 11vw;
 }
 
 .orange-color{
@@ -505,6 +483,17 @@ margin-bottom: 3em;
    background-color: #fd7361;
 }
 
+.involved{
+  font-size: 1.4vw;
+  margin-top: 5%;
+  letter-spacing: 1px;
+  background-color:#76d7f2;
+  border-radius:10px;
+}
+.involved:hover{
+  background-color: #fd7361;
+}
+
 .icon-2{
    width: 3vw;
    height: 3vw;
@@ -519,23 +508,12 @@ margin-bottom: 3em;
    margin-right: 15px;
 }
 
-.icon-4{
-   width: 7.5vw;
-   height: 7.5vw;
-}
-
-/*.icon-5{
-width: 7em;
-height: 8em;
-}*/
-
 .float-right{
    float: right;
 }
 
 .blue-box{
    height: auto;
-   min-height: 50e;
    width: 40%;
    background: #c0c5fd;
    padding: 3% 5% 3% 5%;
@@ -548,30 +526,71 @@ height: 8em;
    width: 100%;
 }
 
-.image-2{
-   width: 100%;
-   height: 25vw;
-}
-
-.image-3{
-   width: 95%;
-   height: 20vw;
-}
-
 .image-4{
    width: 100%;
    margin: .2em;
 }
 
+.host-sponsor {
+  /*background-color: #76d7f2;*/
+  background-color: rgb(255, 153, 153, .75);
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1em;
+}
+
 .grid-container{
    display: inline-grid;
    width: 100%;
-   padding-left: 5%;
-   padding-right: 5%;
-   grid-template-columns: repeat(5, 20%);
+   padding-left: 10%;
+   padding-right: 10%;
+   grid-template-columns: repeat(3, 30%); /* Default Size */
+   justify-content: space-evenly;
    grid-auto-rows: auto;
-   grid-row-gap: 3.125em;
-   margin: 3.750em 0 5vw 0;
+   align-items: center;
+   justify-items: center;
+   margin: 2em 0 2.5em 0;
+}
+
+.grid-pita-plus{
+    grid-template-columns: repeat(1, 35%);
+    justify-content: space-evenly;
+    margin: 2.5em 0 0em 0;
+    text-align: center;
+}
+
+.grid-pita, .grid-giga, .grid-mega{
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-evenly;
+    margin: 1.5em 0 2.5em 0;
+}
+
+.grid-tera{
+    grid-template-columns: repeat(2, 30%);
+    justify-content: space-evenly;
+    margin: 2.5em 0 2.5em 0;
+}
+
+.grid-partners{
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-evenly;
+    margin: 2.5em 0 2.5em 0;
+}
+
+.grid-container a img{
+    object-fit: fill;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.main-box{
+    background-color: #FFF;
+    display: block;
+    width: 83%;
+    padding: 2em 0 2em 0;
+    margin: 0 10% 10em 7%;
 }
 
 .partner-logo{
@@ -579,6 +598,16 @@ height: 8em;
    justify-self: center;
    padding-left: 1.5em;
    padding-right: 1.5em;
+}
+
+.umass-img {
+    width: 11em;
+    height: 9.5em;
+}
+
+.roughdraft-img{
+    width: 11em;
+    height: 8em;
 }
 
 .underline-hover:hover {
@@ -605,40 +634,21 @@ height: 8em;
    text-decoration: none;
 }
 
-.com-spotlight-container{
-   height: 21vw;
-   width: 100%;
-   margin-top: 5vw;
-   display: flex;
-   justify-content: space-around;
-}
-
-.com-spotlight-img{
-   position: relative;
-   height: 25vw;
-   width: 25vw;
-   top: -2vw;
-   margin: 0 50px 0 50px;
-}
-
-.com-spotlight-container.dark-blue-color{
-   margin-bottom: 11vw;
-}
 
 .banner{
    height: 9em;
    width: 100%;
    margin-bottom: 0px;
-   margin-top: 2em;
 }
 
 .banner h3{
    margin-left: 5%;
 }
 
-.margin-bottom{
-   margin-bottom: 2em;
+.banner h4{
+  margin-left: 5%;
 }
+
 
 .flex-footer{
    display: flex;
@@ -646,14 +656,7 @@ height: 8em;
    /*padding: 55px 0 55px 0 ;*/
    padding-top: 2%;
    padding-bottom: 2%;
-}
-
-.main-box{
-   background-color: #FFF;
-   display: block;
-   width: 80%;
-   padding: 2em 5em 2em 0;
-   margin: 0 0 0 5%;
+    margin-top: 3em;
 }
 
 .about-box-1{
@@ -663,10 +666,6 @@ height: 8em;
 .about-box-2{
    width: 30%;
    margin: 2% 5% 0 0;
-}
-
-.about-box-3{
-   /*margin-top: 12em;*/
 }
 
 .about-box-4{
@@ -698,117 +697,19 @@ height: 8em;
    height:auto;
 }
 
-.space-bottom{
-   margin-bottom: 5%;
-}
-
-.pic-1{
-   width: 100%;
-   height: 650px;
-   margin: 5px;
-}
-
-.pic-2{
-   width: 100%;
-   height: 350px;
-   margin: 5px;
-}
-
-.pic-3{
-   width: 100%;
-   height: 370px;
-   margin: 5px;
-}
-
-.pic-4{
-   width: 100%;
-   height: 650px;
-   margin: 5px;
-}
-
-.space-top{
-   margin-top: 5em;
-}
-
-.pic-1{
-   width: 100%;
-   height: 650px;
-   margin: 5px;
-}
-
-.pic-2{
-   width: 100%;
-   height: 350px;
-   margin: 5px;
-}
-
-.pic-3{
-   width: 100%;
-   height: 370px;
-   margin: 5px;
-}
-
-.pic-4{
-   width: 100%;
-   height: 650px;
-   margin: 5px;
-}
-
-.hacker-quote{
-   font-size: 1.2em;
-   margin: 0 0 .5em .6em;
-}
-
-#quote-highlight{
-   font-size: 1.4em;
-   font-weight: bold;
-}
-
 .z-index-1{
    position: relative;
    z-index: 3;
 }
 
-.z-index-1{
-   position: relative;
-   z-index: 3;
-}
-
-.navigation a{
-   margin-left: 9%;
+.navigation a, .navigation div{
+   margin-left: 6%;
 }
 .flex-end{
    display: flex;
    justify-content: flex-end;
 }
 
-
-/************************* Scroll *************************************/
-/*
-.navigation-scroll {
-position: fixed;
-width: 20%;
-margin-left: 2%;
-color: #fff;
-background-color: #ed7a67;
-}
-.navigation_link {
-display: block;
-color: #ddd;
-text-decoration: none;
-padding: 1em;
-font-weight: 400;
-}
-.navigation_link.active {
-color: white;
-background-color: rgba(0, 0, 0, 0.2);
-transition: all 0.1s ease;
-}
-.navigation_link:hover {
-background-color: #76d7f2;
-transition: all 0.1s ease;
-}
-*/
 /************************* Front Page - Catherine ***************************/
 
 .table{
@@ -845,14 +746,7 @@ transition: all 0.1s ease;
    padding-left: 10%;
    padding-right: 10%;
 }
-.cell4 {
-   display: table-cell;
-   width: 50%;
-   padding-bottom: 5%;
-   padding-left: 0%;
-   padding-right: 5%;
-   padding-top: 2%;
-}
+
 .cell6 {
    display: table-cell;
    width: 32%;
@@ -889,22 +783,6 @@ transition: all 0.1s ease;
    display: none;
 }
 
-#SheHacks-Title{
-   font-weight:800;
-   color:#808cf4;
-}
-
-#my-canvas{
-   margin-bottom: -85%;
-}
-
-#short-description{
-   font-size:1.3em;
-}
-
-#mobile-video-button{
-   display: none;
-}
 .footer-col {
    width: 50%;
 }
@@ -919,20 +797,7 @@ transition: all 0.1s ease;
 .signup-mobile {
    display: none;
 }
-.footer-col {
-   width: 50%;
-}
-.logo3{
-   /*display: flex;*/
-   width: 50%;
-   height: auto;
-}
-.footer-col-social {
-   align-content: center;
-}
-.signup-mobile {
-   display: none;
-}
+
 
 /* Resources - Catherine */
 
@@ -944,9 +809,7 @@ transition: all 0.1s ease;
    padding-right: 3%;
    color: white;
 }
-.workshop-btn {
-   background-color: white; 
-}
+
 .orange-btn {
    color: #ed7a67;
 }
@@ -968,23 +831,33 @@ transition: all 0.1s ease;
    background-color: #006b7f;
    color: white;
 }
-.track {
-   width: 100%;
-   padding-top: 2%;
-   padding-bottom: 2%;
-   padding-left: 3%;
-   padding-right: 3%;
-   color: white;
-}
-.learn-btn {
-   position:relative;
-   height: 5%;
-   display: flex;
-   align-items: center;
-   vertical-align: middle;
-}
 
 /* Helen CSS */
+ul li {
+  list-style-type: initial !important;
+}
+#second-apply-button{
+  margin-left: 6vw;
+}
+
+.url{
+  text-decoration: underline !important;
+}
+.custom-ul{
+  padding-left:2em !important;
+  font-size: 1.1em;
+}
+
+.blue-url{
+  text-decoration: underline;
+  font-weight: bold;
+  color:#039be5;
+}
+
+.text-title-padding{
+  padding: .4em;
+}
+
 
 .mobile-only{
   display: none;
@@ -1040,66 +913,74 @@ transition: all 0.1s ease;
    }
 }
 
-p {
-   font-size:1.2vw;
-}
-
-h4{
-   font-size: 2.5vw;
-}
-
-h5{
-   font-size:1.5vw;
-}
-
 
 p {
    font-size:1.2vw;
 }
 
-h4{
-   font-size: 2.5vw;
+h5{
+   font-size:1.8vw;
 }
 
-h5{
-   font-size:1.5vw;
-}
 
 #transform-section-text{
    margin-bottom: -20vw;
    float: right;
 }
-
-.hacker-highlight-section{
-   margin-left: 5%;
-}
-
 #hacker-highlight-hr{
-   width: 50%;
-   margin-left: 45%;
-   margin-top: -3.2%;
-   height: 3px;
-   color:black;
-   background-color: black;
-   margin-bottom: 2em;
+  width: 55vw;
+  margin-left: 33vw;
+  margin-top: -3.2%;
+  height: 3px;
+  color: black;
+  background-color: black;
+  margin-bottom: 2em;
 }
 
-#hacker-highlight-title{
-   font-weight: bolder;
+#project-highlight-row{
+  margin-top: 3vw;
 }
 
-#hacker-project-row{
-   width: 90%;
+.highlight-text{
+  display: inline;
+  float: left;
+  color: white;
+  margin-top: -17vw;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.thin{
+  font-weight:lighter;
+}
+
+#background-box{
+  height: 35vw;
+  margin-top: -17vw;
+  z-index: 1
+}
+
+.highlight-box:hover #background-box{
+  background:#48839A
+}
+#community-highlight-section{
+  width: 95%;
+  margin-bottom: 7vw;
+}
+
+.involved-box:hover #background-box{
+  background:#fd7361
 }
 
 .hacker-highlight-img{
-   max-width: 90%;
-   border-radius: 15px;
-}
-
-.hacker-col{
-   width: 23%;
-   margin: 0 1% 0 1%;
+   max-width: 70%;
+   z-index: 10;
+   margin-left: 15%;
 }
 
 #star{
@@ -1112,27 +993,56 @@ h5{
 
 .award-title{
    display: inline;
-   font-size: 1.5vw;
+   font-size: 1vw;
    font-weight: bold;
    text-transform: uppercase;
    margin-bottom: 0;
+   letter-spacing: 2px;
    margin-top: -.3em;
 }
 
 .tt-blue{
-   color:#76d7f2;
+   color:#52D9F6;
+   background: #52D9F6;
+}
+
+.tt-blue-light{
+  background: rgb(82,217,246, .5);
 }
 
 .tt-purple{
-   color:#808cf4
+   color:#808cFB;
+   background:#808cFB;
+}
+
+.tt-purple-light{
+  background: rgb(128,140,251,.5);
 }
 
 .tt-pink{
-   color:#ed7a67
+   color:#FD7361;
+   background:#FD7361;
 }
 
+.tt-pink-light{
+  background: rgb(253,115,97,.5);
+}
+
+.tt-red-light{
+  background: rgb(231,63,51,.5);
+
+}
 .tt-red{
-   color:#d64c3c;
+   color:#E73F33;
+   background:#E73F33;
+}
+
+.tt-green{
+  background: #2e6e87;
+}
+
+.tt-green-light{
+  background: rgb(46,110,135,.5);
 }
 
 .hr-light{
@@ -1184,6 +1094,40 @@ h5{
   margin-left: 7vw;
 }
 
+.desktop-left-padding{
+  padding-left: 5%;
+}
+
+.dropdownNav {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownNav p{
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.dropdownNav-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    left: -10px;
+    z-index: 1000;
+}
+
+.dropdownNav:hover .dropdownNav-content {
+    display: block;
+}
+
+.border_box{
+    border: solid 2px #808cFB;
+    padding: 1.5em;
+}
+
 /*------------------------------*/
 
 /************** Mobile/Tablet Responsiveness ********************/
@@ -1196,7 +1140,7 @@ h5{
    }
 
    h2{
-      font-size: 1.8em;
+      font-size: 2.3em;
    }
 
    h3{
@@ -1221,6 +1165,12 @@ h5{
 
 
    /*********************************/
+
+
+    .MLH{
+        position: absolute;
+        right: 20%;
+    }
 
    .right_side{
       display: none;
@@ -1286,22 +1236,6 @@ h5{
       margin-bottom: -10%;
    }
 
-   .fs-1{
-      font-size: 1.2em;
-   }
-
-   .fs-2{
-      font-size: 12vw;
-   }
-
-   .fs-3{
-      font-size: 9vw;
-   }
-
-   .fs-4{
-      font-size: 4vw;
-   }
-
    #mobile-track-icons{
      display: block;
    }
@@ -1330,10 +1264,18 @@ h5{
       width: 100%;
       padding-left: 5%;
       padding-right: 5%;
+       grid-row-gap: 2em;
       grid-template-columns: repeat(1, 96%);
-      margin-top: 2em;
-      margin-bottom: 3em;
+       margin: 1em 0 3em 0; /*Custom Tier Margins*/
    }
+
+    .grid-pita-plus{
+        margin: 3em 0 1em 0;
+    }
+
+    .grid-pita, .grid-tera, .grid-giga, .grid-mega{
+        margin: 1em 0 1em 0;
+    }
 
    .partner-logo{
       width: 100%;
@@ -1344,8 +1286,7 @@ h5{
 
    #my-canvas{
       margin-bottom: -470px !important;
-      height:500px;
-      max-width: 100%;
+      width: 100%;
    }
 
    .mobile-button-margin{
@@ -1367,6 +1308,10 @@ h5{
    #hacker-hightlight-title{
      font-size:2.2em;
      font-weight: bold;
+   }
+
+   #view-expo-button{
+     height: auto !important;
    }
 
    .cloud-mobile{
@@ -1413,7 +1358,6 @@ h5{
       width: 57vw;
       height: auto;
       float: left;
-      margin-left: 5px;
    }
 
    .icon-2{
@@ -1463,28 +1407,18 @@ h5{
    .flex-footer{
       flex-flow: column;
       justify-content: flex-start;
-      padding-left: 8%;
    }
 
    .button_container-2{
       display: block;
       z-index: 200;
-   }
-
-   .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
-      background: #FFF;
+      /*position: fixed;*/
+      left: 85%;
+      top: 3.7em;
    }
 
    .overlay-2 ul li {
       height: 40px;
-   }
-
-   .button_container-2{
-      display: block;
-      position: relative;
-      z-index: 200;
-      left: 85%;
-      top: 3.7em;
    }
 
    .about-box-1{
@@ -1531,30 +1465,6 @@ h5{
    .space{
       margin-bottom: 4em;
       margin-top: 4em;
-   }
-
-   .pic-1{
-      width: 100%;
-      height: 350px;
-      margin: 5px;
-   }
-
-   .pic-2{
-      width: 100%;
-      height: 150px;
-      margin: 5px;
-   }
-
-   .pic-3{
-      width: 100%;
-      height: 150px;
-      margin: 5px;
-   }
-
-   .pic-4{
-      width: 100%;
-      height: 350px;
-      margin: 5px;
    }
 
    .hacker-quote{
@@ -1613,6 +1523,34 @@ h5{
       width: 5em;
       cursor: pointer;
    }
+
+   .highlight-box{
+     display: block;
+     width: 100% !important;
+     margin-bottom: 2em;
+   }
+
+   .highlight-box .hacker-highlight-img{
+     margin-left: 15%;
+   }
+
+   #mobile-style-highlight-section{
+     padding-top:100vw;
+   }
+
+   #hacker-highlight-hr{
+     display: none;
+   }
+
+   .highlight-box #background-box{
+     height:35em;
+     margin-top: -10em;
+   }
+
+   .highlight-box .highlight-text{
+     margin-top: -24em;
+   }
+
    #transform-section-text{
 
       margin-bottom:0;
@@ -1635,6 +1573,23 @@ h5{
       width: 18em;
    }
 
+    .flex-flow-col{
+        flex-flow: column;
+    }
+
+    /*.banner{
+        margin-top: 3.5em;
+    }*/
+
+    .umass-img {
+        width: 10em;
+        height: 13em;
+    }
+
+    .roughdraft-img{
+        width: 11em;
+        height: 11em;
+    }
 
 }
 
@@ -1655,6 +1610,11 @@ h5{
 
    /*********************************/
 
+    .MLH{
+        position: absolute;
+        right: 14%;
+    }
+
    .overlay {
       top: 0;
       left: 50%;
@@ -1667,9 +1627,6 @@ h5{
       font-size: 32px;
    }
 
-   .button_container{
-      z-index: 200;
-   }
 
    .logo{
       height: 110px;
@@ -1681,7 +1638,7 @@ h5{
       height: 6vw;
       line-height: 2em;
       font-size: 2.2vw;
-      margin-top: 40px;
+      margin-top: 20px;
    }
 
    .blue-box{
@@ -1724,15 +1681,31 @@ h5{
    }
 
    .grid-container{
-      width: 100%;
-      padding-left: 2%;
-      padding-right: 2%;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(3, 30%);
+      justify-content: space-evenly;
       grid-column-gap: 3%;
-      grid-row-gap: 4em;
-      margin-top: 2.5em;
-      margin-bottom: 3.75em;
    }
+
+    .grid-pita-plus{
+        grid-template-columns: repeat(1, 30%);
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .grid-pita, .grid-giga, .grid-mega{
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-evenly;
+    }
+
+    .grid-tera{
+        grid-template-columns: repeat(2, 30%);
+        justify-content: space-evenly;
+    }
+
+    .grid-partners{
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-evenly;
+    }
 
    .partner-logo{
       width: 100%;
@@ -1746,7 +1719,6 @@ h5{
       height: 12vw;
       float: left;
       margin-top: 28px;
-      margin-left: 10px;
    }
 
    .navigation a{
@@ -1768,23 +1740,19 @@ h5{
 
    .logo3{
       width: 28em;
-      height: 11em;
    }
 
    .button_container-2{
       display: block;
-      position: relative;
+      position: fixed;
       z-index: 200;
       left: 92%;
       top: 42px;
    }
 
-   .button_container-2.active .bottom, .button_container-2.active .middle, .button_container-2.active .top {
-      background: #FFF;
-   }
 
    .overlay-2 ul li {
-      height: 100px;
+      height: 60px;
    }
 
    .about-box-1{
@@ -1834,29 +1802,6 @@ h5{
    }
 
 
-   .pic-1{
-      width: 100%;
-      height: 450px;
-      margin: 5px;
-   }
-
-   .pic-2{
-      width: 100%;
-      height: 250px;
-      margin: 5px;
-   }
-
-   .pic-3{
-      width: 100%;
-      height: 250px;
-      margin: 5px;
-   }
-
-   .pic-4{
-      width: 100%;
-      height: 450px;
-      margin: 5px;
-   }
 
    .logo2_alt{
       width: 40vw;
@@ -1873,8 +1818,8 @@ h5{
    #my-canvas-2{
       margin-bottom: -120%;
       top: 0 !important;
-      height: 80em;
-      z-index: 2;
+       width: 100%;
+       z-index: 2;
    }
 
    footer .footer-col:nth-child(1){
@@ -1886,7 +1831,7 @@ h5{
    }
 
    .min-height-1{
-      min-height: 30em;
+      min-height: 33em;
    }
 
    .email-width{
@@ -1897,6 +1842,25 @@ h5{
       margin-top: 105%;
    }
 
+    .desktop-only{
+     display: none;
+   }
+
+    .umass-img {
+        width: 9em;
+        height: 8em;
+    }
+
+    .roughdraft-img{
+        width: 10em;
+        height: 7em;
+    }
+    
+    #view-expo-button{
+        min-width: 20em;
+        height: auto;
+        margin-top: 0;
+    }
 }
 
 /* Miscellaneous sizes */
@@ -1929,14 +1893,7 @@ h5{
    }
 }
 
-
-
 /*
-Logo Hex Colors (through photoshop):
-#76d7f2
-#808cf4
-#ed7a67
-#d64c3c
 Sign Up Button Hex Color (through photoshop):
 #fd7361
 Dark Blue Color:

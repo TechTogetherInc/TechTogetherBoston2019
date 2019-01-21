@@ -1,0 +1,55 @@
+body{
+    font-family: 'HelveticaNeue-Roman', sans-serif;
+    min-height: 100%;
+}
+
+.main-box{
+    background-color: #FFF;
+    display: block;
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.margin-top-zero{
+    margin-top: 0;
+}
+
+.apply-button{
+  margin-left: 18%;
+}
+
+.role-name{
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: bolder;
+}
+
+#get-involved-header{
+  background: white;
+  height: 10vw;
+}
+
+#get-involved-blurb{
+  line-height:1.5em;
+}
+
+
+.center-align{
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  #volunteer-card{
+    margin-top: 30vw !important;
+
+  }
+
+  #get-involved-banner{
+    padding-bottom: 45vw !important;
+    padding-top: 25vw !important;
+  }
+
+  .apply-button{
+    margin-left: auto !important;
+  }
+}
