@@ -566,7 +566,7 @@ header{
 .grid-partners{
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
-    margin: 2.5em 0 2.5em 0;
+    margin: 0em 0 2.5em 0;
 }
 
 .grid-container a img{
@@ -704,6 +704,13 @@ header{
 
 /************************* Front Page - Catherine ***************************/
 
+.host-partner{
+  display: block;
+  width: 83%;
+  padding: 2em 0 2em 0;
+  margin: 3vw 10% 1em 7%;
+}
+
 .table{
    display: table;
    width: 100%;
@@ -825,6 +832,11 @@ header{
 }
 
 /* Helen CSS */
+
+.center-align{
+  text-align: center;
+}
+
 ul li {
   list-style-type: initial !important;
 }
@@ -1847,7 +1859,7 @@ h5{
         width: 10em;
         height: 7em;
     }
-    
+
     #view-expo-button{
         min-width: 20em;
         height: auto;
