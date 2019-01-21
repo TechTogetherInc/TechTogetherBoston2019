@@ -3,9 +3,9 @@
       <title> Contact </title>
       <link href="assets/css/materialize_copy.css" rel="stylesheet">
       <link href="assets/css/main.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
       <link rel="icon" href="assets/imgs/favicon.png">
       <meta name="viewport" content="width=device-width,initial-scale=1">
    </head>
@@ -22,9 +22,18 @@
 
          <div class="flex-end navigation">
            <a href="index.html" class="underline-hover"> Home </a>
+            <a href="about.html" class="underline-hover"> About </a>
             <a href="faq.html" class="underline-hover"> FAQ </a>
+             <div class="dropdownNav desktop-only">
+             <p class="no-margin">Attend <span class="fas fa-angle-down"></span></p>
+             <a class="dropdownNav-content" href="travel.html">
+                <p>Travel</p>
+             </a>
+            </div>
             <a href="contact.html" class="underline-hover"> Contact </a>
+            <a href="shehacks/index.html" class="underline-hover"> Past SheHacks </a>
          </div>
+          <a id="mlh-trust-badge" class="MLH" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
       </header>
 
       <!-- Hamburger Nav - Start -->
@@ -39,11 +48,32 @@
                           </a>
                        </li>
                         <li>
+                           <a href="about.html">
+                              <section class="flex-center">
+                                 <p class="bold">About</p>
+                              </section>
+                           </a>
+                        </li>
+                         <li>
                            <a href="faq.html">
                               <section class="flex-center">
                                  <p class="bold">FAQ</p>
                               </section>
                            </a>
+                        </li>
+                        <li>
+                          <a href="#" id="attend">
+                            <section class="flex-center">
+                              <p class="bold">&nbsp;&nbsp;Attend <span class="fas fa-angle-down"></span></p>
+                            </section>
+                          </a>
+                        </li>
+                        <li class="dropdown_mobile" id="extend">
+                          <a href="travel.html">
+                            <section class="flex-center">
+                              <p class="bold">Travel</p>
+                            </section>
+                          </a>
                         </li>
                         <li>
                            <a href="contact.html">
@@ -52,16 +82,24 @@
                               </section>
                            </a>
                         </li>
+                         <li>
+                           <a href="shehacks/index.html">
+                              <section class="flex-center">
+                                 <p class="bold">Past SheHacks</p>
+                              </section>
+                           </a>
+                        </li>
                      </ul>
                   </nav>
                </div>
                <!-- Ham Nav - End-->
 
+       
       <div class="banner light-blue-color flex-center-3">
          <h3 class="bold white-text no-margin"> Contact </h3>
       </div>
 
-      <div class="flex">
+      <div class="flex main-box">
          <div id="style-1">
             <h3 class="bold"> Hackers </h3>
             <h5> General Questions: <a href="mailto:info@techtogether.io" class="red-text"><u>info@techtogether.io</u></a> </h5>
