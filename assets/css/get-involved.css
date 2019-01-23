@@ -33,6 +33,9 @@ body{
   line-height:1.5em;
 }
 
+#prehacks-blurb{
+  line-height: 1.8em;
+}
 
 .center-align{
   text-align: center;
