@@ -533,7 +533,7 @@ header{
 
 .host-sponsor {
   /*background-color: #76d7f2;*/
-  background-color: rgb(255, 153, 153, .75);
+  /*background-color: rgb(255, 153, 153, .75);*/
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 1em;
@@ -830,6 +830,10 @@ header{
 .green-btn:hover {
    background-color: #006b7f;
    color: white;
+}
+
+.sponsor-icon {
+  width: 100%;
 }
 
 /* Helen CSS */
