@@ -14,10 +14,6 @@ body{
     margin-top: 0;
 }
 
-.apply-button{
-  margin-left: 3.8vw;
-}
-
 .role-name{
   text-align: center;
   font-size: 2.3em;
@@ -41,6 +37,15 @@ body{
   text-align: center;
 }
 
+.button-width{
+   min-width: 15em;
+   height: auto;
+}
+
+.register{
+   padding: 0;  /* The word Ambassador is large*/
+}
+
 @media screen and (max-width: 500px) {
   #volunteer-card{
     margin-top: 30vw !important;
@@ -55,4 +60,34 @@ body{
   .apply-button{
     margin-left: auto !important;
   }
+   
+   .button-width{
+      min-width: 20em;
+   }
+   
+   .register{
+      font-size: 3.6vw;
+   }
+   
+   .apply-button{
+      margin: 0;
+      min-width: 0;
+      width: 100%;
+      font-size: 4vw;
+   }
+   
+}
+
+@media screen and (max-width: 1024px) and (min-width: 501px){
+
+   .main-box{
+       margin: 5em 5% 0 5%;
+   }
+   
+   .apply-button{
+      margin: 0;
+      min-width: 0;
+      width: 100%;
+   }
+   
 }
