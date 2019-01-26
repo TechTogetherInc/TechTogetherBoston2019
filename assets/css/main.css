@@ -797,6 +797,12 @@ header{
    display: none;
 }
 
+.signup-mobile div{
+   display: flex;
+   justify-content: center;
+   flex-flow: row;
+}
+
 
 /* Resources - Catherine */
 
