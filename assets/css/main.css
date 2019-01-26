@@ -547,14 +547,14 @@ header{
 .grid-pita-plus{
     grid-template-columns: repeat(1, 35%);
     justify-content: space-evenly;
-    margin: 2.5em 0 2.5em 0;
+    margin: 2.5em 0 0em 0;
     text-align: center;
 }
 
 .grid-pita, .grid-giga, .grid-mega{
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
-    margin: 2.5em 0 2.5em 0;
+    margin: 1.5em 0 2.5em 0;
 }
 
 .grid-tera{
@@ -803,6 +803,11 @@ header{
    flex-flow: row;
 }
 
+.host-sponsor {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1em;
+}
 
 /* Resources - Catherine */
 
@@ -836,6 +841,7 @@ header{
    background-color: #006b7f;
    color: white;
 }
+
 
 /* Helen CSS */
 
@@ -1274,7 +1280,7 @@ h5{
       width: 100%;
       padding-left: 5%;
       padding-right: 5%;
-       grid-row-gap: 2em;
+      grid-row-gap: 2em;
       grid-template-columns: repeat(1, 96%);
        margin: 1em 0 3em 0; /*Custom Tier Margins*/
    }
