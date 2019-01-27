@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132771953-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132771953-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-132771953-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132771953-1');
+  </script>
   <title> TechTogether Boston </title>
   <link href="assets/css/materialize_copy.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
@@ -34,16 +37,16 @@
       <a href="about.html" class="underline-hover"> About </a>
       <a href="faq.html" class="underline-hover"> FAQ </a>
       <div class="dropdownNav desktop-only">
-             <p class="no-margin">Attend <span class="fas fa-angle-down"></span></p>
-             <a class="dropdownNav-content" href="travel.html">
-                <p>Travel</p>
-             </a>
+        <p class="no-margin">Attend <span class="fas fa-angle-down"></span></p>
+        <a class="dropdownNav-content" href="travel.html">
+          <p>Travel</p>
+        </a>
       </div>
       <a href="contact.html" class="underline-hover"> Contact</a>
       <a href="shehacks/index.html" class="underline-hover">Past SheHacks </a>
     </div>
 
-      <a id="mlh-trust-badge" class="MLH" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+    <a id="mlh-trust-badge" class="MLH" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
   </header>
 
   <div id="first-section">
@@ -70,6 +73,10 @@
       <div class="col s3 offset-s1">
         <a href="https://techtogetherboston.typeform.com/to/neFmKu" target="_blank"><button class="btn btn-large register button-width">Apply Now</button></a>
       </div>
+      <div class="col s3 desktop-only">
+        <a href="get-involved.html"><button class="btn btn-large register button-width" id="get-involved-button">Get Involved</button></a>
+      </div>
+      <a href="get-involved.html"><button class="btn btn-large register button-width mobile-only" id="get-involved-button-mobile">Get Involved</button></a>
     </div>
 
     <!-- Hamburger Nav - Start -->
@@ -83,12 +90,12 @@
               </section>
             </a>
           </li>
-         <li>
-              <a href="about.html">
-                <section class="flex-center">
-                  <p class="bold">About</p>
-                </section>
-              </a>
+          <li>
+            <a href="about.html">
+              <section class="flex-center">
+                <p class="bold">About</p>
+              </section>
+            </a>
           </li>
           <li>
             <a href="faq.html">
@@ -97,20 +104,20 @@
               </section>
             </a>
           </li>
-            <li>
-              <a href="#" id="attend">
-                <section class="flex-center">
-                  <p class="bold">&nbsp;&nbsp;Attend <span class="fas fa-angle-down"></span></p>
-                </section>
-              </a>
-            </li>
-            <li class="dropdown_mobile" id="extend">
-              <a href="travel.html">
-                <section class="flex-center">
-                  <p class="bold">Travel</p>
-                </section>
-              </a>
-            </li>
+          <li>
+            <a href="#" id="attend">
+              <section class="flex-center">
+                <p class="bold">&nbsp;&nbsp;Attend <span class="fas fa-angle-down"></span></p>
+              </section>
+            </a>
+          </li>
+          <li class="dropdown_mobile" id="extend">
+            <a href="travel.html">
+              <section class="flex-center">
+                <p class="bold">Travel</p>
+              </section>
+            </a>
+          </li>
           <li>
             <a href="contact.html">
               <section class="flex-center">
@@ -118,13 +125,13 @@
               </section>
             </a>
           </li>
-            <li>
-              <a href="shehacks/index.html">
-                <section class="flex-center">
-                  <p class="bold">Past SheHacks</p>
-                </section>
-              </a>
-            </li>
+          <li>
+            <a href="shehacks/index.html">
+              <section class="flex-center">
+                <p class="bold">Past SheHacks</p>
+              </section>
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -327,7 +334,7 @@
           <p class="bold"> Learn New Skills </p>
         </div>
       </div>
-                <a href="https://techtogetherboston.typeform.com/to/neFmKu" target="_blank"><button class="btn btn-large register button-width mobile-button-margin" id="second-apply-button">Apply Now</button></a>
+      <a href="https://techtogetherboston.typeform.com/to/neFmKu" target="_blank"><button class="btn btn-large register button-width mobile-button-margin" id="second-apply-button">Apply Now</button></a>
     </div>
 
     <div class="about-box-4">
@@ -340,50 +347,8 @@
     </div>
   </div>
 
-  <div id="community-highlight-section" class="desktop-left-padding" style="display:none">
-    <div class="row" id="mobile-style-highlight-section">
-      <h3 class="bold">Community Spotlight</h3>
-      <hr id="hacker-highlight-hr">
-      <h5> Wondering what kind of projects you'll get to work on? Here are some of our favorites from SheHacks 2018! </h5>
-    </div>
-    <div class="row" id="project-highlight-row">
-      <div class="col s4 highlight-box">
-        <a href="https://devpost.com/software/puppytime" target="_blank"><img src="assets/imgs/hacker-highlight/puppytime-pic.png" alt="puppytime project image" class="hacker-highlight-img"></a>
-          <div id="background-box" class="tt-green"></div>
-          <div class="highlight-text">
-            <h5 class="bolder">Puppy Time</h5>
-            <hr style="color:white">
-          <p class="light award-title word-cloud">Entrepreneurial Hack Winner</p>
-            <p>Platform to help shelters with donations and adoption by connecting people with a live stream of adorable shelter pups! Made by a beginner team! </p>
-          </div>
-      </div>
-      <div class="col s4 highlight-box">
-        <a href="https://devpost.com/software/shetechs" target="_blank"><img src="assets/imgs/hacker-highlight/lit-image.png" alt="ladies in technology project image" class="hacker-highlight-img"></a>
-        <div id="background-box" class="tt-green"></div>
-        <div class="highlight-text">
-          <h5 class="bolder">Ladies in Technology</h5>
-            <hr style="color:white">
-          <p class="light award-title word-cloud">SOCIAL IMPACT HACK WINNER</p>
-          <p>Empowering app to make it easier for women to find professional connections! L.I.T. can help grow your network, share ideas, and make new friends.</p>
-          <!-- <p>Built with: Java, Android Studio, Firebase, HTML/CSS, Kotlin</p> -->
-        </div>
-      </div>
-      <div class="col s4 highlight-box">
-        <a href="https://devpost.com/software/the-final-meltdown" target="_blank"><img src="assets/imgs/hacker-highlight/final-meltdown-image.png" alt="final meltdown project image" class="hacker-highlight-img"></a>
-          <div id="background-box" class="tt-green"></div>
-          <div class="highlight-text">
-            <h5 class="bolder">The Final Meltdown</h5>
-            <hr style="color:white">
-          <p class="light award-title word-cloud">Virtual Reality Hack Winner</p>
-            <p>VR app that simulates icebergs melting all around you as a way to see the negative effects of climate change. Made by a beginner team!</p>
-            <!-- <p>Built with: A-frame, Glitch, JavaScript, Three.js</p> -->
-          </div>
-      </div>
-    </div>
-  </div>
 
-
-  <div class="table white-font space" id="get-involved-section">
+  <!-- <div class="table white-font space" id="get-involved-section">
     <div class="tablerow">
       <div class="cell1 cell-mobile-padding tt-green">
         <h3><b>Get Involved </b></h3>
@@ -393,10 +358,10 @@
         <div class="mobile-only">
           <p>Are you interested in volunteering, mentoring, or being an ambassador of this movement? Sign up with the link below!</p>
 
-                    <a href="https://techtogetherboston.typeform.com/to/LcqNhF" target="_blank"><button class="btn btn-large register button-width mobile-button-margin tt-purple white-text">Mentor</button></a>
+          <a href="https://techtogetherboston.typeform.com/to/LcqNhF" target="_blank"><button class="btn btn-large register button-width mobile-button-margin tt-purple white-text">Mentor</button></a>
 
           <a href="https://techtogetherboston.typeform.com/to/s1Az85" target="_blank"><button class="btn btn-large register button-width mobile-button-margin tt-red white-text">Brand Ambassador</button></a>
-                    <a href="https://techtogetherboston.typeform.com/to/e20ulX" target="_blank"><button class="btn btn-large register button-width mobile-button-margin">Volunteer</button></a>
+          <a href="https://techtogetherboston.typeform.com/to/e20ulX" target="_blank"><button class="btn btn-large register button-width mobile-button-margin">Volunteer</button></a>
 
         </div>
         <div class="desktop-only">
@@ -434,84 +399,96 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
-  <div class="flex-center-2">
+  <!-- <div class="flex-center-2">
+    <h2 class="bold text-center"> Thank you to our Sponsors &#38; Partners!</h2>
+  </div> -->
+  <div class="row desktop-only" id="thanks-header">
     <h2 class="bold text-center"> Thank you to our Sponsors &#38; Partners!</h2>
   </div>
+  <div class="row mobile-only">
+    <h2 class="bold text-center"> Thank you to our Sponsors &#38; Partners!</h2>
+  </div>
+  <div class="row">
+    <p class="text-center no-margin"> Interested in partnering with us? Email <a href="mailto:sponsor@techtogether.io" class="blue-url">sponsor@techtogether.io</a> for partnership inquiries! </p>
+  </div>
 
-    <div class="flex-center-2">
-        <p class="text-center no-margin"> Interested in partnering with us? Email <a href="mailto:sponsor@techtogether.io" class="blue-url">sponsor@techtogether.io</a> for partnership inquiries! </p>
+  <div class="flex-center-2">
+  </div>
+
+  <div class="grid-container grid-pita-plus">
+    <div>
+      <p class="bold no-margin"> Host Partner</p>
+      <a href="http://www.bu.edu/" target="_blank"><img src="assets/imgs/partner-logos/BU-logo-.png" class="partner-logo" alt="bu"></a>
     </div>
+  </div>
 
-    <div class="grid-container grid-pita-plus">
-        <div>
-            <p class="bold no-margin"> Host Partner</p>
-            <a href="http://www.bu.edu/" target="_blank"><img src="assets/imgs/partner-logos/BU-logo-.png" class="partner-logo" alt="bu"></a>
-        </div>
+
+
+  <div class="grid-container grid-pita-plus">
+    <div class="border_box">
+      <p class="bold no-margin"> Title Sponsor</p>
+      <a href="https://www.wayfaircareers.com/students" target="_blank"><img src="assets/imgs/partner-logos/Wayfair_logo.png" class="partner-logo" alt="Wairfair_Logo"> </a>
     </div>
+  </div>
 
-
-
-    <div class="grid-container grid-pita-plus">
-        <div class="border_box">
-            <p class="bold no-margin"> Title Sponsor</p>
-            <a href="https://www.wayfaircareers.com/students" target="_blank"><img src="assets/imgs/partner-logos/Wayfair_logo.png" class="partner-logo" alt="Wairfair_Logo"> </a>
-        </div>
+  <div class="grid-container grid-pita">
+    <a href="https://careers.toasttab.com/" target="_blank"><img src="assets/imgs/partner-logos/toast-logo.png" class="partner-logo" alt="toast logo"></a>
+    <a href="https://www.paypal.com/ca/webapps/mpp/jobs" target="_blank"><img src="assets/imgs/partner-logos/paypal-logo.png" class="partner-logo" alt="paypal logo"></a>
+    <a href="https://jobs.fidelity.com/page/show/students" target="_blank"><img src="assets/imgs/partner-logos/Fidelity_Logo.jpg" class="partner-logo" alt="Fidelity"> </a>
+    <div class="desktop-only">
+      <!-- Empty div for grid spacing -->
     </div>
+    <a href="https://www.redhat.com/en" target="_blank"><img src="assets/imgs/partner-logos/red hat logo.png" class="partner-logo" alt="Red Hat"></a>
+  </div>
 
-    <div class="grid-container grid-pita">
-        <a href="https://careers.toasttab.com/" target="_blank"><img src="assets/imgs/partner-logos/toast-logo.png" class="partner-logo" alt="toast logo"></a>
-        <a href="https://www.paypal.com/ca/webapps/mpp/jobs" target="_blank"><img src="assets/imgs/partner-logos/paypal-logo.png" class="partner-logo" alt="paypal logo"></a>
-        <a href="https://jobs.fidelity.com/page/show/students" target="_blank"><img src="assets/imgs/partner-logos/Fidelity_Logo.jpg" class="partner-logo" alt="Fidelity"> </a>
-        <div class="desktop-only"> <!-- Empty div for grid spacing --> </div>
-        <a href="https://www.redhat.com/en" target="_blank"><img src="assets/imgs/partner-logos/red hat logo.png" class="partner-logo" alt="Red Hat"></a>
-    </div>
+  <div class="grid-container grid-tera">
+    <a href="https://careers.microsoft.com/us/en/students-and-graduates" target="_blank"><img src="assets/imgs/partner-logos/microsoft-logo.png" class="partner-logo" alt="Microsoft"> </a>
+    <a href="https://www.bcbs.com/careers" target="_blank"><img src="assets/imgs/partner-logos/BCBS.png" class="partner-logo" alt="BlueCrossBlueShield"> </a>
+  </div>
 
-    <div class="grid-container grid-tera">
-        <a href="https://careers.microsoft.com/us/en/students-and-graduates" target="_blank"><img src="assets/imgs/partner-logos/microsoft-logo.png" class="partner-logo" alt="Microsoft"> </a>
-        <a href="https://www.bcbs.com/careers" target="_blank"><img src="assets/imgs/partner-logos/BCBS.png" class="partner-logo" alt="BlueCrossBlueShield"> </a>
-    </div>
+  <div class="grid-container grid-giga">
+    <a href="https://www.sap.com/uk/about/careers/university-programs/students/internships/internship-experience-project.html" target="_blank"><img src="assets/imgs/partner-logos/sap-logo.png" class="partner-logo" alt="sap logo"></a>
+    <a href="https://www.cbre.us/about/careers/students-graduates" target="_blank"><img src="assets/imgs/partner-logos/CBRE_Group_logo.svg.png" class="partner-logo" alt="CBRE"> </a>
+    <a href="https://www.twosigma.com/" target="_blank"><img src="assets/imgs/partner-logos/TwoSigma_Logo_RGB_transp_1000px (12).png" class="partner-logo" alt="TwoSigma"></a>
+    <a href="https://careers.jpmorgan.com/careers/US/en/programs" target="_blank"><img src="assets/imgs/partner-logos/jpmorgan-chase_logo%20(2).jpg" class="partner-logo" alt="JP Morgan"> </a>
+    <a href="https://www.hedera.com/" target="_blank"><img src="assets/imgs/partner-logos/Hbar-HH-stacked_black@4x.png" class="partner-logo" alt="Hedera Hashgraph"></a>
+    <a href="https://www.slalom.com/solutions/slalom-build" target="_blank"><img src="assets/imgs/partner-logos/Logo-Black-Cyan.png" class="partner-logo" alt="Slalom"></a>
+    <a href="https://careers.ibm.com/" target="_blank"><img src="assets/imgs/partner-logos/ibm-logo.png" class="partner-logo" alt="ibm logo"></a>
+    <a href="https://www.techatbloomberg.com/?utm_source=bloomberg-menu&utm_medium=bcom" target="_blank"><img src="assets/imgs/partner-logos/logoBBGblck.png" class="partner-logo" alt="Bloomberg"></a>
+    <a href="https://careers.travelers.com/students-grads/internships/" target="_blank"><img src="assets/imgs/partner-logos/trav_1797+K.png" class="partner-logo" alt="Travelers"> </a>
+    <a href="https://www.umb.edu/" target="_blank"><img src="assets/imgs/partner-logos/UMASSB0STON_ID_blue.png" class="partner-logo umass-img" alt="UMass Boston"> </a>
+    <a href="https://www.validity.com/" target="_blank"><img src="assets/imgs/partner-logos/ValidityLogo.png" class="partner-logo" alt="Validity"> </a>
+    <a href="https://www.mathworks.com/company/jobs/students/interns.html" target="_blank"><img src="assets/imgs/partner-logos/MathWorks.jpg" class="partner-logo" alt="MathWorks"> </a>
+  </div>
 
-    <div class="grid-container grid-giga">
-        <a href="https://www.sap.com/uk/about/careers/university-programs/students/internships/internship-experience-project.html" target="_blank"><img src="assets/imgs/partner-logos/sap-logo.png" class="partner-logo" alt="sap logo"></a>
-        <a href="https://www.cbre.us/about/careers/students-graduates" target="_blank"><img src="assets/imgs/partner-logos/CBRE_Group_logo.svg.png" class="partner-logo" alt="CBRE"> </a>
-        <a href="https://www.twosigma.com/" target="_blank"><img src="assets/imgs/partner-logos/TwoSigma_Logo_RGB_transp_1000px (12).png" class="partner-logo" alt="TwoSigma"></a>
-        <a href="https://careers.jpmorgan.com/careers/US/en/programs" target="_blank"><img src="assets/imgs/partner-logos/jpmorgan-chase_logo%20(2).jpg" class="partner-logo" alt="JP Morgan"> </a>
-        <a href="https://www.hedera.com/" target="_blank"><img src="assets/imgs/partner-logos/Hbar-HH-stacked_black@4x.png" class="partner-logo" alt="Hedera Hashgraph"></a>
-        <a href="https://www.slalom.com/solutions/slalom-build" target="_blank"><img src="assets/imgs/partner-logos/Logo-Black-Cyan.png" class="partner-logo" alt="Slalom"></a>
-         <a href="https://careers.ibm.com/" target="_blank"><img src="assets/imgs/partner-logos/ibm-logo.png" class="partner-logo" alt="ibm logo"></a>
-        <a href="https://www.techatbloomberg.com/?utm_source=bloomberg-menu&utm_medium=bcom" target="_blank"><img src="assets/imgs/partner-logos/logoBBGblck.png" class="partner-logo" alt="Bloomberg"></a>
-        <a href="https://careers.travelers.com/students-grads/internships/" target="_blank"><img src="assets/imgs/partner-logos/trav_1797+K.png" class="partner-logo" alt="Travelers"> </a>
-        <a href="https://www.umb.edu/" target="_blank"><img src="assets/imgs/partner-logos/UMASSB0STON_ID_blue.png" class="partner-logo umass-img" alt="UMass Boston"> </a>
-        <a href="https://www.validity.com/" target="_blank"><img src="assets/imgs/partner-logos/ValidityLogo.png" class="partner-logo" alt="Validity"> </a>
-        <a href="https://www.mathworks.com/company/jobs/students/interns.html" target="_blank"><img src="assets/imgs/partner-logos/MathWorks.jpg" class="partner-logo" alt="MathWorks"> </a>
-    </div>
-
-    <div class="grid-container grid-mega">
-        <a href="https://balsamiq.com/" target="_blank"><img src="assets/imgs/partner-logos/balsamiq-logo-screen.png" class="partner-logo" alt="Balsamiq"></a>
-        <a href="https://careers.google.com/students/engineering-and-technical-internships/" target="_blank"><img src="assets/imgs/partner-logos/Google_Logo.png" class="partner-logo" alt="Google"></a>
-        <a href="https://www.jobs.libertymutualgroup.com/category/internships-jobs/685/39303/1" target="_blank"><img src="assets/imgs/partner-logos/liberty_mutual.png" class="partner-logo" alt="Liberty_Mutual"></a>
-    </div>
+  <div class="grid-container grid-mega">
+    <a href="https://balsamiq.com/" target="_blank"><img src="assets/imgs/partner-logos/balsamiq-logo-screen.png" class="partner-logo" alt="Balsamiq"></a>
+    <a href="https://careers.google.com/students/engineering-and-technical-internships/" target="_blank"><img src="assets/imgs/partner-logos/Google_Logo.png" class="partner-logo" alt="Google"></a>
+    <a href="https://www.jobs.libertymutualgroup.com/category/internships-jobs/685/39303/1" target="_blank"><img src="assets/imgs/partner-logos/liberty_mutual.png" class="partner-logo" alt="Liberty_Mutual"></a>
+  </div>
 
   <div class="grid-container">
-         <!-- Custom Amount or Unknown Amount -->
-         <a href="https://www.armoredthings.com" target="_blank"><img src="assets/imgs/partner-logos/armored-things-logo.png" class="partner-logo" alt="armored-things logo"></a>
-         <a href="https://www.drift.com/jobs/" target="_blank"><img src="assets/imgs/partner-logos/drift_logo.png" class="partner-logo" alt="Drift"> </a>
-         <a href="https://www.generalcatalyst.com/" target="_blank"><img src="assets/imgs/partner-logos/gc.png" class="partner-logo" alt="General Catalyst"> </a>
-         <a href="http://www.roughdraft.vc/" target="_blank"><img src="assets/imgs/partner-logos/8IuORa3t_400x400.jpg" class="partner-logo roughdraft-img" alt="Rough Draft"> </a>
-         <a href="https://www.accenture.com/us-en/careers/find-your-fit-students-graduates-undergraduate-summer-internships" target="_blank"><img src="assets/imgs/partner-logos/accenture_logo.png" class="partner-logo" alt="Accenture logo"></a>
+    <!-- Custom Amount or Unknown Amount -->
+    <a href="https://www.armoredthings.com" target="_blank"><img src="assets/imgs/partner-logos/armored-things-logo.png" class="partner-logo" alt="armored-things logo"></a>
+    <a href="https://www.drift.com/jobs/" target="_blank"><img src="assets/imgs/partner-logos/drift_logo.png" class="partner-logo" alt="Drift"> </a>
+    <a href="https://www.generalcatalyst.com/" target="_blank"><img src="assets/imgs/partner-logos/gc.png" class="partner-logo" alt="General Catalyst"> </a>
+    <a href="http://www.roughdraft.vc/" target="_blank"><img src="assets/imgs/partner-logos/8IuORa3t_400x400.jpg" class="partner-logo roughdraft-img" alt="Rough Draft"> </a>
+    <a href="https://www.accenture.com/us-en/careers/find-your-fit-students-graduates-undergraduate-summer-internships" target="_blank"><img src="assets/imgs/partner-logos/accenture_logo.png" class="partner-logo" alt="Accenture logo"></a>
   </div>
 
   <p class="bold no-margin center-align"> Partners</p>
-    <div class="grid-container grid-partners">
-        <a href="https://hackplus.io/" target="_blank"><img src="assets/imgs/partner-logos/Hack-plus.png" class="partner-logo" alt="Hackplus"></a>
-        <a href="https://www.womenwhocode.com/boston" target="_blank"> <img src="assets/imgs/partner-logos/WWCode_Logo.jpg" class="partner-logo" alt="WWCode Logo"></a>
-        <a href="https://www.experimentalcivics.io/" target="_blank"><img src="assets/imgs/partner-logos/Experimental_Civics_Logo.png" class="partner-logo experimental_civics_logo" alt="Experimental_Civics"></a>
-        <div class="desktop-only"> <!-- Empty div for grid spacing --> </div>
-        <a href="https://mlh.io/" target="_blank"><img src="assets/imgs/partner-logos/mlh-logo-color.png" class="partner-logo" alt="mlh"></a>
+  <div class="grid-container grid-partners">
+    <a href="https://hackplus.io/" target="_blank"><img src="assets/imgs/partner-logos/Hack-plus.png" class="partner-logo" alt="Hackplus"></a>
+    <a href="https://www.womenwhocode.com/boston" target="_blank"> <img src="assets/imgs/partner-logos/WWCode_Logo.jpg" class="partner-logo" alt="WWCode Logo"></a>
+    <a href="https://www.experimentalcivics.io/" target="_blank"><img src="assets/imgs/partner-logos/Experimental_Civics_Logo.png" class="partner-logo experimental_civics_logo" alt="Experimental_Civics"></a>
+    <div class="desktop-only">
+      <!-- Empty div for grid spacing -->
     </div>
+    <a href="https://mlh.io/" target="_blank"><img src="assets/imgs/partner-logos/mlh-logo-color.png" class="partner-logo" alt="mlh"></a>
+  </div>
 
   <footer class="flex-footer orange">
 
