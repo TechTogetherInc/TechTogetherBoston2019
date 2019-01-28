@@ -838,6 +838,23 @@ header{
 }
 
 /* Helen CSS */
+#get-involved-button{
+  margin-left: 7vw;
+  background: #808cf4;
+}
+
+#thanks-header{
+  background: #808cf4;
+  color:white;
+  padding-bottom: 2em;
+  padding-top:.5em;
+}
+
+#get-involved-button-mobile{
+  margin-left: 8vw !important;
+  margin-top: 30% !important;
+  background: #808cf4 !important;
+}
 
 .center-align{
   text-align: center;
@@ -1101,7 +1118,7 @@ h5{
 #first-apply-now-btn{
   position: absolute;
   z-index: 100;
-  margin-left: 7vw;
+  margin-left: 5vw;
 }
 
 .desktop-left-padding{
@@ -1345,7 +1362,7 @@ h5{
    }
 
    #top-social-icons{
-     padding-top:20%;
+     padding-top:30%;
    }
 
    #first-apply-now-btn {
@@ -1452,7 +1469,7 @@ h5{
    .about-box-5{
       float: left;
       width: 47%;
-      margin: 0 2% 0 0;
+      margin: 0 2% 4em 0;
    }
 
    .cell1{
@@ -1600,7 +1617,7 @@ h5{
         width: 11em;
         height: 11em;
     }
-   
+
    .experimental_civics_logo{
       width: 78%;
       margin-left: 11%;
