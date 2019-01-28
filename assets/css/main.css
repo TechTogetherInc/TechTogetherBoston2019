@@ -1908,6 +1908,13 @@ h5{
    }
 }
 
+
+@media screen and (min-width: 1025px){
+   .overlay{
+      display: none;
+   }
+
+}
 /*
 Sign Up Button Hex Color (through photoshop):
 #fd7361
