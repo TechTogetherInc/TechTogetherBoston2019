@@ -552,6 +552,13 @@ header{
    margin: 2em 0 2.5em 0;
 }
 
+.grid-bu{
+    grid-template-columns: repeat(1, 45%);
+    justify-content: space-evenly;
+    margin: 2.5em 0 2.5em 0;
+    text-align: center;
+}
+
 .grid-pita-plus{
     grid-template-columns: repeat(1, 35%);
     justify-content: space-evenly;
