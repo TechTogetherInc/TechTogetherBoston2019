@@ -9,3 +9,7 @@ $('#toggle').click(function() {
 $('#attend').click(function() {
     $('#extend').toggleClass('open');
 });
+
+$('#attend').click(function() {
+    $('#extend2').toggleClass('open');
+});

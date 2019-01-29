@@ -140,7 +140,7 @@ h2{
 }
 
 ul li{
-   margin: 20px 0 20px 0;
+   margin: 10px 0 10px 0;
 }
 
 /************************** Hamburger Nav ******************************/
@@ -394,8 +394,16 @@ a{
     display: block !important;
 }
 
-.dropdownNav-content:hover{
+.dropdownNav-content p:hover{
     background: rgb(82,217,246, .5);
+}
+
+.dropdownNav-content p{
+   padding: 5px;
+}
+
+.dropdownNav-content p a{
+   display: block;
 }
 
 /*
@@ -1141,13 +1149,18 @@ h5{
     background-color: #FFF;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 10px;
+    padding: 3px;
     left: -10px;
     z-index: 1000;
 }
 
 .dropdownNav:hover .dropdownNav-content {
     display: block;
+}
+
+.hr_style{
+   margin: 0;
+   border-top: 1px #000 solid;
 }
 
 .border_box{
@@ -1445,7 +1458,7 @@ h5{
    }
 
    .overlay-2 ul li {
-      height: 40px;
+      height: 20px;
    }
 
    .about-box-1{
