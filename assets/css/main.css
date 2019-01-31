@@ -552,24 +552,29 @@ header{
    margin: 2em 0 2.5em 0;
 }
 
-.grid-bu{
-    grid-template-columns: repeat(1, 45%);
-    justify-content: space-evenly;
-    margin: 2.5em 0 2.5em 0;
-    text-align: center;
+.grid-BU_Logo{
+   grid-template-columns: repeat(1, 60%);
+   text-align: center;
+}
+
+.grid-BU{
+   grid-template-columns: repeat(3, 33%);
+   padding: 0;
+   text-align: center;
+
 }
 
 .grid-pita-plus{
-    grid-template-columns: repeat(1, 35%);
+    grid-template-columns: repeat(1, 40%);
     justify-content: space-evenly;
-    margin: 2.5em 0 2.5em 0;
+    margin: 2.5em 0 0em 0;
     text-align: center;
 }
 
 .grid-pita, .grid-giga, .grid-mega{
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
-    margin: 2.5em 0 2.5em 0;
+    margin: 1.5em 0 2.5em 0;
 }
 
 .grid-tera{
@@ -818,6 +823,11 @@ header{
    flex-flow: row;
 }
 
+.host-sponsor {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1em;
+}
 
 /* Resources - Catherine */
 
@@ -851,6 +861,7 @@ header{
    background-color: #006b7f;
    color: white;
 }
+
 
 /* Helen CSS */
 #get-involved-button{
@@ -1311,11 +1322,11 @@ h5{
       width: 100%;
       padding-left: 5%;
       padding-right: 5%;
-       grid-row-gap: 2em;
+      grid-row-gap: 2em;
       grid-template-columns: repeat(1, 96%);
        margin: 1em 0 3em 0; /*Custom Tier Margins*/
    }
-
+   
     .grid-pita-plus{
         margin: 3em 0 1em 0;
     }
@@ -1739,7 +1750,7 @@ h5{
    }
 
     .grid-pita-plus{
-        grid-template-columns: repeat(1, 30%);
+        grid-template-columns: repeat(1, 50%);
         justify-content: space-evenly;
         text-align: center;
     }
@@ -1758,6 +1769,10 @@ h5{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
+   
+   .grid-BU_Logo{
+      grid-template-columns: repeat(1, 70%);
+   }
 
    .partner-logo{
       width: 100%;
