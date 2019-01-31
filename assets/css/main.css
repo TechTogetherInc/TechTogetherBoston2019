@@ -544,8 +544,19 @@ header{
    margin: 2em 0 2.5em 0;
 }
 
+.grid-BU_Logo{
+   grid-template-columns: repeat(1, 60%);
+   text-align: center;
+}
+
+.grid-BU{
+   grid-template-columns: repeat(3, 33%);
+   padding: 0;
+   text-align: center;
+}
+
 .grid-pita-plus{
-    grid-template-columns: repeat(1, 35%);
+    grid-template-columns: repeat(1, 40%);
     justify-content: space-evenly;
     margin: 2.5em 0 0em 0;
     text-align: center;
@@ -1284,7 +1295,7 @@ h5{
       grid-template-columns: repeat(1, 96%);
        margin: 1em 0 3em 0; /*Custom Tier Margins*/
    }
-
+   
     .grid-pita-plus{
         margin: 3em 0 1em 0;
     }
@@ -1708,7 +1719,7 @@ h5{
    }
 
     .grid-pita-plus{
-        grid-template-columns: repeat(1, 30%);
+        grid-template-columns: repeat(1, 50%);
         justify-content: space-evenly;
         text-align: center;
     }
@@ -1727,6 +1738,10 @@ h5{
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
+   
+   .grid-BU_Logo{
+      grid-template-columns: repeat(1, 70%);
+   }
 
    .partner-logo{
       width: 100%;
