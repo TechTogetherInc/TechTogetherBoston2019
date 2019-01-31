@@ -5,12 +5,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132771953-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
     gtag('js', new Date());
-
     gtag('config', 'UA-132771953-1');
   </script>
 
@@ -20,6 +18,7 @@
   <link href="assets/css/get-involved.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
   <link rel="icon" href="assets/imgs/favicon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -38,6 +37,16 @@
       <a href="index.html" class="underline-hover"> Home </a>
       <a href="about.html" class="underline-hover"> About </a>
       <a href="faq.html" class="underline-hover"> FAQ </a>
+      <div class="dropdownNav desktop-only">
+        <p class="no-margin">Attend <span class="fas fa-angle-down"></span></p>
+        <div class="dropdownNav-content" href="travel.html">
+          <p><a href="travel.html">Travel</a></p> 
+           <hr class="hr_style">
+          <p><a href="get-involved.html">Get Involved</a></p>
+           <hr class="hr_style">
+          <p><a href="https://techtogetherboston.typeform.com/to/neFmKu" target="_blank">Apply</a></p>
+        </div>    
+      </div>
       <a href="contact.html" class="underline-hover"> Contact </a>
       <a href="shehacks/index.html" class="underline-hover"> Past SheHacks </a>
     </div>
@@ -69,6 +78,34 @@
             </section>
           </a>
         </li>
+         <li>
+          <a href="#" id="attend">
+            <section class="flex-center">
+              <p class="bold">&nbsp;&nbsp;Attend <span class="fas fa-angle-down"></span></p>
+            </section>
+          </a>
+        </li>
+        <li class="dropdown_mobile" id="extend">
+          <a href="travel.html">
+            <section class="flex-center">
+              <p class="bold">Travel</p>
+            </section>
+          </a>
+        </li>
+         <li class="dropdown_mobile" id="extend2">
+          <a href="get-involved.html">
+            <section class="flex-center">
+              <p class="bold">Get Involved</p>
+            </section>
+          </a>
+        </li>
+         <li class="dropdown_mobile" id="extend3">
+            <a href="https://techtogetherboston.typeform.com/to/neFmKu">
+              <section class="flex-center">
+                <p class="bold">Apply</p>
+              </section>
+            </a>
+          </li>
         <li>
           <a href="contact.html">
             <section class="flex-center">
@@ -89,9 +126,7 @@
   <!-- Ham Nav - End-->
 
   <div class="banner light-blue-color flex-center-3" id="get-involved-banner" style="padding-bottom: 18vw;
-
 padding-top: 5em;
-
 position: absolute;">
     <h3 class="bold white-text no-margin"> Get Involved </h3>
     <h4 class="bold white-text no-margin"> Contribute to TechTogether and help support our mission!</h4>
@@ -182,7 +217,7 @@ position: absolute;">
               </ul>
               <p>Applications for PreHacks are coming soon! If you have any questions about PreHacks, you can email <a href="mailto:prehacks@bu.edu" class="blue-url">prehacks@bu.edu</a> for more details.</p>
               <br>
-                  <a href="https://techtogetherboston.typeform.com/to/e20ulX" target="_blank"><button class="btn btn-large register button-width tt-purple white-text" style="margin-top:3%; margin-right:1em;">Sign Up For PreHacks</button></a><a href="http://www.bu.edu/spark/students/prehacks/" target="_blank"><button class="btn btn-large register button-width tt-green" style="margin-top:3%;">More PreHacks Info</button></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqA06ANUTXpViihYMBuExXGLQC-byQzBwI4v_GG9i9vQiLWQ/viewform" target="_blank"><button class="btn btn-large register button-width tt-purple white-text" style="margin-top:3%; margin-right:1em;">Sign Up For PreHacks</button></a><a href="http://www.bu.edu/spark/students/prehacks/" target="_blank"><button class="btn btn-large register button-width tt-green" style="margin-top:3%;">More PreHacks Info</button></a>
           </div>
         </div>
       </div>
@@ -227,7 +262,6 @@ position: absolute;">
               clear: left;
               font: 14px Barlow, Helvetica, Arial, sans-serif;
             }
-
             /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
           </style>
