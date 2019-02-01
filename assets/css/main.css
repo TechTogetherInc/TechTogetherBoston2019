@@ -1186,6 +1186,10 @@ h5{
     padding: 1.5em;
 }
 
+.mobileAndTablet{
+      display: none;
+}
+
 /*------------------------------*/
 
 /************** Mobile/Tablet Responsiveness ********************/
@@ -1537,7 +1541,11 @@ h5{
    .desktop-only{
      display: none;
    }
-
+   
+   .mobileAndTablet{
+      display: block;
+   }
+   
    .logo-2{
      width:90%;
    }
@@ -1911,6 +1919,10 @@ h5{
 
     .desktop-only{
      display: none;
+   }
+   
+   .mobileAndTablet{
+      display: block;
    }
 
     .umass-img {
