@@ -566,27 +566,46 @@ header{
 
 .grid-pita-plus{
     grid-template-columns: repeat(1, 40%);
-    justify-content: space-evenly;
     margin: 2.5em 0 0em 0;
     text-align: center;
 }
 
-.grid-pita, .grid-giga, .grid-mega{
+.grid-pita{
     grid-template-columns: repeat(3, 30%);
-    justify-content: space-evenly;
     margin: 1.5em 0 2.5em 0;
+}
+
+.grid-pita a:nth-of-type(4){
+    grid-column: 2;
+}
+
+.grid-giga{
+    grid-template-columns: repeat(3, 30%);
+    margin: 1.5em 0 0 0;
+}
+
+.grid-mega{
+   grid-template-columns: repeat(3, 30%);
+   margin: 1.5em 0 .5em 0;
+}
+
+.grid-sub{ /* Rows with 2 sponsors*/
+    grid-template-columns: 30% 30%;
+    margin: 0 0 2.5em 0;
 }
 
 .grid-tera{
     grid-template-columns: repeat(2, 30%);
-    justify-content: space-evenly;
     margin: 2.5em 0 2.5em 0;
 }
 
 .grid-partners{
     grid-template-columns: repeat(3, 30%);
-    justify-content: space-evenly;
     margin: 0em 0 2.5em 0;
+}
+
+.grid-partners a:nth-of-type(4){
+    grid-column: 2;
 }
 
 .grid-container a img{
@@ -1328,16 +1347,31 @@ h5{
       padding-right: 5%;
       grid-row-gap: 2em;
       grid-template-columns: repeat(1, 96%);
-       margin: 1em 0 3em 0; /*Custom Tier Margins*/
+       margin: 1em 0 3em 0; 
    }
    
     .grid-pita-plus{
         margin: 3em 0 1em 0;
     }
 
-    .grid-pita, .grid-tera, .grid-giga, .grid-mega{
+    .grid-pita, .grid-tera{
         margin: 1em 0 1em 0;
     }
+   
+   .grid-giga, .grid-mega{
+      margin: 1em 0 0 0;
+   }
+   
+   .grid-sub{
+      margin: 0 0 1em 0;
+   }
+   
+   .grid-pita a:nth-of-type(4){
+       grid-column-start: auto;
+   }
+   .grid-partners a:nth-of-type(4){
+       grid-column-start: auto;
+   }
 
    .partner-logo{
       width: 100%;
@@ -1752,8 +1786,6 @@ h5{
    }
 
    .grid-container{
-      grid-template-columns: repeat(3, 30%);
-      justify-content: space-evenly;
       grid-column-gap: 3%;
    }
 
@@ -1764,7 +1796,6 @@ h5{
     }
 
     .grid-pita, .grid-giga, .grid-mega{
-        grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
 
@@ -1774,7 +1805,6 @@ h5{
     }
 
     .grid-partners{
-        grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
     }
    
