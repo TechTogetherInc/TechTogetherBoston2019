@@ -76,18 +76,12 @@ div.tab button.active {
 /******************************/
 
 .container-fluid-resources h1 {
-   font-size: 3em;
+   font-size: 4em;
    margin-top: 0;
    padding-top: 0;
-}
-
-.container-fluid-resources h2 {
-   font-size: 2.33em;
+   color: rgb(231,63,51,.5);
    font-weight: bold;
-   margin-top: 0;
-   padding-top: 0;
-   letter-spacing: 1px;
-   color: #808cFB;
+   text-align: center;
 }
 
 .container-fluid-resources div div h4{
@@ -139,6 +133,47 @@ div.tab button.active {
 div ul li{
    list-style-type: none !important;
 }
+
+
+
+@media screen and (max-width: 500px) {
+
+   .grid-container-4cols{
+      grid-template-columns: repeat(2, 50%);
+      grid-column-gap: 5%;
+   }
+
+   .grid-container-2cols{
+      grid-template-columns: 55% 55%;
+      grid-column-gap: 5%;
+      justify-content: center;
+   }
+
+   .container-fluid-resources h1{
+      font-size: 3em;
+   }
+
+   .container-fluid-resources h4{
+      font-size: 1.3em;
+   }
+
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 501px){
+
+   .grid-container-4cols{
+      grid-template-columns: repeat(2, 50%);
+   }
+
+   .grid-container-2cols{
+      grid-template-columns: 50% 50%;
+   }
+}
+
+
+
+
 
 
 
