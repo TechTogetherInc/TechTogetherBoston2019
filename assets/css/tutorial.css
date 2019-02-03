@@ -16,8 +16,8 @@
 /******************************/
 
 div.tab button {
-   background: #52D9F6;
-   color: black;
+   background: #808cFB;
+   color: white;
    font-size: 20px;
    font-weight: 600;
    letter-spacing: 2px;
@@ -36,8 +36,8 @@ div.tab button:hover {
 }
 
 div.tab button.active {
-   background-color: rgb(253,115,97,.5);
-   color: black;
+   background-color: #FD7361;
+   color: white;
 }
 
 /* Style the tab content */
@@ -76,11 +76,13 @@ div.tab button.active {
 /******************************/
 
 .container-fluid-resources h1 {
-   font-size: 4em;
+   font-size: 3em;
+   letter-spacing: 2px;
+   /*font-weight: lighter !important;*/
    margin-top: 0;
    padding-top: 0;
-   color: rgb(231,63,51,.5);
-   font-weight: bold;
+   color: #FD7361;
+   font-weight: bolder !important;
    text-align: center;
 }
 
@@ -102,18 +104,19 @@ div.tab button.active {
 }
 
 .container-fluid-resources li:hover {
-   font-size: 1.1em;
+   font-size: 1em;
    margin: .3em;
    border-width: thick;
-   border-style: dashed;
-   padding: 1em;
+   border-style: solid;
+   padding: .2em;
    text-align: center;
    border-color: #808cFB;
    color: black;
 }
 
 .container-fluid-resources li:hover p{
-   font-size: 2.1em;
+   font-size: 1.5em;
+   font-weight: bold;
    text-decoration: underline;
 }
 
