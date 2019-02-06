@@ -1,0 +1,88 @@
+
+@font-face {
+   font-family: HelveticaNeue-Roman !important;
+   src: url(../fonts/HelveticaNeue-Roman.otf);
+}
+
+body{
+   background-color: #eceff1;
+   font-family: 'HelveticaNeue-Roman', sans-serif;
+}
+
+.blue-url{
+  text-decoration: underline;
+  font-weight: bold;
+  color:#039be5;
+}
+
+#main-sidebar{
+  width: 90%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.lighter{
+  font-weight: lighter !important;
+}
+
+.bolder{
+  font-weight: bolder !important;
+}
+
+.upper{
+  text-transform: uppercase !important;
+}
+
+@media only screen and (min-width: 550px) {
+  /*#mySidenav {
+    display: none;
+  }*/
+  #main-sidebar {
+    padding-left: 300px;
+  }
+}
+
+.menu-link{
+  font-size:1.5em !important;
+  font-weight: lighter !important;
+  margin-bottom:10px;
+}
+
+.socialicon{
+  width: 50%;
+}
+#nav-social-icons{
+  width: 80%;
+}
+
+#desktop-copyright{
+  font-size:.8em;
+  color:gray;
+}
+
+.dashboard-icons{
+  max-width: 50%;
+}
+
+.custom-hr{
+  color:white;
+}
+
+#announcements-header{
+  margin-bottom: 0px !important;
+}
+
+.announcement-time-stamp{
+  float:right !important;
+  top:0px !important;
+  right:0px;
+  padding:0px;
+}
+
+.announcement-card{
+  margin-bottom: 0px !important;
+}
+.speaker-icon{
+  width: 70%;
+  padding-top:.5em;
+}
