@@ -884,6 +884,11 @@ header{
 
 /* Helen CSS */
 
+.reimbursement-button{
+  margin-top:0px !important;
+  font-size: 1.1em !important;
+}
+
 .partner-row{
   width: 83%;
 }
@@ -1681,9 +1686,6 @@ h5{
         flex-flow: column;
     }
 
-    /*.banner{
-        margin-top: 3.5em;
-    }*/
 
     .umass-img {
         width: 10em;
@@ -1700,6 +1702,9 @@ h5{
       margin-left: 11%;
    }
 
+  .reimbursement-button{
+    height: 5em;
+  }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px){
