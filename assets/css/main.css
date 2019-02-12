@@ -553,7 +553,7 @@ header{
 }
 
 .grid-pita a{
-   width: 100%; /* toast logo is small for some reason */
+   width: 87%; /* toast logo is small for some reason */
 }
 
 .grid-BU_Logo{
@@ -569,7 +569,7 @@ header{
 }
 
 .grid-pita-plus{
-    grid-template-columns: repeat(1, 40%);
+    grid-template-columns: repeat(1, 46%);
     margin: 3em 0 0em 0;
     text-align: center;
 }
@@ -589,17 +589,17 @@ header{
    margin: 3em 0 0 0;
 }
 
-.grid-sub{ 
+.grid-sub{
     grid-template-columns: 20%;
     margin: 0 0 3em 0;
 }
 
-.grid-sub2{ 
+.grid-sub2{
     grid-template-columns: 20%;
     margin: 0 0 3em 0;
 }
 
-.grid-sub3{ 
+.grid-sub3{
     grid-template-columns: 20%;
     margin: 0 0 3em 0;
 }
@@ -1131,8 +1131,8 @@ h5{
 
 .hr-light{
    height:.3px;
-   color:#E8E8E8;
-   background: #E8E8E8;
+   color:#fafafa;
+   background: #fafafa;
    width:95%;
 }
 
@@ -1378,7 +1378,7 @@ h5{
    .grid-sub, .grid-sub2{
       margin: 0 0 1em 0;
    }
-   
+
    .grid-sub3{
       margin: 0 0 3em 0;
    }
@@ -1392,7 +1392,7 @@ h5{
       padding-left: 3%;
       padding-right: 3%;
    }
-   
+
    #my-canvas{
       margin-bottom: -470px !important;
       width: 100%;
@@ -1832,7 +1832,7 @@ h5{
    .dell_logo{
       width: 9em;
    }
-   
+
    .logo2{
       width: 38vw;
       height: 12vw;
