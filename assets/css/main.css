@@ -845,8 +845,9 @@ header{
 }
 .workshop-theme {
    width: 100%;
-   padding-top: 10%;
-   padding-bottom: 10%;
+   height: 20em;
+   padding-top: 8%;
+   padding-bottom: 8%;
    padding-left: 5%;
    padding-right: 5%;
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
