@@ -13,6 +13,13 @@
    justify-content: center;
 }
 
+.grid-container-1col{
+   display: grid;
+   width: 100%;
+   grid-template-columns: 25%;
+   justify-content: center;
+}
+
 /******************************/
 
 div.tab button {
