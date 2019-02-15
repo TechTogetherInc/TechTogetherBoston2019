@@ -595,12 +595,7 @@ header{
 }
 
 .grid-sub2{
-    grid-template-columns: 20%;
-    margin: 0 0 3em 0;
-}
-
-.grid-sub3{
-    grid-template-columns: 20%;
+    grid-template-columns: 30%;
     margin: 0 0 3em 0;
 }
 
@@ -1377,10 +1372,6 @@ h5{
 
    .grid-sub, .grid-sub2{
       margin: 0 0 1em 0;
-   }
-
-   .grid-sub3{
-      margin: 0 0 3em 0;
    }
 
    .grid-pita a:nth-of-type(4){
