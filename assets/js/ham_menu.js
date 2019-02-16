@@ -18,6 +18,10 @@ $('#attend').click(function() {
     $('#extend3').toggleClass('open');
 });
 
+$('#attend').click(function() {
+    $('#extend5').toggleClass('open');
+});
+
 $('#resources').click(function() {
     $('#extend4').toggleClass('open');
 });
