@@ -32,9 +32,9 @@ div.tab button {
    -moz-border-radius: 2px;
    -webkit-border-radius: 2px;
    border-radius: 10px;
-   margin: 1em;
+   margin: .4em;
    padding: 1em;
-   box-shadow: 3px 3px 5px #888888;
+   /*box-shadow: 3px 3px 5px #888888;*/
 }
 
 div.tab button:hover {
