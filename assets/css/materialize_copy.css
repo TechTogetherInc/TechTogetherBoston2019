@@ -4754,13 +4754,22 @@ small {
     border-radius: 2px;
 }
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .card .card-title {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .card .card-title.activator {
     cursor: pointer;
+}
+
+.card .card-subtitle {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .card.small, .card.medium, .card.large {
