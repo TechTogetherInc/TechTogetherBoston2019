@@ -4768,8 +4768,14 @@ small {
 }
 
 .card .card-subtitle {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
+}
+
+.card .card-subsubtitle {
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .card.small, .card.medium, .card.large {

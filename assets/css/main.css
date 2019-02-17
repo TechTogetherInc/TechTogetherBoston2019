@@ -856,6 +856,29 @@ header{
 .workshop-theme:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.image-cropper {
+    /*width: 100px;*/
+    /*height: 100px;*/
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.workshopimage {
+  border-radius: 50%;
+  display: inline;
+  margin: 0 auto;
+}
+.workshopimage.orange{
+   border:8px solid #ed7a67;
+}
+
+.workshopimage.dark-blue{
+   border:8px solid #006b7f;
+}
+
+.workshopimage.light-blue{
+   border:8px solid #808cf4;
+}
 .orange-btn {
    color: #ed7a67;
 }
