@@ -25,3 +25,7 @@ $('#attend').click(function() {
 $('#resources').click(function() {
     $('#extend4').toggleClass('open');
 });
+
+$('#resources').click(function() {
+    $('#extend6').toggleClass('open');
+});
