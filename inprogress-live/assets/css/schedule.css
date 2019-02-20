@@ -1,0 +1,23 @@
+.beginner-icon{
+  max-width:100%;
+}
+
+.schedule-card-icon{
+  max-width: 95%;
+}
+
+.meal-title{
+  margin-top:.2em !important;
+  font-size:2em !important;
+}
+
+.beginner-label{
+  margin-top:.1em !important;
+  font-weight: bold;
+}
+
+.beginner-friendly-tag{
+  background:rgb(231,63,51,.5);
+  padding:.5em;
+  border-radius: 10px;
+}

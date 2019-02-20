@@ -86,3 +86,56 @@ body{
   width: 70%;
   padding-top:.5em;
 }
+
+
+
+.tt-blue{
+   color:#52D9F6;
+   background: #52D9F6;
+}
+
+.tt-blue-light{
+  background: rgb(82,217,246, .5);
+}
+
+.tt-purple{
+   color:#808cFB;
+   background:#808cFB;
+}
+
+.tt-purple-light{
+  background: rgb(128,140,251,.5);
+}
+
+.tt-pink{
+   color:#FD7361;
+   background:#FD7361;
+}
+
+.tt-pink-light{
+  background: rgb(253,115,97,.5);
+}
+
+.tt-red-light{
+  background: rgb(231,63,51,.5);
+
+}
+.tt-red{
+   color:#E73F33;
+   background:#E73F33;
+}
+
+.tt-green{
+  background: #2e6e87;
+}
+
+.tt-green-light{
+  background: rgb(46,110,135,.5);
+}
+
+.hr-light{
+   height:.1px;
+   color:#fafafa;
+   background: #fafafa;
+   width:95%;
+}
