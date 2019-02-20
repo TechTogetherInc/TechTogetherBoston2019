@@ -623,8 +623,7 @@ header{
 .partner-logo{
    width: 100%;
    justify-self: center;
-   padding-left: 1.5em;
-   padding-right: 1.5em;
+   padding-left:1em;
 }
 
 .umass-img {
@@ -927,7 +926,7 @@ header{
 }
 
 .partner-row{
-  width: 83%;
+  width: 95%;
 }
 #get-involved-button{
   margin-left: 7vw;
