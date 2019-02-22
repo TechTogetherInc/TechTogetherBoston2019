@@ -159,6 +159,13 @@ div ul li{
       justify-content: center;
    }
 
+   .grid-container-1col{
+      display: grid;
+      width: 100%;
+      grid-template-columns: 95%;
+      justify-content: center;
+   }
+
    .container-fluid-resources h1{
       font-size: 3em;
    }
@@ -178,5 +185,12 @@ div ul li{
 
    .grid-container-2cols{
       grid-template-columns: 50% 50%;
+   }
+
+   .grid-container-1col{
+      display: grid;
+      width: 100%;
+      grid-template-columns: 50%;
+      justify-content: center;
    }
 }
