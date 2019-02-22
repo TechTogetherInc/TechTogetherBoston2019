@@ -139,3 +139,7 @@ body{
    background: #fafafa;
    width:95%;
 }
+
+.bold{
+   font-weight: bold;
+}
