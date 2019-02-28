@@ -139,3 +139,18 @@ body{
    background: #fafafa;
    width:95%;
 }
+.company-logo{
+  width: 50%;
+}
+
+.ibm{
+  width: 20%;
+}
+
+.balsamiq{
+  width: 40%;
+}
+
+.mathworks{
+  width: 60%;
+}
