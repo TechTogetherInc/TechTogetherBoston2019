@@ -154,3 +154,7 @@ body{
 .mathworks{
   width: 60%;
 }
+
+.bold{
+   font-weight: bold;
+}

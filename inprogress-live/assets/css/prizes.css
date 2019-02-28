@@ -1,0 +1,23 @@
+.card-image{
+   min-height: 30em;
+}
+
+.valign-wrapper{
+   height: 100%;
+}
+
+.card .card-content p{
+   margin: .5em 0 .5em 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+   #main-sidebar{
+      padding-left: 0;
+   }
+
+   .card-image{
+      min-height: 20em;
+   }
+
+}
