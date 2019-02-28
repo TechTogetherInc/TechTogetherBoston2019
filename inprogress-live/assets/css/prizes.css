@@ -10,6 +10,10 @@
    margin: .5em 0 .5em 0;
 }
 
+.mobile_logo{
+   width: 70%;
+   display: none;
+}
 
 @media only screen and (max-width: 1000px) {
    #main-sidebar{
@@ -18,6 +22,10 @@
 
    .card-image{
       min-height: 20em;
+   }
+   
+   .mobile_logo{
+      display: block;
    }
 
 }
