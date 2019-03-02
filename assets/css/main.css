@@ -599,6 +599,11 @@ header{
     margin: 0 0 3em 0;
 }
 
+.grid-sub3{
+    grid-template-columns: 20% 20%;
+    margin: 0 0 3em 0;
+}
+
 .grid-tera{
     grid-template-columns: repeat(3, 30%);
     margin: 3em 0 3em 0;
@@ -1408,7 +1413,7 @@ h5{
       margin: 1em 0 0 0;
    }
 
-   .grid-sub, .grid-sub2{
+   .grid-sub, .grid-sub2 .grid-sub3{
       margin: 0 0 1em 0;
    }
 
