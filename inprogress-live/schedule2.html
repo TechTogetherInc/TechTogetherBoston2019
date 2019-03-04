@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="assets/imgs/favicon.png">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechTogether Boston - Live</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/schedule.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" />
+
+
+</head>
+
+<body>
+  <!--Sidebar-->
+
+  <ul id="desktop-nav" class="side-nav fixed">
+    <img src="assets/imgs/logo.png" style="display:block;margin-bottom:20px;padding-top:40px; max-width:95%">
+    <li><a href="index.html" class="menu-link">Announcements</a></li>
+    <li><a href="workshops.html" class="menu-link">Schedule</a></li>
+    <li><a href="companies.html" class="menu-link">Sponsors</a></li>
+    <li><a href="maps.html" class="menu-link">Map</a></li>
+    <li><a href="prizes.html" class="menu-link">Challenges &amp; Prizes</a></li>
+    <li><a href="prizes.html" class="menu-link">Mentor Request</a></li>
+    <li><a href="faq.html" class="menu-link">FAQ</a></li>
+
+
+    <div id="contact">
+      <div class="row" id="nav-social-icons">
+        <div class="col s4">
+          <a href="https://www.facebook.com/SheHacksBoston/?ref=br_rs" target="_blank"><img src="assets/imgs/socialicons/facebook.png" alt="facebook icon" class="socialicon"></a>
+        </div>
+        <div class="col s4">
+          <a href="https://www.instagram.com/shehacksboston/" target="_blank"><img src="assets/imgs/socialicons/instagram.png" alt="facebook icon" class="socialicon"></a>
+        </div>
+        <div class="col s4">
+          <a href="https://www.twitter.com/shehacksboston/" class="center-align" target="_blank"><img src="assets/imgs/socialicons/twitter.png" alt="facebook icon" class="socialicon"></a>
+        </div>
+      </div>
+      <div style="padding-bottom:10px;" class="center-align" id="desktop-copyright">
+        <p> &copy; TechTogether 2019 / Boston, MA / info@techtogether.io </p>
+        <p><a class="blue-url" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="blank">MLH Code of Conduct</a></p>
+      </div>
+    </div>
+  </ul>
+  <!--end sidebar-->
+
+  <!--anything not in the side menu should go within these main tags-->
+  <main id="main-sidebar">
+
+    <h1 class="lighter">Schedule</h1>
+    <div class="row">
+      <div class="col s12 tab">
+        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openDay(event, 'Day1')" id="defaultOpen">Day 1</a>
+        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openDay(event, 'Day2')" id="defaultOpen">Day 2</a>
+        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openDay(event, 'Day3')" id="defaultOpen">Day 3</a>
+      </div>
+
+    </div>
+
+
+    <div id="Day1" class="tabcontent">
+      <div class="col s12 tab">
+        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openEvent(event, 'Main1')" id="defaultOpen">Main Event</a>
+        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openEvent(event, 'Workshops1')" id="defaultOpen">Workshops</a>
+        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openEvent(event, 'Side1')" id="defaultOpen">Side Events</a>
+      </div>
+
+      <div class="tabcontent2" id="Main1">
+        <div class="col m4 l4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Opening Ceremony!</span>
+              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcontent2" id="Workshops1">
+        <div class="col m4 l4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Opening WORKSHOP!</span>
+              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcontent2" id="Side1">
+        <div class="col m4 l4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Opening SIDE!</span>
+              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col m4 l4 offset-m1 offset-l1">
+          <h5 class="no-background bolder center-align">Main Event</h5>
+        </div>
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Workshops</h5>
+        </div>
+        <div class="col m3 l3">
+          <h5 class="no-background bolder center-align">Side Events</h5>
+        </div>
+      </div> -->
+    </div>
+    <div id="Day2" class="tabcontent">
+      <div class="row">
+        <div class="col m4 l4 offset-m1 offset-l1">
+          <h5 class="no-background bolder center-align">Main Event</h5>
+        </div>
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Workshops</h5>
+        </div>
+        <div class="col m3 l3">
+          <h5 class="no-background bolder center-align">Side Events</h5>
+        </div>
+      </div>
+    </div>
+    <div id="Day3" class="tabcontent">
+      <h1>HEY I'M HERE</h1>
+      <div class="row">
+        <div class="col m4 l4 offset-m1 offset-l1">
+          <h5 class="no-background bolder center-align">Main Event</h5>
+        </div>
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Workshops</h5>
+        </div>
+        <div class="col m3 l3">
+          <h5 class="no-background bolder center-align">Side Events</h5>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function openDay(evt, dayName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(dayName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    function openEvent(evt, eventName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent2");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks2");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(eventName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
+
+</html>
