@@ -60,47 +60,68 @@
     <h1 class="lighter">Schedule</h1>
     <div class="row">
       <div class="col s12 tab">
-        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openDay(event, 'Day1')" id="defaultOpen">Day 1</a>
-        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openDay(event, 'Day2')" id="defaultOpen">Day 2</a>
-        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openDay(event, 'Day3')" id="defaultOpen">Day 3</a>
+        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day1')" id="defaultOpen">Day 1</a>
+        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day2')">Day 2</a>
+        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day3')">Day 3</a>
       </div>
 
     </div>
 
 
     <div id="Day1" class="tabcontent">
-      <div class="col s12 tab">
-        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openEvent(event, 'Main1')" id="defaultOpen">Main Event</a>
-        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openEvent(event, 'Workshops1')" id="defaultOpen">Workshops</a>
-        <a class="waves-effect waves-light btn schedule-day-button white-text tablinks" onclick="openEvent(event, 'Side1')" id="defaultOpen">Side Events</a>
+      <div class="row desktop-only">
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Main Event</h5>
+        </div>
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Workshops</h5>
+        </div>
+        <div class="col m3 l3">
+          <h5 class="no-background bolder center-align">Side Events</h5>
+        </div>
+      </div>
+
+      <div class="col s12 tab mobile-only">
+        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpenMobile defaultOpen" onclick="openEvent(event, 'Main1')" id="defaultOpen">Main Event</a>
+        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops1')" id="defaultOpen">Workshops</a>
+        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side1')" id="defaultOpen">Side Events</a>
       </div>
 
       <div class="tabcontent2" id="Main1">
-        <div class="col m4 l4">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Opening Ceremony!</span>
-              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+        <div class="row">
+          <h5 class="bolder" style="margin-bottom:0; margin-left:-5%">7PM</h5> <hr class="hr-light schedule-hr">
+        </div>
+        <div class="row event-card">
+          <div class="col m4 l4">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Opening Ceremony!</span>
+                <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+                <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="tabcontent2" id="Workshops1">
-        <div class="col m4 l4">
+        <div class="row event-card">
+        <div class="col m4 l4 offset-m4 offset-l4">
           <div class="card">
             <div class="card-content">
               <span class="card-title">Opening WORKSHOP!</span>
               <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
             </div>
           </div>
         </div>
+                </div>
       </div>
 
       <div class="tabcontent2" id="Side1">
-        <div class="col m4 l4">
+        <div class="row event-card">
+
+        <div class="col m4 l4 offset-m8 offset-l8">
           <div class="card">
             <div class="card-content">
               <span class="card-title">Opening SIDE!</span>
@@ -109,23 +130,14 @@
             </div>
           </div>
         </div>
+          </div>
       </div>
 
-      <!-- <div class="row">
-        <div class="col m4 l4 offset-m1 offset-l1">
-          <h5 class="no-background bolder center-align">Main Event</h5>
-        </div>
-        <div class="col m4 l4">
-          <h5 class="no-background bolder center-align">Workshops</h5>
-        </div>
-        <div class="col m3 l3">
-          <h5 class="no-background bolder center-align">Side Events</h5>
-        </div>
-      </div> -->
+
     </div>
     <div id="Day2" class="tabcontent">
-      <div class="row">
-        <div class="col m4 l4 offset-m1 offset-l1">
+      <div class="row desktop-only">
+        <div class="col m4 l4">
           <h5 class="no-background bolder center-align">Main Event</h5>
         </div>
         <div class="col m4 l4">
@@ -135,6 +147,60 @@
           <h5 class="no-background bolder center-align">Side Events</h5>
         </div>
       </div>
+
+      <div class="col s12 tab mobile-only">
+        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpenMobile defaultOpen" onclick="openEvent(event, 'Main2')" id="defaultOpen">Main Event</a>
+        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops2')" id="defaultOpen">Workshops</a>
+        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side2')" id="defaultOpen">Side Events</a>
+      </div>
+
+      <div class="tabcontent2" id="Main2">
+        <div class="row">
+          <h5 class="bolder" style="margin-bottom:0; margin-left:-5%">5PM</h5> <hr class="hr-light schedule-hr">
+        </div>
+        <div class="row event-card">
+          <div class="col m4 l4">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Opening Ceremony!</span>
+                <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+                <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!  The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabcontent2" id="Workshops2">
+        <div class="row event-card">
+        <div class="col m4 l4 offset-m4 offset-l4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Opening WORKSHOP!</span>
+              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+            </div>
+          </div>
+        </div>
+                </div>
+      </div>
+
+      <div class="tabcontent2" id="Side2">
+        <div class="row event-card">
+
+        <div class="col m4 l4 offset-m8 offset-l8">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Opening SIDE!</span>
+              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
+              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+            </div>
+          </div>
+        </div>
+          </div>
+      </div>
+
+
     </div>
     <div id="Day3" class="tabcontent">
       <h1>HEY I'M HERE</h1>
@@ -153,6 +219,26 @@
   </main>
 
   <script>
+  adjustView();
+window.onresize=adjustView;
+function adjustView(){
+  var width = document.body.clientWidth;
+  var i, result;
+  console.log(width);
+  if(width<=500){
+    result = document.getElementsByClassName("defaultOpenMobile");
+    result[0].click();
+  } else{
+    console.log('HI THERE');
+    // document.getElementById("defaultOpen").click();
+    result = document.getElementsByClassName("tabcontent2");
+    for(i=0; i<result.length;i++){
+      result[i].style.display="block";
+    }
+  }
+}
+
+
     function openDay(evt, dayName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
@@ -175,13 +261,14 @@
       }
       tablinks = document.getElementsByClassName("tablinks2");
       for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace(" active-mobile", "");
       }
       document.getElementById(eventName).style.display = "block";
-      evt.currentTarget.className += " active";
+      evt.currentTarget.className += " active-mobile";
     }
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
+    // document.getElementById("defaultOpenMobile").click();
   </script>
 </body>
 
