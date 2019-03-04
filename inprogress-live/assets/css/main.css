@@ -87,11 +87,9 @@ body{
   padding-top:.5em;
 }
 
-
-
 .tt-blue{
-   color:#52D9F6;
-   background: #52D9F6;
+   color:#52D9F6 !important;
+   background: #52D9F6 !important;
 }
 
 .tt-blue-light{
@@ -99,38 +97,38 @@ body{
 }
 
 .tt-purple{
-   color:#808cFB;
-   background:#808cFB;
+   color:#808cFB !important;
+   background:#808cFB !important;
 }
 
 .tt-purple-light{
-  background: rgb(128,140,251,.5);
+  background: rgb(128,140,251,.5) !important;
 }
 
 .tt-pink{
-   color:#FD7361;
-   background:#FD7361;
+   color:#FD7361 !important;
+   background:#FD7361 !important;
 }
 
 .tt-pink-light{
-  background: rgb(253,115,97,.5);
+  background: rgb(253,115,97,.5) !important;
 }
 
 .tt-red-light{
-  background: rgb(231,63,51,.5);
+  background: rgb(231,63,51,.5) !important;
 
 }
 .tt-red{
-   color:#E73F33;
-   background:#E73F33;
+   color:#E73F33 !important;
+   background:#E73F33 !important;
 }
 
 .tt-green{
-  background: #2e6e87;
+  background: #2e6e87 !important;
 }
 
 .tt-green-light{
-  background: rgb(46,110,135,.5);
+  background: rgb(46,110,135,.5) !important;
 }
 
 .hr-light{
