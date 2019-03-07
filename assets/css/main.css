@@ -590,7 +590,7 @@ header{
 }
 
 .grid-sub{
-    grid-template-columns: 20%;
+    grid-template-columns: 20% 20%;
     margin: 0 0 3em 0;
 }
 
