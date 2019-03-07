@@ -60,9 +60,9 @@
     <h1 class="lighter">Schedule</h1>
     <div class="row">
       <div class="col s12 tab">
-        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day1')" id="defaultOpen">Day 1</a>
-        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day2')">Day 2</a>
-        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day3')">Day 3</a>
+        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day1')" id="Day1Button">Day 1</a>
+        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day2')" id="Day2Button">Day 2</a>
+        <a class="waves-effect waves-light btn schedule-day-button tablinks" onclick="openDay(event, 'Day3')" id="Day3Button">Day 3</a>
       </div>
 
     </div>
@@ -82,9 +82,9 @@
       </div>
 
       <div class="col s12 tab mobile-only">
-        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpenMobile defaultOpen" onclick="openEvent(event, 'Main1')" id="defaultOpen">Main Event</a>
-        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops1')" id="defaultOpen">Workshops</a>
-        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side1')" id="defaultOpen">Side Events</a>
+        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpenMobile defaultOpen" onclick="openEvent(event, 'Main1')" id="Main1Button">Main Event</a>
+        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops1')" id="Workshops1Button">Workshops</a>
+        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side1')" id="Side1Button">Side Events</a>
       </div>
 
       <div class="tabcontent2" id="Main1">
@@ -149,9 +149,9 @@
       </div>
 
       <div class="col s12 tab mobile-only">
-        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpenMobile defaultOpen" onclick="openEvent(event, 'Main2')" id="defaultOpen">Main Event</a>
-        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops2')" id="defaultOpen">Workshops</a>
-        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side2')" id="defaultOpen">Side Events</a>
+        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpen" onclick="openEvent(event, 'Main2')" id="Main2Button">Main Event</a>
+        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops2')" id="Workshops2Button">Workshops</a>
+        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side2')" id="Side2Button">Side Events</a>
       </div>
 
       <div class="tabcontent2" id="Main2">
@@ -160,7 +160,7 @@
         </div>
         <div class="row event-card">
           <div class="col m4 l4">
-            <div class="card">
+            <div class="card tt-blue">
               <div class="card-content">
                 <span class="card-title">Opening Ceremony!</span>
                 <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
@@ -174,7 +174,7 @@
       <div class="tabcontent2" id="Workshops2">
         <div class="row event-card">
         <div class="col m4 l4 offset-m4 offset-l4">
-          <div class="card">
+          <div class="card tt-blue">
             <div class="card-content">
               <span class="card-title">Opening WORKSHOP!</span>
               <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
@@ -189,7 +189,7 @@
         <div class="row event-card">
 
         <div class="col m4 l4 offset-m8 offset-l8">
-          <div class="card">
+          <div class="card tt-blue">
             <div class="card-content">
               <span class="card-title">Opening SIDE!</span>
               <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
@@ -221,13 +221,19 @@
   <script>
   adjustView();
 window.onresize=adjustView;
+var defaultTab = document.getElementById("Day1Button");
+defaultTab.click();
+// When the view changes from desktop to mobile, adjust the full screen to tab view
 function adjustView(){
   var width = document.body.clientWidth;
   var i, result;
   console.log(width);
   if(width<=500){
-    result = document.getElementsByClassName("defaultOpenMobile");
-    result[0].click();
+    // result = document.getElementsByClassName("defaultOpenMobile");
+    console.log('Our screen is smaller than 500, should show Main1');
+    var defaultTab = document.getElementById("Day1Button");
+    defaultTab.click();
+
   } else{
     console.log('HI THERE');
     // document.getElementById("defaultOpen").click();
@@ -238,9 +244,8 @@ function adjustView(){
   }
 }
 
-
     function openDay(evt, dayName) {
-      var i, tabcontent, tablinks;
+      var i, tabcontent, tablinks, defaultView, id;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
@@ -251,6 +256,12 @@ function adjustView(){
       }
       document.getElementById(dayName).style.display = "block";
       evt.currentTarget.className += " active";
+      if(document.body.clientWidth <= 500){
+        id = evt.currentTarget.id;
+        defaultView = document.getElementById("Main"+id[3]+"Button");
+        defaultView.click();
+      }
+
     }
 
     function openEvent(evt, eventName) {
@@ -265,9 +276,11 @@ function adjustView(){
       }
       document.getElementById(eventName).style.display = "block";
       evt.currentTarget.className += " active-mobile";
+
+      console.log(evt.currentTarget.id);
     }
     // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
+    // document.getElementById("defaultOpen").click();
     // document.getElementById("defaultOpenMobile").click();
   </script>
 </body>
