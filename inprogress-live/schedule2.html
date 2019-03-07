@@ -80,7 +80,6 @@
           <h5 class="no-background bolder center-align">Side Events</h5>
         </div>
       </div>
-
       <div class="col s12 tab mobile-only">
         <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpenMobile defaultOpen" onclick="openEvent(event, 'Main1')" id="Main1Button">Main Event</a>
         <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops1')" id="Workshops1Button">Workshops</a>
@@ -88,53 +87,250 @@
       </div>
 
       <div class="tabcontent2" id="Main1">
-        <div class="row">
-          <h5 class="bolder" style="margin-bottom:0; margin-left:-5%">7PM</h5> <hr class="hr-light schedule-hr">
-        </div>
-        <div class="row event-card">
-          <div class="col m4 l4">
-            <div class="card">
-              <div class="card-content">
-                <span class="card-title">Opening Ceremony!</span>
-                <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-                <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+
+        <div class="desktop-only">
+          <div class="row">
+            <h5 class="bolder schedule-time">5PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row">
+
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Hacker Check-In</span>
+                  <h6 class="bolder">5:00PM - 7:00PM | Main Lobby</h6>
+                  <p>Check in, grab your SWAG, and snag some food! Snacks will be available in the catering area.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col m4 l4">
+              <!-- <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Hacker Check-In & Networking</span>
+                  <h6 class="bolder">5:00PM | Main Lobby & Concourse</h6>
+                  <p>Check in, grab your SWAG, form your team(?) and network with our sponsors! Snacks will be available in the catering area.</p>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Team Formation</span>
+                  <h6 class="bolder">5:00PM - 7:00PM | Hacking Floor Corner</h6>
+                  <p>Need a team? Come to our guided team formation session to meet other hackers & build your dream team!</p>
+                  <div class="row beginner-friendly-tag">
+                    <div class="col s3">
+                      <img src="assets/imgs/asking-icon.png" alt="beginner-friendly" class="beginner-icon">
+                    </div>
+                    <div class="col s8 beginner-label">
+                      <span class="">Beginner Friendly Event</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Sponsor & Partner Networking</span>
+                  <h6 class="bolder">5:00PM - 9:00PM | Concourse</h6>
+                  <p>Hang out with our sponsor and partner companies to learn about their challenges, ask about their internship opportunities, and grab even more SWAG!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">7PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Opening Ceremony!</span>
+                  <h6 class="bolder">7:30PM | Center Stage</h6>
+                  <p>The TechTogether Boston Team officially welcomes hackers!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">9PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content tt-blue-light">
+                  <div class="row">
+                    <div class="col s3">
+                      <img src="assets/imgs/food-icon.png" alt="food" class="schedule-card-icon">
+                    </div>
+                    <div class="col s9">
+                      <span class="card-title meal-title">Dinner</span>
+                    </div>
+                  </div>
+                  <h6 class="bolder">9:00PM  - 11:00 PM | Catering Area</h6>
+                  <p>Serving up tacos and fajitas!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <h5 class="bolder schedule-time">11PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content tt-blue-light">
+                  <div class="row">
+                    <div class="col s3">
+                      <img src="assets/imgs/food-icon.png" alt="food" class="schedule-card-icon">
+                    </div>
+                    <div class="col s9">
+                      <span class="card-title meal-title">Snack Session #1</span>
+                    </div>
+                  </div>
+                  <h6 class="bolder">11:30 PM | Catering Area</h6>
+                  <p>Make sure to grab some midnight fuel!</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="mobile-only">
+          <div class="row">
+            <h5 class="bolder schedule-time">5PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+
+          <div class="row event-card">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Hacker Check-In & Networking</span>
+                  <h6 class="bolder">5:00PM | Main Lobby & Concourse</h6>
+                  <p>Check in, grab your SWAG, form your team(?) and network with our sponsors! Snacks will be available in the catering area.</p>
+                  <div class="row beginner-friendly-tag">
+                    <div class="col s4">
+                      <img src="assets/imgs/asking-icon.png" alt="beginner-friendly" class="beginner-icon">
+                    </div>
+                    <div class="col s8 beginner-label">
+                      <span class="">Beginner Friendly Event</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">7PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Opening Ceremony!</span>
+                  <h6 class="bolder">7:30 PM | Center Stage</h6>
+                  <p>TO DO Check in, grab your SWAG, and network with our sponsors! Snacks will be available in the catering area.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">9PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Networking event ends</span>
+                  <h6 class="bolder">9:00 PM | Concourse </h6>
+                  <p>TO DO: Check in, grab your SWAG, and network with our sponsors! Snacks will be available in the catering area.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Dinner</span>
+                  <h6 class="bolder">9:00 PM | Catering Area </h6>
+                  <p>TO DO: Check in, grab your SWAG, and network with our sponsors! Snacks will be available in the catering area.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">11PM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Snacks</span>
+                  <h6 class="bolder">11:30 PM | Catering Area</h6>
+                  <p>TO DO: Check in, grab your SWAG, and network with our sponsors! Snacks will be available in the catering area.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
       </div>
 
       <div class="tabcontent2" id="Workshops1">
-        <div class="row event-card">
-        <div class="col m4 l4 offset-m4 offset-l4">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Opening WORKSHOP!</span>
-              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
-            </div>
-          </div>
+
+        <div class="desktop-only">
         </div>
-                </div>
+
+        <div class="mobile-only">
+        </div>
+
       </div>
 
       <div class="tabcontent2" id="Side1">
-        <div class="row event-card">
 
-        <div class="col m4 l4 offset-m8 offset-l8">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Opening SIDE!</span>
-              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
-            </div>
-          </div>
+        <div class="desktop-only">
         </div>
-          </div>
+
+        <div class="mobile-only">
+        </div>
+
       </div>
 
 
     </div>
+
     <div id="Day2" class="tabcontent">
       <div class="row desktop-only">
         <div class="col m4 l4">
@@ -147,7 +343,6 @@
           <h5 class="no-background bolder center-align">Side Events</h5>
         </div>
       </div>
-
       <div class="col s12 tab mobile-only">
         <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpen" onclick="openEvent(event, 'Main2')" id="Main2Button">Main Event</a>
         <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops2')" id="Workshops2Button">Workshops</a>
@@ -155,55 +350,313 @@
       </div>
 
       <div class="tabcontent2" id="Main2">
-        <div class="row">
-          <h5 class="bolder" style="margin-bottom:0; margin-left:-5%">5PM</h5> <hr class="hr-light schedule-hr">
+
+        <div class="desktop-only">
+
+          <div class="row">
+            <h5 class="bolder schedule-time">2AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row">
+            <div class="col m4 l4">
+            </div>
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Build Your First Android App</span>
+                  <img src="../assets/imgs/partner-logos/Wayfair_logo.png" alt="" style="width:80%;">
+                  <h6 class="bolder">2AM | CGS 515</h6>
+                  <p>This no-experience-required workshop will get you up and running with the Android ecosystem. Learn how to create a brand new application, and see for yourself how easy it is to build intuitive user interfaces. </p>
+                  <div class="row beginner-friendly-tag">
+                    <div class="col s3">
+                      <img src="assets/imgs/asking-icon.png" alt="beginner-friendly" class="beginner-icon">
+                    </div>
+                    <div class="col s8 beginner-label">
+                      <span class="">Beginner Friendly Event</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">3AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+          <div class="row">
+            <div class="col m4 l4">
+            </div>
+            <div class="col m4 l4">
+            </div>
+            <div class="col m4 l4">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Tech Talk: Augmented Reality on Android</span>
+                  <img src="../assets/imgs/partner-logos/Wayfair_logo.png" alt="" style="width:80%;">
+                  <h6 class="bolder">3AM | CGS 515</h6>
+                  <p>This talk will introduce the current state of AR on Android and how to work with it. Learn how to design AR experiences that are easy to use, followed by a deep dive on building your AR experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">7AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
         </div>
-        <div class="row event-card">
+        <div class="row">
+
           <div class="col m4 l4">
-            <div class="card tt-blue">
+            <div class="card">
+              <div class="card-content tt-blue-light">
+                <div class="row">
+                  <div class="col s3">
+                    <img src="assets/imgs/food-icon.png" alt="food" class="schedule-card-icon">
+                  </div>
+                  <div class="col s9">
+                    <span class="card-title meal-title">Breakfast</span>
+                  </div>
+                </div>
+                <h6 class="bolder">7:00AM  - 9:00 AM | Catering Area</h6>
+                <p>Serving up tacos and fajitas!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 l4">
+            <div class="card">
               <div class="card-content">
-                <span class="card-title">Opening Ceremony!</span>
-                <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-                <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!  The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                <span class="card-title">Lost & Found: Furthering Your Mission and Finding Your Audience with SEO</span>
+                <h6 class="bolder">7AM | CGS 527</h6>
+                <p>Great ideas need an engaged audience. So if no one can find you, it doesn’t matter how much you want to help others. SEO (search engine optimization) is an oft-ignored but vital part of website marketing; creating the proper foundation to connect with the people who are looking for you. Attend this session to learn how to optimize your website and test your current design with a mix of free tools and quick hacks.
+
+By the end of this workshop, you’ll learn how to build a site that;
+
+Answers customer questions and aligns your solution with your audience’s intent.
+Resolves key accessibility concerns for both search engines and people.
+Optimizes various content formats for the greatest discoverability.
+Drives action through specific, yet keyword-optimized, language.
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 l4">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Tech Talk: How We Can Empower One Another</span>
+                <img src="../assets/imgs/logo.png" alt="" style="width:80%;">
+                <h6 class="bolder">7AM | CGS 523</h6>
+                <p>Come learn about ways we can work together to make environments more inclusive and empowering for individuals from different backgrounds.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mobile-only">
+          <div class="row">
+            <h5 class="bolder schedule-time">7AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">Breakfast</span>
+                  <h6 class="bolder">7:00 AM  - 9:00 AM | Catering Area</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our 2019 event! The TechTogether Boston Team officially welcomes all hackers to our
+                    2019 event!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tabcontent2" id="Workshops2">
+
+        <div class="desktop-only">
+
+        </div>
+
+        <div class="mobile-only">
+          <div class="row">
+            <h5 class="bolder schedule-time">2AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4 offset-m4 offset-l4">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">Build your first Android app</span>
+                  <h6 class="bolder">2:00 AM | CGS 515</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">3AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4 offset-m4 offset-l4">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">Augmented Reality on Android</span>
+                  <h6 class="bolder">3:00 AM | CGS 515</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">8AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4 offset-m4 offset-l4">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">Intro to GitHub for Team Collaboration</span>
+                  <h6 class="bolder">8:00 AM | CGS 527</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">9AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+      <div class="tabcontent2" id="Side2">
+
+        <div class="desktop-only">
+
+        </div>
+
+        <div class="mobile-only">
+          <div class="row">
+            <h5 class="bolder schedule-time">7AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4 offset-m8 offset-l8">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">How We Can Empower One Another</span>
+                  <h6 class="bolder">7:00 AM | CGS 523</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4 offset-m8 offset-l8">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">Lost & Found: Furthering Your Mission and Finding Your Audience with SEO</span>
+                  <h6 class="bolder">7:00 AM | CGS 527</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="bolder schedule-time">8AM</h5>
+            <hr class="hr-light schedule-hr">
+          </div>
+
+          <div class="row event-card">
+            <div class="col m4 l4 offset-m8 offset-l8">
+              <div class="card tt-blue">
+                <div class="card-content">
+                  <span class="card-title">History Rewind: The Women's Liberation Movement</span>
+                  <h6 class="bolder">8:00 AM | CGS 515</h6>
+                  <p>TO DO: The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="tabcontent2" id="Workshops2">
-        <div class="row event-card">
-        <div class="col m4 l4 offset-m4 offset-l4">
-          <div class="card tt-blue">
-            <div class="card-content">
-              <span class="card-title">Opening WORKSHOP!</span>
-              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
-            </div>
-          </div>
-        </div>
-                </div>
-      </div>
-
-      <div class="tabcontent2" id="Side2">
-        <div class="row event-card">
-
-        <div class="col m4 l4 offset-m8 offset-l8">
-          <div class="card tt-blue">
-            <div class="card-content">
-              <span class="card-title">Opening SIDE!</span>
-              <h6 class="bolder">7:00PM  - 8:00 PM | Main Hall</h6>
-              <p>The TechTogether Boston Team officially welcomes all hackers to our 2019 event!</p>
-            </div>
-          </div>
-        </div>
-          </div>
-      </div>
-
 
     </div>
     <div id="Day3" class="tabcontent">
-      <h1>HEY I'M HERE</h1>
+      <div class="row desktop-only">
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Main Event</h5>
+        </div>
+        <div class="col m4 l4">
+          <h5 class="no-background bolder center-align">Workshops</h5>
+        </div>
+        <div class="col m3 l3">
+          <h5 class="no-background bolder center-align">Side Events</h5>
+        </div>
+      </div>
+      <div class="col s12 tab mobile-only">
+        <a class="waves-effect waves-light tt-blue tablinks2 mobile-tab-button active-mobile defaultOpen" onclick="openEvent(event, 'Main2')" id="Main2Button">Main Event</a>
+        <a class="waves-effect waves-light tt-purple tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Workshops2')" id="Workshops2Button">Workshops</a>
+        <a class="waves-effect waves-light  tt-pink tablinks2 mobile-tab-button defaultOpen" onclick="openEvent(event, 'Side2')" id="Side2Button">Side Events</a>
+      </div>
+
+      <div class="tabcontent2" id="Main3">
+        <div class="desktop-only">
+
+        </div>
+
+        <div class="mobile-only">
+
+        </div>
+
+      </div>
+
+      <div class="tabcontent2" id="Workshops3">
+        <div class="desktop-only">
+
+        </div>
+
+        <div class="mobile-only">
+
+        </div>
+
+      </div>
+
+      <div class="tabcontent2" id="Side3">
+        <div class="desktop-only">
+
+        </div>
+
+        <div class="mobile-only">
+
+        </div>
+      </div>
+
+
+      <!-- TODO: Delete this? -->
+      <!-- <h1>HEY I'M HERE</h1>
       <div class="row">
         <div class="col m4 l4 offset-m1 offset-l1">
           <h5 class="no-background bolder center-align">Main Event</h5>
@@ -214,35 +667,36 @@
         <div class="col m3 l3">
           <h5 class="no-background bolder center-align">Side Events</h5>
         </div>
-      </div>
+      </div> -->
+
     </div>
   </main>
 
   <script>
-  adjustView();
-window.onresize=adjustView;
-var defaultTab = document.getElementById("Day1Button");
-defaultTab.click();
-// When the view changes from desktop to mobile, adjust the full screen to tab view
-function adjustView(){
-  var width = document.body.clientWidth;
-  var i, result;
-  console.log(width);
-  if(width<=500){
-    // result = document.getElementsByClassName("defaultOpenMobile");
-    console.log('Our screen is smaller than 500, should show Main1');
+    adjustView();
+    window.onresize = adjustView;
     var defaultTab = document.getElementById("Day1Button");
     defaultTab.click();
+    // When the view changes from desktop to mobile, adjust the full screen to tab view
+    function adjustView() {
+      var width = document.body.clientWidth;
+      var i, result;
+      console.log(width);
+      if (width <= 500) {
+        // result = document.getElementsByClassName("defaultOpenMobile");
+        console.log('Our screen is smaller than 500, should show Main1');
+        var defaultTab = document.getElementById("Day1Button");
+        defaultTab.click();
 
-  } else{
-    console.log('HI THERE');
-    // document.getElementById("defaultOpen").click();
-    result = document.getElementsByClassName("tabcontent2");
-    for(i=0; i<result.length;i++){
-      result[i].style.display="block";
+      } else {
+        console.log('HI THERE');
+        // document.getElementById("defaultOpen").click();
+        result = document.getElementsByClassName("tabcontent2");
+        for (i = 0; i < result.length; i++) {
+          result[i].style.display = "block";
+        }
+      }
     }
-  }
-}
 
     function openDay(evt, dayName) {
       var i, tabcontent, tablinks, defaultView, id;
@@ -256,9 +710,12 @@ function adjustView(){
       }
       document.getElementById(dayName).style.display = "block";
       evt.currentTarget.className += " active";
-      if(document.body.clientWidth <= 500){
+      // on mobile devices, by default open main event column
+      if (document.body.clientWidth <= 500) {
         id = evt.currentTarget.id;
-        defaultView = document.getElementById("Main"+id[3]+"Button");
+        // set the view to mobile-only for the 3 columns
+
+        defaultView = document.getElementById("Main" + id[3] + "Button");
         defaultView.click();
       }
 
@@ -279,9 +736,6 @@ function adjustView(){
 
       console.log(evt.currentTarget.id);
     }
-    // Get the element with id="defaultOpen" and click on it
-    // document.getElementById("defaultOpen").click();
-    // document.getElementById("defaultOpenMobile").click();
   </script>
 </body>
 

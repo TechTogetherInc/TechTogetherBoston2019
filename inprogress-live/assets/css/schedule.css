@@ -1,5 +1,5 @@
 .beginner-icon {
-  max-width: 100%;
+  width:50px;
 }
 
 .schedule-card-icon {
@@ -12,12 +12,13 @@
 }
 
 .beginner-label {
-  margin-top: .1em !important;
+  margin-top: .5em !important;
   font-weight: bold;
 }
 
 .beginner-friendly-tag {
-  background: rgb(231, 63, 51, .5);
+  background: rgb(128,140,251,.5) !important;
+  margin-top:1em;
   padding: .5em;
   border-radius: 10px;
 }
@@ -29,12 +30,12 @@
 }
 
 .event-card {
-  position: absolute;
-  width: 70% !important;
+  /*position: absolute;*/
+  width: 100% !important;
 }
 
 .mobile-only {
-  display: none;
+  display: none !important;
 }
 
 .tab a.active-mobile {
@@ -66,12 +67,17 @@
   margin-top:-1.5%;
 }
 
+.schedule-time{
+  margin-bottom:0;
+  margin-left:-5%;
+}
+
 @media screen and (max-width: 500px) {
   .desktop-only {
     display: none;
   }
   .mobile-only {
-    display: block;
+    display: block !important;
   }
   .schedule-hr {
     margin-top: -1em !important;
@@ -79,7 +85,4 @@
     margin-left:50px;
   }
 
-  .event-card{
-    width:85% !important;
-  }
 }
