@@ -21,6 +21,9 @@
   position: relative;
 }
 
+.workshop-logo{
+  width:80%;
+}
 .beginner-label {
   margin-top: .5em !important;
   font-weight: bold;
