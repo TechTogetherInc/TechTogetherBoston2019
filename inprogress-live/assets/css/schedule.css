@@ -11,6 +11,16 @@
   font-size: 2em !important;
 }
 
+.hosted-tag{
+  margin-bottom: -.4em;
+  position: relative;
+}
+
+.hosted-tag-higher {
+  margin-bottom: 0.4em;
+  position: relative;
+}
+
 .beginner-label {
   margin-top: .5em !important;
   font-weight: bold;
