@@ -575,7 +575,7 @@ header{
 }
 
 .grid-pita{
-    grid-template-columns: repeat(2, 40%);
+    grid-template-columns: repeat(3, 38%);
     margin: 3em 0 3em 0;
 }
 
