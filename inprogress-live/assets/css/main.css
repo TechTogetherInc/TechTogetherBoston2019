@@ -88,6 +88,7 @@ body{
 .announcement-card{
   margin-bottom: 0px !important;
 }
+
 .speaker-icon{
   width: 70%;
   padding-top:.5em;
@@ -161,4 +162,29 @@ body{
 
 .bold{
    font-weight: bold;
+}
+
+.mobile-only{
+  display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+  .dashboard-icons{
+    font-size:2.5em !important;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block !important;
+  }
+
+.speaker-icon{
+  width: 30px !important;
+      padding-right: .8em;
+      padding-top: .8em;
+
+  }
 }
