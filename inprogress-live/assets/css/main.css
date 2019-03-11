@@ -15,6 +15,12 @@ body{
   color:#039be5;
 }
 
+.button-1{
+  padding:1em;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
 #main-sidebar{
   width: 90%;
   margin: auto;
