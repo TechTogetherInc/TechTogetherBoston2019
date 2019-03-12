@@ -170,6 +170,7 @@ body{
 
 footer{
    display: none;
+   margin: 2em 0 0 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -314,7 +315,7 @@ a{
 }
 
 .mobile_logo{
-   width: 65%;
+   width: 75%;
    display: none;
 }
 
@@ -340,8 +341,8 @@ a{
    cursor: pointer;
    z-index: 100;
    transition: opacity 0.25s ease;
-   left: 87%;
-   top: 6em;
+   left: 84%;
+   top: 4.5em;
 }
 
 .button_container-2 span {
