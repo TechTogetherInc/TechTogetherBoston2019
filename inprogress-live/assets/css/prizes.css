@@ -10,238 +10,46 @@
    margin: .5em 0 .5em 0;
 }
 
-.mobile_logo{
-   width: 70%;
-   display: none;
-}
-
 h5{
    margin-bottom: 1em;
 }
 
 .row div:nth-child(1) .card{
-   box-shadow: 4px 4px #52D9F6;
+   box-shadow: 5px 5px #52D9F6;
 }
 
 .row div:nth-child(2) .card{
-   box-shadow: 4px 4px #808cFB;
+   box-shadow: 5px 5px #808cFB;
 }
 
 .row div:nth-child(3) .card{
-   box-shadow: 4px 4px #FD7361;
+   box-shadow: 5px 5px #FD7361;
 }
 
-
-/************************** Hamburger Nav ******************************/
-/* Original Source: https://codepen.io/PaulVanO/pen/XJYGNQ */
-
-.overlay {
-   position: fixed;
-   background: #FD7361;
-   top: 0;
-   left: 77%;
-   width: 23%;
-   height: 0%;
-   opacity: 0;
-   visibility: hidden;
-   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
-   overflow: hidden;
-   z-index: 80;
-}
-
-.overlay.open {
-   opacity: 1;
-   visibility: visible;
-   height: 100%;
-}
-
-.overlay.open li {
-   animation: fadeInRight 0.5s ease forwards;
-   animation-delay: 0.35s;
-}
-
-.overlay.open li:nth-of-type(2) {
-   animation-delay: 0.4s;
-}
-
-.overlay.open li:nth-of-type(3) {
-   animation-delay: 0.45s;
-}
-
-.overlay.open li:nth-of-type(4) {
-   animation-delay: 0.5s;
-}
-
-.overlay nav {
-   position: relative;
-   height: 70%;
-   top: 45%;
-   transform: translateY(-50%);
-   font-size: 50px;
-   font-weight: 400;
-}
-
-.overlay ul {
-   list-style: none;
-   padding: 0;
-   margin: 0 auto;
-   display: inline-block;
-   position: relative;
-   height: 100%;
-   width: 100%;
-}
-
-.overlay ul li {
-   display: block;
-   height: 25%;
-   height: calc(100% / 4);
-   min-height: 45px;
-   position: relative;
-   opacity: 0;
-   float: none;
-}
-
-.overlay ul li a {
-   display: block;
-   position: relative;
-   color: #FFF;
-   text-decoration: none;
-   overflow: hidden;
-   font-size: 30px;
-   text-align: center;
-}
-
-.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
-   width: 100%;
-}
-
-/* Using content="" creates an underline when hovered over */
-.overlay ul li a:after {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   width: 0%;
-   transform: translateX(-50%);
-   height: 3px;
-   background: #FFF;
-   transition: 0.35s;
-}
-
-.overlay-menu{
-   background-color: #FD7361;
-}
-
-nav{
-   box-shadow: none;
-}
-
-.overlay-menu a{
-   height: 100%;
-}
-
-a{
-   color: black;
-   text-decoration: none;
-}
-
-@keyframes fadeInRight {
-   0% {
-      opacity: 0;
-      left: 20%;
-   }
-   100% {
-      opacity: 1;
-      left: 0;
-   }
-}
-
-/************************** Hamburger Nav 2 ******************************/
-/* Source: Same As The First One */
-
-.button_container-2{
+#myBtn {
    display: none;
-   position: relative;
-   height: 2.3em;
-   width: 3em;
-   cursor: pointer;
-   z-index: 100;
-   transition: opacity 0.25s ease;
-   left: 85%;
-   top: 3em;
-}
-
-.button_container-2 span {
-   background: #000;
-   border: none;
-   height: 7px;
-   width: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   transition: all 0.35s ease;
-   cursor: pointer;
-}
-
-.button_container-2.active{
    position: fixed;
+   bottom: 20px;
+   right: 30px;
+   z-index: 99;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 4px;
 }
-
-.button_container-2 span:nth-of-type(3) {
-   width: 60%;
-}
-
-.button_container-2.active span:nth-of-type(3) {
-   width: 100%;
-}
-
-.button_container-2:hover {
-   opacity: 0.7;
-}
-
-.button_container-2.active .top {
-   transform: translateY(13px) translateX(0) rotate(45deg);
-   background: #000;
-}
-
-.button_container-2.active .middle {
-   opacity: 0;
-   background: #000;
-}
-
-.button_container-2.active .bottom {
-   transform: translateY(-13px) translateX(0) rotate(-45deg);
-   background: #000;
-}
-
-.button_container-2 span:nth-of-type(2) {
-   top: 12.5px;
-}
-
-.button_container-2 span:nth-of-type(3) {
-   top: 26.5px;
-}
-
-/*************************************************************************/
-
 
 
 
 @media only screen and (max-width: 1000px) {
-   #main-sidebar{
-      padding-left: 0;
-   }
 
    .card-image{
       min-height: 20em;
    }
-   
-   .mobile_logo{
-      display: block;
-   }
-   
-   .button_container-2{
-      display: block;
-   }
+
 
 }
 
