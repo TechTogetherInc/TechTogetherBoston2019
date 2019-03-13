@@ -173,6 +173,21 @@ footer{
    margin: 2em 0 0 0;
 }
 
+#myBtn {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   z-index: 1000;
+   font-size: 2em;
+   border: none;
+   background-color: rgba(255,0,0,.7);
+   color: #FFF;
+   cursor: pointer;
+   padding: 12px;
+   border-radius: 15%;
+}
+
 @media screen and (max-width: 500px) {
   .dashboard-icons{
     font-size:2.5em !important;

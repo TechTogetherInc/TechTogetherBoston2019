@@ -16,22 +16,31 @@ h5{
    margin-bottom: 1em;
 }
 
-#myBtn {
-   display: none;
-   position: fixed;
-   bottom: 20px;
-   right: 20px;
-   z-index: 1000;
-   font-size: 2em;
-   border: none;
-   background-color: rgba(255,0,0,.8);
-   color: white;
-   cursor: pointer;
-   padding: 12px;
-   border-radius: 15%;
+.list_ofLinks{
+   margin-left: 40px; /* Default margin ???*/
 }
 
+.list_ofLinks li{
+   list-style: disc !important;
+}
 
+.list_ofLinks li a{
+   color: #3366BB;
+}
+
+.link{
+   color: #3366BB;
+}
+
+h3{
+   margin: 1.5em 0 .5em 0;
+}
+
+/*
+.highlight{
+   background-color: #F3F315;
+}
+*/
 
 @media only screen and (max-width: 1000px) {
 
