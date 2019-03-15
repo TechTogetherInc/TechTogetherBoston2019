@@ -590,7 +590,7 @@ header{
 }
 
 .grid-sub{
-    grid-template-columns: 20% 20%;
+    grid-template-columns: 20%;
     margin: 0 0 3em 0;
 }
 
@@ -601,6 +601,11 @@ header{
 
 .grid-sub3{
     grid-template-columns: 20% 20%;
+    margin: 0 0 3em 0;
+}
+
+.grid-sub4{
+    grid-template-columns: 20% 20% 20%;
     margin: 0 0 3em 0;
 }
 
@@ -1415,7 +1420,7 @@ h5{
       margin: 1em 0 0 0;
    }
 
-   .grid-sub, .grid-sub2 .grid-sub3{
+   .grid-sub, .grid-sub2, .grid-sub3, .grid-sub4{
       margin: 0 0 1em 0;
    }
 
