@@ -15,6 +15,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" />
   <link rel="stylesheet" href="assets/css/main.css">
+  <link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css" />
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
 
 </head>
 
@@ -51,7 +55,7 @@
     </div>
   </ul>
   <!--end sidebar-->
-   
+
    <div class="button_container-2" id="toggle">
          <span class="top"></span>
          <span class="middle"></span>
@@ -120,7 +124,60 @@
   <main id="main-sidebar">
 
    <a href="index.html" class="mobile_logo"><img src="assets/imgs/logo.png" width="100%" ></a>
-     
+
+   <!--countdown clock-->
+   <div class="row countdownrow" style="background-image:url(assets/imgs/challengeheader.png); max-width:100%; height: 500 !important">
+      <div style="vertical-align:middle;position:relative;left:25%;padding-bottom:2%; height: 500">
+        <div class="clock-builder-output"></div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="clock_assets/flipclock.js"></script>
+        <style text="text/css">
+          body .flip-clock-wrapper ul li a div div.inn,
+          body .flip-clock-small-wrapper ul li a div div.inn {
+            color: #ffffff;
+            /*change font color*/
+            background-color: #fa8dd5;
+            /*change clock color*/
+          }
+
+          body .flip-clock-dot,
+          body .flip-clock-small-wrapper .flip-clock-dot {
+            background: #fa8dd5;
+            /*change dot color*/
+            box-shadow: none;
+          }
+
+          body .flip-clock-wrapper .flip-clock-meridium a,
+          body .flip-clock-small-wrapper .flip-clock-meridium a {
+            color: #fa8dd5;
+            /*change clock color*/
+          }
+        </style>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            FlipClock.Lang.Custom = {
+              days: 'DAYS',
+              hours: 'HOURS',
+              minutes: 'MINUTES',
+              seconds: 'SECONDS'
+            };
+            var opts = {
+              clockFace: 'HourCounter',
+              countdown: true,
+              language: 'Custom'
+            };
+            var countdown = 1517146200 - ((new Date().getTime()) / 1000); // from: 01/28/2018 11:00 am -0500
+            countdown = Math.max(1, countdown);
+            // $(document).ready(function() {
+            //   $('.clock-builder-output').FlipClock(countdown, opts);
+            // });
+            $('.clock-builder-output').FlipClock(countdown, opts);
+          });
+        </script>
+
+      </div>
+    </div>
+
     <div class="row">
       <div class="col s6 m3 l3">
         <div class="card">
@@ -254,7 +311,7 @@
             </div>
 
   </main>
-   
+
    <footer>
       <div>
          <div class="row">
@@ -274,8 +331,8 @@
          </div>
       </div>
    </footer>
-   
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
    <script src="assets/js/ham_menu.js"> </script>
 
    </body>
