@@ -45,8 +45,14 @@
 @media only screen and (max-width: 600px) {
 
    .sponsorsticky{
-      width: 50%;
+      width: 100%;
       margin: 0;
    }
+   
+   .sponsor-label{
+      text-align: center;
+      font-size: 1em;
+   }
+   
 }
 
