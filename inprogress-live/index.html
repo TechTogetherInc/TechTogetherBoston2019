@@ -127,7 +127,7 @@
 
    <!--countdown clock-->
    <div class="row countdownrow" style="background-image:url(); max-width:100%">
-      <div style="vertical-align:middle;position:relative;left:25%;padding-bottom:2%">
+      <div style="vertical-align:middle;position:relative;left: 20%; padding-bottom:2%">
         <div class="clock-builder-output"></div>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script type="text/javascript" src="clock_assets/flipclock.js"></script>
@@ -136,20 +136,20 @@
           body .flip-clock-small-wrapper ul li a div div.inn {
             color: #ffffff;
             /*change font color*/
-            background-color: #fa8dd5;
+            background-color: #808cFB;
             /*change clock color*/
           }
 
           body .flip-clock-dot,
           body .flip-clock-small-wrapper .flip-clock-dot {
-            background: #fa8dd5;
+            background: #808cFB;
             /*change dot color*/
             box-shadow: none;
           }
 
           body .flip-clock-wrapper .flip-clock-meridium a,
           body .flip-clock-small-wrapper .flip-clock-meridium a {
-            color: #fa8dd5;
+            color: #808cFB;
             /*change clock color*/
           }
         </style>
@@ -166,7 +166,8 @@
               countdown: true,
               language: 'Custom'
             };
-            var countdown = 1517146200 - ((new Date().getTime()) / 1000); // from: 01/28/2018 11:00 am -0500
+            var date = new Date("March 24, 2019 8:00:00").getTime()/1000;
+            var countdown = date - ((new Date().getTime()) / 1000); 
             countdown = Math.max(1, countdown);
             // $(document).ready(function() {
             //   $('.clock-builder-output').FlipClock(countdown, opts);

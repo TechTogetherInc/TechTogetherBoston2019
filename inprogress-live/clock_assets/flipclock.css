@@ -160,7 +160,7 @@
 
 .flip-clock-wrapper ul li a div.up div.inn {
   top: 0;
-color: #fa8dd5;
+color: #808cFB;
 /*background: #F7F7F7;*/
 background: #f5f5f5 ;
 }
@@ -168,7 +168,7 @@ background: #f5f5f5 ;
 .flip-clock-wrapper ul li a div.down div.inn {
   bottom: 0;
   background: #FFFFFF;
-color: #fa8dd5}
+color: #808cFB}
 
 /* PLAY */
 .flip-clock-wrapper ul.play li.flip-clock-before {
