@@ -181,7 +181,7 @@ footer{
    z-index: 1000;
    font-size: 2em;
    border: none;
-   background-color: rgba(255,0,0,.7);
+   background-color: #E73F33;
    color: #FFF;
    cursor: pointer;
    padding: 12px;
