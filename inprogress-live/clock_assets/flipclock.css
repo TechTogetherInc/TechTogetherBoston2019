@@ -70,7 +70,7 @@
   position: relative;
   float: left;
   margin: 5px;
-  width: 60px;
+  width: 60px; 
   height: 90px;
   font-size: 80px;
   font-weight: bold;
@@ -156,7 +156,7 @@
   text-align: center;
   background-color: #333;
   border-radius: 6px;
-  font-size: 70px; }
+  font-size: 70px; }   
 
 .flip-clock-wrapper ul li a div.up div.inn {
   top: 0;
@@ -433,6 +433,19 @@ color: #808cFB}
 
   100% {
     opacity: 0; } }
+
+
+@media only screen and (max-width: 650px) {
+
+   .flip-clock-wrapper ul {
+      width: 30px;
+   }
+
+   .flip-clock-wrapper ul li a div div.inn {
+      font-size: 40px;
+   }
+}
+
 
 /* --- SMALL CLOCK CSS --- */
 
@@ -712,3 +725,4 @@ color: #808cFB}
   -webkit-animation: hide 0.5s 0.3s linear both;
   -moz-animation: hide 0.5s 0.3s linear both;
   animation: hide 0.5s 0.2s linear both; }
+
