@@ -3432,26 +3432,30 @@ For each vulnerability you uncover, you are awarded points. Climb the interactiv
   <script>
     adjustView();
     window.onresize = adjustView;
+    var lastWidth = document.body.clientWidth;
     var defaultTab = document.getElementById("Day1Button");
     defaultTab.click();
     // When the view changes from desktop to mobile, adjust the full screen to tab view
     function adjustView() {
       var width = document.body.clientWidth;
-      var i, result;
-      console.log(width);
-      if (width <= 500) {
-        // result = document.getElementsByClassName("defaultOpenMobile");
-        console.log('Our screen is smaller than 500, should show Main1');
-        var defaultTab = document.getElementById("Day1Button");
-        defaultTab.click();
+      if (width != lastWidth) {
+        var i, result;
+        console.log(width);
+        if (width <= 500) {
+          // result = document.getElementsByClassName("defaultOpenMobile");
+          console.log('Our screen is smaller than 500, should show Main1');
+          var defaultTab = document.getElementById("Day1Button");
+          defaultTab.click();
 
-      } else {
-        console.log('HI THERE');
-        // document.getElementById("defaultOpen").click();
-        result = document.getElementsByClassName("tabcontent2");
-        for (i = 0; i < result.length; i++) {
-          result[i].style.display = "block";
+        } else {
+          console.log('HI THERE');
+          // document.getElementById("defaultOpen").click();
+          result = document.getElementsByClassName("tabcontent2");
+          for (i = 0; i < result.length; i++) {
+            result[i].style.display = "block";
+          }
         }
+        lastWidth = width
       }
     }
 
