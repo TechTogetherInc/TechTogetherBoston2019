@@ -189,6 +189,9 @@ footer{
 }
 
 @media screen and (max-width: 500px) {
+  .flip-clock-wrapper ul{
+    width:30px !important;
+  }
   .dashboard-icons{
     font-size:2.5em !important;
   }
