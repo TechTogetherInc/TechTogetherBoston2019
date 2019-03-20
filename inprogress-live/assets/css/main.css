@@ -189,9 +189,6 @@ footer{
 }
 
 @media screen and (max-width: 500px) {
-  .flip-clock-wrapper ul{
-    width:30px !important;
-  }
   .dashboard-icons{
     font-size:2.5em !important;
   }
@@ -204,11 +201,24 @@ footer{
   }
 
 .speaker-icon{
-  width: 30px !important;
+      width: 30px !important;
       padding-right: .8em;
       padding-top: .8em;
 
   }
+   
+   .flip-clock-wrapper ul {
+      width: 32px !important;
+   }
+
+   .flip-clock-wrapper ul li a div div.inn {
+      font-size: 40px !important;
+   }
+   
+   .flip-clock-label{
+      margin-right: 30px !important;
+   }
+   
 }
 
 
