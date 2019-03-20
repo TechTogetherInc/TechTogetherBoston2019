@@ -131,12 +131,12 @@
    </div> -->
 
    <div class="row countdownrow" style="vertical-align:middle; max-width:100%">
-      <div class = "col s12 m12 l3" style="vertical-align:middle">
+      <div class = "col s12 m12 l3">
         <br>
-        <h5 align="center">TIME UNTIL SUBMISSIONS</h5>
+        <h5 align="center" class="lighter" style="line-height: 3vw;margin-top: -.2em; margin-bottom:1em;">TIME UNTIL SUBMISSIONS</h5>
       </div>
 
-      <div class="col s12 m12 l9 center" style="vertical-align:middle;position:relative; padding-bottom:2%">
+      <div class="col s12 m12 l9 center" style="vertical-align:middle;position:relative;">
         <div class="clock-builder-output" style="display: inline-block"></div>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script type="text/javascript" src="clock_assets/flipclock.js"></script>
@@ -161,7 +161,7 @@
             color: #808cFB;
             /*change clock color*/
           }
-           
+
         </style>
         <script type="text/javascript">
           $(document).ready(function() {
@@ -177,7 +177,7 @@
               language: 'Custom'
             };
             var date = new Date("March 24, 2019 8:00:00").getTime()/1000;
-            var countdown = date - ((new Date().getTime()) / 1000); 
+            var countdown = date - ((new Date().getTime()) / 1000);
             countdown = Math.max(1, countdown);
             // $(document).ready(function() {
             //   $('.clock-builder-output').FlipClock(countdown, opts);
