@@ -188,7 +188,7 @@ footer{
    border-radius: 15%;
 }
 
-li{
+.bullet{
   list-style-type: disc !important;
    margin-left: 10px;
 }
