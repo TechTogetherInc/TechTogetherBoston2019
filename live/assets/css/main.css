@@ -188,6 +188,11 @@ footer{
    border-radius: 15%;
 }
 
+li{
+  list-style-type: disc !important;
+   margin-left: 10px;
+}
+
 @media screen and (max-width: 500px) {
   .dashboard-icons{
     font-size:2.5em !important;
