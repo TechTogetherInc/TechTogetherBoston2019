@@ -486,6 +486,20 @@ header{
     display: none;
 }
 
+
+
+
+/****************************************************************/
+
+
+#mc_embed_signup_scroll .clear input{
+   width: 140% !important;
+}
+
+#mc_embed_signup_scroll .mc-field-group input{
+   width: 150% !important;
+}
+
 /************** Mobile/Tablet Responsiveness ********************/
 
 @media screen and (max-width: 500px) {
